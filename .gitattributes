@@ -23,6 +23,9 @@ LICENSE   text eol=lf
 # Generated archives should not appear in diffs or language statistics
 dist/*.zip -diff linguist-generated
 
-# Keep the repository's primary language classification on docs, not assets
-assets/* linguist-documentation
-docs/*   linguist-documentation
+# This is primarily a knowledge repository, so let Markdown count towards the
+# language bar rather than leaving Python (the validator) as the only entry.
+*.md linguist-detectable=true linguist-documentation=false
+
+# Generated archives should not skew the statistics
+dist/* linguist-vendored
