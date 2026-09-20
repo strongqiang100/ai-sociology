@@ -1,0 +1,70 @@
+{
+  "name": "ai-sociology-forecast",
+  "version": "1.0.0",
+  "description": "Judgments written for you two years from now. Every forecast carries a criterion, a time horizon and a way to be wrong.",
+  "author": {
+    "name": "AI 工作台",
+    "email": "ai-workshop@example.com"
+  },
+  "keywords": [
+    "ai-sociology",
+    "forecast",
+    "ai-trend",
+    "judgment"
+  ],
+  "agents": [
+    "./agents/ai-sociology-forecast.md"
+  ],
+  "skills": [
+    "./skills/ai-sociology-forecast-playbook"
+  ],
+  "expertType": "agent",
+  "agentName": "ai-sociology-forecast",
+  "displayName": {
+    "en": "Two Years Out",
+    "zh": "两年后"
+  },
+  "profession": {
+    "en": "AI Sociology · Trend Forecasting",
+    "zh": "AI社会学 · AI 趋势预测与证伪"
+  },
+  "displayDescription": {
+    "en": "Judgments written for you two years from now. Every forecast carries a criterion, a time horizon and a way to be wrong.",
+    "zh": "写给两年后的你看的判断。每条预测都附判据、时间尺度和错了怎么认，不留一句无法被推翻的话。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "给这条 AI 趋势做一份两年期预测，必须附判据、时间尺度和错了怎么认。",
+    "en": "给这条 AI 趋势做一份两年期预测，必须附判据、时间尺度和错了怎么认。"
+  },
+  "plugin": "ai-sociology-forecast",
+  "tags": [
+    {
+      "zh": "AI 趋势预测",
+      "en": "AI 趋势预测"
+    },
+    {
+      "zh": "可证伪判断",
+      "en": "可证伪判断"
+    },
+    {
+      "zh": "时间尺度区分",
+      "en": "时间尺度区分"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "给这条 AI 趋势做一份两年期预测，必须附判据、时间尺度和错了怎么认。",
+      "en": "给这条 AI 趋势做一份两年期预测，必须附判据、时间尺度和错了怎么认。"
+    },
+    {
+      "zh": "大家都在赌这个方向，帮我把\"事实\"和\"故事\"分开。",
+      "en": "大家都在赌这个方向，帮我把\"事实\"和\"故事\"分开。"
+    },
+    {
+      "zh": "帮我复盘一条一年前的 AI 预测：它错在哪一步，是判断问题还是时间表问题？",
+      "en": "帮我复盘一条一年前的 AI 预测：它错在哪一步，是判断问题还是时间表问题？"
+    }
+  ]
+}

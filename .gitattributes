@@ -1,0 +1,28 @@
+# Normalise line endings in the repository
+* text=auto eol=lf
+
+# Binary files - never attempt to diff or convert
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.pdf binary
+
+# Text files with explicit handling
+*.md      text eol=lf diff=markdown
+*.json    text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.cff     text eol=lf
+*.py      text eol=lf diff=python
+*.sh      text eol=lf
+LICENSE   text eol=lf
+
+# Generated archives should not appear in diffs or language statistics
+dist/*.zip -diff linguist-generated
+
+# Keep the repository's primary language classification on docs, not assets
+assets/* linguist-documentation
+docs/*   linguist-documentation

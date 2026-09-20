@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.claude/
+.cursor/
+
+# Build artifacts that must not be committed
+/build/
+/out/
+*.tmp
+*.temp
+
+# Session markers written by local tooling
+.created-by-session
+
+# Local-only material. NEVER commit these.
+.local/
+private/
+internal/
+*-private/
+*-draft/
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# NOTE: dist/ is intentionally NOT ignored - it holds the packaged, installable archives.

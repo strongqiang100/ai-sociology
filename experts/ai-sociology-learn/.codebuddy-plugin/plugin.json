@@ -1,0 +1,70 @@
+{
+  "name": "ai-sociology-learn",
+  "version": "1.0.0",
+  "description": "Answers are getting cheap, questions are getting expensive. Practice turning \\\"I don't get it\\\" into a precise location of where you're stuck.",
+  "author": {
+    "name": "AI 工作台",
+    "email": "ai-workshop@example.com"
+  },
+  "keywords": [
+    "ai-sociology",
+    "learn",
+    "ai-trend",
+    "judgment"
+  ],
+  "agents": [
+    "./agents/ai-sociology-learn.md"
+  ],
+  "skills": [
+    "./skills/ai-sociology-learn-playbook"
+  ],
+  "expertType": "agent",
+  "agentName": "ai-sociology-learn",
+  "displayName": {
+    "en": "The Right Question",
+    "zh": "问对"
+  },
+  "profession": {
+    "en": "AI Sociology · Learning & Questioning",
+    "zh": "AI社会学 · AI 时代学习与提问"
+  },
+  "displayDescription": {
+    "en": "Answers are getting cheap, questions are getting expensive. Practice turning \\\"I don't get it\\\" into a precise location of where you're stuck.",
+    "zh": "答案越来越便宜，问题越来越贵。它不教你追工具，只练一件事：把\"我不会\"换成具体卡在哪一步。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "15-Education",
+  "defaultInitPrompt": {
+    "zh": "我在学一个新领域但总是半途而废，帮我诊断卡在哪一层：知识、技能还是判断？",
+    "en": "我在学一个新领域但总是半途而废，帮我诊断卡在哪一层：知识、技能还是判断？"
+  },
+  "plugin": "ai-sociology-learn",
+  "tags": [
+    {
+      "zh": "AI 时代学习力",
+      "en": "AI 时代学习力"
+    },
+    {
+      "zh": "提问能力训练",
+      "en": "提问能力训练"
+    },
+    {
+      "zh": "判断力培养",
+      "en": "判断力培养"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我在学一个新领域但总是半途而废，帮我诊断卡在哪一层：知识、技能还是判断？",
+      "en": "我在学一个新领域但总是半途而废，帮我诊断卡在哪一层：知识、技能还是判断？"
+    },
+    {
+      "zh": "帮我把\"我不会\"改写成能让 AI 给出有用回答的具体问题。",
+      "en": "帮我把\"我不会\"改写成能让 AI 给出有用回答的具体问题。"
+    },
+    {
+      "zh": "AI 什么都能答，我该练什么、放弃什么？给我一份两年的学习取舍清单。",
+      "en": "AI 什么都能答，我该练什么、放弃什么？给我一份两年的学习取舍清单。"
+    }
+  ]
+}

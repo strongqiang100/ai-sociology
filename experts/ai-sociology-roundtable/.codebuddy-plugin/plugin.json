@@ -1,0 +1,217 @@
+{
+  "name": "ai-sociology-roundtable",
+  "version": "1.0.0",
+  "description": "A six-seat roundtable on AI and human life: philosophy, human nature, occupational structure, social structure, anxiety and physical limits. Staged deliberation, one unified verdict, no comfort and no fear.",
+  "author": {
+    "name": "AI 工作台",
+    "email": "ai-workshop@example.com"
+  },
+  "keywords": [
+    "ai-sociology",
+    "roundtable",
+    "philosophy",
+    "human-nature",
+    "career",
+    "anxiety",
+    "social-trend"
+  ],
+  "agents": [
+    "./agents/ai-sociology-roundtable-team-lead.md",
+    "./agents/as-roundtable-philosophy.md",
+    "./agents/as-roundtable-human-nature.md",
+    "./agents/as-roundtable-career.md",
+    "./agents/as-roundtable-society.md",
+    "./agents/as-roundtable-anxiety.md",
+    "./agents/as-roundtable-limits.md"
+  ],
+  "skills": [
+    "./skills/ai-sociology-roundtable-playbook",
+    "./skills/as-roundtable-philosophy-frame",
+    "./skills/as-roundtable-human-nature-frame",
+    "./skills/as-roundtable-career-frame",
+    "./skills/as-roundtable-society-frame",
+    "./skills/as-roundtable-anxiety-frame",
+    "./skills/as-roundtable-limits-frame"
+  ],
+  "expertType": "team",
+  "agentName": "ai-sociology-roundtable-team-lead",
+  "teamInfo": {
+    "leadAgent": "ai-sociology-roundtable-team-lead",
+    "memberAgents": [
+      "as-roundtable-philosophy",
+      "as-roundtable-human-nature",
+      "as-roundtable-career",
+      "as-roundtable-society",
+      "as-roundtable-anxiety",
+      "as-roundtable-limits"
+    ]
+  },
+  "displayName": {
+    "en": "AI Sociology Roundtable",
+    "zh": "AI社会学 · 圆桌"
+  },
+  "profession": {
+    "en": "AI Sociology Roundtable",
+    "zh": "AI社会学 · 圆桌"
+  },
+  "displayDescription": {
+    "en": "Six disciplinary seats on one question — philosophy, human nature, occupation, society, anxiety, limits. Each judges one thing, then the lead assembles one usable line.",
+    "zh": "六个学科席位围着同一件事：哲学、人性、职业、社会、焦虑、边界，各出一份判断，编成一条能走的路。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我感觉自己正在被淘汰，但说不清到底怕什么——帮我把这份焦虑拆开，分出哪一部分是真实代价。",
+    "en": "我感觉自己正在被淘汰，但说不清到底怕什么——帮我把这份焦虑拆开，分出哪一部分是真实代价。"
+  },
+  "plugin": "ai-sociology-roundtable",
+  "tags": [
+    {
+      "en": "Philosophy & Human Nature",
+      "zh": "哲学与人性追问"
+    },
+    {
+      "en": "Career & Social Structure",
+      "zh": "职业与社会结构判断"
+    },
+    {
+      "en": "Decomposing AI Anxiety",
+      "zh": "AI 焦虑降解"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我感觉自己正在被淘汰，但说不清到底怕什么——帮我把这份焦虑拆开，分出哪一部分是真实代价。",
+      "en": "我感觉自己正在被淘汰，但说不清到底怕什么——帮我把这份焦虑拆开，分出哪一部分是真实代价。"
+    },
+    {
+      "zh": "我这个职业三年后是什么位置？不要安慰，要结构判断和一条可验证的路径。",
+      "en": "我这个职业三年后是什么位置？不要安慰，要结构判断和一条可验证的路径。"
+    },
+    {
+      "zh": "AI 让东西越来越便宜，人却越来越累——从人性和社会结构上看，这到底是怎么回事？",
+      "en": "AI 让东西越来越便宜，人却越来越累——从人性和社会结构上看，这到底是怎么回事？"
+    }
+  ],
+  "members": [
+    {
+      "id": "ai-sociology-roundtable-team-lead",
+      "name": {
+        "en": "He Zhiyan",
+        "zh": "何执言"
+      },
+      "displayName": {
+        "en": "He Zhiyan",
+        "zh": "何执言"
+      },
+      "profession": {
+        "en": "Chief Editor of the Roundtable",
+        "zh": "首席议题主编"
+      },
+      "avatar": "avatars/ai-sociology-roundtable-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "as-roundtable-philosophy",
+      "name": {
+        "en": "Zhen",
+        "zh": "甄本真"
+      },
+      "displayName": {
+        "en": "Zhen",
+        "zh": "甄本真"
+      },
+      "profession": {
+        "en": "Philosophy & the Ground of the Human",
+        "zh": "哲学与人的根据"
+      },
+      "avatar": "avatars/as-roundtable-philosophy.png",
+      "role": "member"
+    },
+    {
+      "id": "as-roundtable-human-nature",
+      "name": {
+        "en": "Guan",
+        "zh": "关知人"
+      },
+      "displayName": {
+        "en": "Guan",
+        "zh": "关知人"
+      },
+      "profession": {
+        "en": "Human Nature & the Structure of Desire",
+        "zh": "人性与欲望结构"
+      },
+      "avatar": "avatars/as-roundtable-human-nature.png",
+      "role": "member"
+    },
+    {
+      "id": "as-roundtable-career",
+      "name": {
+        "en": "Ren",
+        "zh": "任重之"
+      },
+      "displayName": {
+        "en": "Ren",
+        "zh": "任重之"
+      },
+      "profession": {
+        "en": "Occupational Structure & Accountability",
+        "zh": "职业结构与责任判断"
+      },
+      "avatar": "avatars/as-roundtable-career.png",
+      "role": "member"
+    },
+    {
+      "id": "as-roundtable-society",
+      "name": {
+        "en": "Jiang",
+        "zh": "江观澜"
+      },
+      "displayName": {
+        "en": "Jiang",
+        "zh": "江观澜"
+      },
+      "profession": {
+        "en": "Social Trends & Stratification",
+        "zh": "社会趋势与结构分层"
+      },
+      "avatar": "avatars/as-roundtable-society.png",
+      "role": "member"
+    },
+    {
+      "id": "as-roundtable-anxiety",
+      "name": {
+        "en": "Ning",
+        "zh": "宁怀安"
+      },
+      "displayName": {
+        "en": "Ning",
+        "zh": "宁怀安"
+      },
+      "profession": {
+        "en": "Decomposing AI Anxiety",
+        "zh": "AI 焦虑的结构降解"
+      },
+      "avatar": "avatars/as-roundtable-anxiety.png",
+      "role": "member"
+    },
+    {
+      "id": "as-roundtable-limits",
+      "name": {
+        "en": "Qin",
+        "zh": "秦有疆"
+      },
+      "displayName": {
+        "en": "Qin",
+        "zh": "秦有疆"
+      },
+      "profession": {
+        "en": "Physical Limits & the Pace of AI",
+        "zh": "AI 的物理边界与节奏"
+      },
+      "avatar": "avatars/as-roundtable-limits.png",
+      "role": "member"
+    }
+  ]
+}

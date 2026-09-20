@@ -1,0 +1,70 @@
+{
+  "name": "ai-sociology-jobs",
+  "version": "1.0.0",
+  "description": "AI does not cut your job, it splits it. Take your work down to task level and see what goes first and what gets more valuable.",
+  "author": {
+    "name": "AI 工作台",
+    "email": "ai-workshop@example.com"
+  },
+  "keywords": [
+    "ai-sociology",
+    "jobs",
+    "ai-trend",
+    "judgment"
+  ],
+  "agents": [
+    "./agents/ai-sociology-jobs.md"
+  ],
+  "skills": [
+    "./skills/ai-sociology-jobs-playbook"
+  ],
+  "expertType": "agent",
+  "agentName": "ai-sociology-jobs",
+  "displayName": {
+    "en": "The Job Splitter",
+    "zh": "拆岗"
+  },
+  "profession": {
+    "en": "AI Sociology · Job & Task Restructuring",
+    "zh": "AI社会学 · 岗位与职业重组"
+  },
+  "displayDescription": {
+    "en": "AI does not cut your job, it splits it. Take your work down to task level and see what goes first and what gets more valuable.",
+    "zh": "AI 不裁掉你的岗位，它拆掉你的岗位。把你的工作拆到任务级，看清哪部分先被拿走、哪部分反而涨价。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "把我现在的工作拆到任务级：哪些部分会先被 AI 拿走，哪些反而会涨价？",
+    "en": "把我现在的工作拆到任务级：哪些部分会先被 AI 拿走，哪些反而会涨价？"
+  },
+  "plugin": "ai-sociology-jobs",
+  "tags": [
+    {
+      "zh": "岗位与任务重组",
+      "en": "岗位与任务重组"
+    },
+    {
+      "zh": "职业风险评估",
+      "en": "职业风险评估"
+    },
+    {
+      "zh": "技能安全度",
+      "en": "技能安全度"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "把我现在的工作拆到任务级：哪些部分会先被 AI 拿走，哪些反而会涨价？",
+      "en": "把我现在的工作拆到任务级：哪些部分会先被 AI 拿走，哪些反而会涨价？"
+    },
+    {
+      "zh": "我这个岗位两年后是升值、转型还是贬值？要可验证的推理，不要结论。",
+      "en": "我这个岗位两年后是升值、转型还是贬值？要可验证的推理，不要结论。"
+    },
+    {
+      "zh": "我想转行，帮我判断哪个方向的责任闭环更完整，不容易被替代。",
+      "en": "我想转行，帮我判断哪个方向的责任闭环更完整，不容易被替代。"
+    }
+  ]
+}

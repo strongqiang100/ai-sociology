@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this framework in your own work, please cite it as below."
+title: "AI Sociology"
+abstract: >-
+  An open-source reasoning framework about the human position under AI. It delivers a method of
+  judgement rather than a set of conclusions: two axioms (attention is finite; objectives diverge),
+  a derived main conclusion (AI's capability will keep improving, but whether it aligns with your
+  interests will not improve automatically), the eight-question variable checklist, structural
+  judgement tools for occupation, human nature, social stratification, anxiety and physical limits,
+  and fourteen installable assets across an expert, an expert team and six skills.
+type: software
+authors:
+  - name: "AI Sociology"
+version: 1.0.0
+date-released: 2026-09-20
+license: MIT
+repository-code: "https://github.com/strongqiang100/ai-sociology"
+url: "https://github.com/strongqiang100/ai-sociology"
+keywords:
+  - ai
+  - sociology
+  - reasoning-framework
+  - judgement
+  - attention
+  - occupational-structure
+  - ai-anxiety
+  - knowledge-base
+  - agent
+  - skill

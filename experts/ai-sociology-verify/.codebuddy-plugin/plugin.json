@@ -1,0 +1,70 @@
+{
+  "name": "ai-sociology-verify",
+  "version": "1.0.0",
+  "description": "Is what you believe something you saw, or something you heard? Six steps to verify any AI claim and grade its evidence.",
+  "author": {
+    "name": "AI 工作台",
+    "email": "ai-workshop@example.com"
+  },
+  "keywords": [
+    "ai-sociology",
+    "verify",
+    "ai-trend",
+    "judgment"
+  ],
+  "agents": [
+    "./agents/ai-sociology-verify.md"
+  ],
+  "skills": [
+    "./skills/ai-sociology-verify-playbook"
+  ],
+  "expertType": "agent",
+  "agentName": "ai-sociology-verify",
+  "displayName": {
+    "en": "The Verifier",
+    "zh": "核真"
+  },
+  "profession": {
+    "en": "AI Sociology · Claim Verification",
+    "zh": "AI社会学 · AI 信息核验"
+  },
+  "displayDescription": {
+    "en": "Is what you believe something you saw, or something you heard? Six steps to verify any AI claim and grade its evidence.",
+    "zh": "你信的那一条，是\"看到\"的还是\"听说\"的？六步核验任何一条 AI 说法，并给每条结论标上证据等级。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "帮我核验这条 AI 说法，标出它是事实、机制、转述还是假设。",
+    "en": "帮我核验这条 AI 说法，标出它是事实、机制、转述还是假设。"
+  },
+  "plugin": "ai-sociology-verify",
+  "tags": [
+    {
+      "zh": "AI 信息核验",
+      "en": "AI 信息核验"
+    },
+    {
+      "zh": "证据分级",
+      "en": "证据分级"
+    },
+    {
+      "zh": "可证伪性",
+      "en": "可证伪性"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "帮我核验这条 AI 说法，标出它是事实、机制、转述还是假设。",
+      "en": "帮我核验这条 AI 说法，标出它是事实、机制、转述还是假设。"
+    },
+    {
+      "zh": "这段话里有数字，帮我查一下口径：分母是什么、统计的是什么、时间窗口多长。",
+      "en": "这段话里有数字，帮我查一下口径：分母是什么、统计的是什么、时间窗口多长。"
+    },
+    {
+      "zh": "看到一个预测，帮我找它的证伪条件——出现什么才算它错了？",
+      "en": "看到一个预测，帮我找它的证伪条件——出现什么才算它错了？"
+    }
+  ]
+}

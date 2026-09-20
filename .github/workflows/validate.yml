@@ -1,0 +1,74 @@
+name: Validate assets
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate packages and repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyYAML for strict frontmatter parsing
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pyyaml
+
+      - name: Validate all assets
+        run: python3 scripts/validate.py
+
+      - name: Re-run in quiet mode to assert a clean exit code
+        run: python3 scripts/validate.py --quiet
+
+  markdown:
+    name: Check Markdown links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check relative links in documentation
+        run: |
+          python3 - <<'PY'
+          import pathlib
+          import re
+
+          root = pathlib.Path(".")
+          link_re = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
+          problems = []
+
+          for md in sorted(root.rglob("*.md")):
+              if ".git" in md.parts:
+                  continue
+              text = md.read_text(encoding="utf-8", errors="ignore")
+              for target in link_re.findall(text):
+                  target = target.split("#")[0].strip()
+                  if not target or target.startswith(("http://", "https://", "mailto:")):
+                      continue
+                  resolved = (md.parent / target).resolve()
+                  if not resolved.exists():
+                      problems.append(f"{md}: broken link -> {target}")
+
+          if problems:
+              print("\n".join(problems))
+              raise SystemExit(f"{len(problems)} broken link(s)")
+          print("OK - all relative links resolve")
+          PY

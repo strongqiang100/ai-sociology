@@ -1,0 +1,80 @@
+name: Feature request
+description: Propose a new module, expert, skill or tool
+title: "[feat] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **One rule matters more than the rest**: every module must open with a section tying it back
+        to the main conclusion, and must answer *what has this changed for ordinary people?*
+        Without that, it degenerates into a general-purpose handbook - which is exactly what this
+        project is not.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What are you proposing?
+      options:
+        - New knowledge module
+        - New expert or expert team
+        - New skill
+        - Improvement to an existing module
+        - Tooling or CI
+        - Documentation
+    validations:
+      required: true
+
+  - type: input
+    id: title-line
+    attributes:
+      label: Proposed name
+      placeholder: "17 · Work sites and AI"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What question does it answer that nothing here answers yet?
+      description: Be specific. "It would be useful" is not enough.
+    validations:
+      required: true
+
+  - type: textarea
+    id: hook
+    attributes:
+      label: Relation to the main conclusion
+      description: |
+        The main conclusion is: *AI's capability will keep improving, but whether it aligns with your
+        interests will not improve automatically.* How does your proposal connect to it?
+    validations:
+      required: true
+
+  - type: textarea
+    id: tools
+    attributes:
+      label: The two or three operational tools it would carry
+      description: Criteria-based tools, not checklists.
+    validations:
+      required: true
+
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Boundaries it must carry
+      description: |
+        Which apply? Investment, psychological, medical/legal, political, or none.
+        Every module ships with its boundaries stated.
+    validations:
+      required: true
+
+  - type: textarea
+    id: overlap
+    attributes:
+      label: Overlap with existing modules or skills
+      description: |
+        If it overlaps, say how the trigger boundary would be kept distinct.
+        Two assets competing for the same question means neither gets used.
+    validations:
+      required: false

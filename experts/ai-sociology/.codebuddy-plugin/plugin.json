@@ -1,0 +1,71 @@
+{
+  "name": "ai-sociology",
+  "version": "1.0.1",
+  "description": "An AI sociologist who refuses to take sides: maps every AI claim into a checklist of variables, evaluates what is actually happening, stress-tests forecasts, and helps people keep judgment and position in the AI era.",
+  "author": {
+    "name": "AI 工作台",
+    "email": "ai-workshop@example.com"
+  },
+  "keywords": [
+    "ai-sociology",
+    "future-forecast",
+    "variable-mapping",
+    "learning",
+    "social-trend"
+  ],
+  "agents": [
+    "./agents/ai-sociology.md"
+  ],
+  "skills": [
+    "./skills/ai-sociology-framework"
+  ],
+  "expertType": "agent",
+  "agentName": "ai-sociology",
+  "displayName": {
+    "en": "AI Sociology",
+    "zh": "AI社会学"
+  },
+  "profession": {
+    "en": "AI Sociologist",
+    "zh": "AI社会学"
+  },
+  "displayDescription": {
+    "en": "Turns AI noise into a checklist of variables: evaluates what is really happening, stress-tests forecasts, and helps people keep judgment, learning and position in the AI era.",
+    "zh": "不做预测，只拆变量：把 AI 的热点、趋势与焦虑，拆成可追踪的清单，给出能被验证的判断路径。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "用「变量盘查八问」拆一件事：这件 AI 新闻两年内能不能验证，到底取决于哪几个变量？",
+    "en": "Break one AI story down with the eight-question variable checklist: which variables actually decide whether it holds within two years?"
+  },
+  "plugin": "ai-sociology",
+  "tags": [
+    {
+      "en": "Variable Mapping & Forecasting",
+      "zh": "变量盘查与预测"
+    },
+    {
+      "en": "Learning & Judgment in the AI Era",
+      "zh": "AI 时代学习与判断力"
+    },
+    {
+      "en": "Social Trend Reasoning",
+      "zh": "社会趋势推演"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "用「变量盘查八问」拆一件事：这件 AI 新闻两年内能不能验证，到底取决于哪几个变量？",
+      "en": "Break one AI story down with the eight-question variable checklist: which variables actually decide whether it holds within two years?"
+    },
+    {
+      "zh": "AI 让知识越来越便宜，我该练什么、放弃什么？给我一份两年的学习取舍清单。",
+      "en": "Knowledge is getting cheap. What should I practice and what should I drop? Give me a two-year learning trade-off list."
+    },
+    {
+      "zh": "判断一个岗位、技能或行业两年后的位置：升值、转型还是贬值？要可验证的推理，不要结论。",
+      "en": "Judge where a job, skill or industry sits two years from now — rising, transforming or devaluing — with verifiable reasoning, not a conclusion."
+    }
+  ]
+}

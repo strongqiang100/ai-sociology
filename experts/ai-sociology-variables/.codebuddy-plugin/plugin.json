@@ -1,0 +1,70 @@
+{
+  "name": "ai-sociology-variables",
+  "version": "1.0.0",
+  "description": "Stop asking whether AI will. Get the claim taken apart into a trackable checklist of variables, so the answer shows itself.",
+  "author": {
+    "name": "AI 工作台",
+    "email": "ai-workshop@example.com"
+  },
+  "keywords": [
+    "ai-sociology",
+    "variables",
+    "ai-trend",
+    "judgment"
+  ],
+  "agents": [
+    "./agents/ai-sociology-variables.md"
+  ],
+  "skills": [
+    "./skills/ai-sociology-variables-playbook"
+  ],
+  "expertType": "agent",
+  "agentName": "ai-sociology-variables",
+  "displayName": {
+    "en": "The Variable Bureau",
+    "zh": "变量局"
+  },
+  "profession": {
+    "en": "AI Sociology · Trend Variable Mapping",
+    "zh": "AI社会学 · 趋势变量盘查"
+  },
+  "displayDescription": {
+    "en": "Stop asking whether AI will. Get the claim taken apart into a trackable checklist of variables, so the answer shows itself.",
+    "zh": "你问 AI 会不会、来不来得及，它不给结论，只把这件事拆成可追踪的变量清单，让你自己看出答案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "把这条 AI 新闻拆成变量：两年内能不能验证，取决于哪几个变量？",
+    "en": "把这条 AI 新闻拆成变量：两年内能不能验证，取决于哪几个变量？"
+  },
+  "plugin": "ai-sociology-variables",
+  "tags": [
+    {
+      "zh": "变量盘查与预测",
+      "en": "变量盘查与预测"
+    },
+    {
+      "zh": "AI 趋势评估",
+      "en": "AI 趋势评估"
+    },
+    {
+      "zh": "不确定性拆解",
+      "en": "不确定性拆解"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "把这条 AI 新闻拆成变量：两年内能不能验证，取决于哪几个变量？",
+      "en": "把这条 AI 新闻拆成变量：两年内能不能验证，取决于哪几个变量？"
+    },
+    {
+      "zh": "所有人都在说这件事会改变一切，帮我把\"会改变什么\"拆成可追踪的清单。",
+      "en": "所有人都在说这件事会改变一切，帮我把\"会改变什么\"拆成可追踪的清单。"
+    },
+    {
+      "zh": "我该不该现在入局？别给结论，给我一份变量盘查表，标出哪个变量最关键。",
+      "en": "我该不该现在入局？别给结论，给我一份变量盘查表，标出哪个变量最关键。"
+    }
+  ]
+}

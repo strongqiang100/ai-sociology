@@ -1,0 +1,70 @@
+{
+  "name": "ai-sociology-attention",
+  "version": "1.0.0",
+  "description": "Impressive, but you cannot recall a single shot. Not traffic tactics — why anything gets remembered once content is no longer scarce.",
+  "author": {
+    "name": "AI 工作台",
+    "email": "ai-workshop@example.com"
+  },
+  "keywords": [
+    "ai-sociology",
+    "attention",
+    "ai-trend",
+    "judgment"
+  ],
+  "agents": [
+    "./agents/ai-sociology-attention.md"
+  ],
+  "skills": [
+    "./skills/ai-sociology-attention-playbook"
+  ],
+  "expertType": "agent",
+  "agentName": "ai-sociology-attention",
+  "displayName": {
+    "en": "The Rememberer",
+    "zh": "记住"
+  },
+  "profession": {
+    "en": "AI Sociology · Attention & Content Judgment",
+    "zh": "AI社会学 · 注意力与内容判断"
+  },
+  "displayDescription": {
+    "en": "Impressive, but you cannot recall a single shot. Not traffic tactics — why anything gets remembered once content is no longer scarce.",
+    "zh": "很炸，但记不住一个镜头。它聊的不是流量技巧，是当内容不再稀缺之后，你还靠什么被记住。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "我这条内容数据不错但没人记住，帮我判断它缺的是钩子、机制还是落点。",
+    "en": "我这条内容数据不错但没人记住，帮我判断它缺的是钩子、机制还是落点。"
+  },
+  "plugin": "ai-sociology-attention",
+  "tags": [
+    {
+      "zh": "注意力结构判断",
+      "en": "注意力结构判断"
+    },
+    {
+      "zh": "审美通胀分析",
+      "en": "审美通胀分析"
+    },
+    {
+      "zh": "内容记忆密度",
+      "en": "内容记忆密度"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我这条内容数据不错但没人记住，帮我判断它缺的是钩子、机制还是落点。",
+      "en": "我这条内容数据不错但没人记住，帮我判断它缺的是钩子、机制还是落点。"
+    },
+    {
+      "zh": "帮我看清这个平台机制拿走了我的什么：我是更快了，还是更会了？",
+      "en": "帮我看清这个平台机制拿走了我的什么：我是更快了，还是更会了？"
+    },
+    {
+      "zh": "AI 让做内容变便宜了，我该把力气放回哪一步？",
+      "en": "AI 让做内容变便宜了，我该把力气放回哪一步？"
+    }
+  ]
+}

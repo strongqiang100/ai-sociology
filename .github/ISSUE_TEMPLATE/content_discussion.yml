@@ -1,0 +1,61 @@
+name: Content discussion
+description: Disagree with a judgement, or propose a change to the framework's reasoning
+title: "[content] "
+labels: ["discussion", "content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This project is a reasoning framework, so **disagreement is the point**. A good content
+        issue states which module, which claim, and what the claim gets wrong.
+
+        Useful contributions here tend to do one of three things:
+        - Identify a variable the framework ignores
+        - Point out a claim that is stated as a law but is actually an assumption
+        - Supply a data anchor **with a source and a year** to replace a "to be verified" placeholder
+
+  - type: input
+    id: module
+    attributes:
+      label: Module or asset
+      description: e.g. `13 · Education and learning`, or `experts/ai-sociology-variables`
+      placeholder: "02 · The eight-question variable checklist"
+    validations:
+      required: true
+
+  - type: textarea
+    id: claim
+    attributes:
+      label: The claim you are questioning
+      description: Quote it exactly. Quoting precisely is what makes this useful.
+    validations:
+      required: true
+
+  - type: textarea
+    id: objection
+    attributes:
+      label: Why you think it is wrong or incomplete
+      description: |
+        Say which of these it is:
+        - It is factually wrong (give a source)
+        - It is an assumption presented as a law
+        - It omits a variable that changes the conclusion
+        - It is structurally correct but the boundary is missing
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: A concrete edit is far more likely to be merged than a general objection.
+    validations:
+      required: false
+
+  - type: textarea
+    id: falsification
+    attributes:
+      label: If relevant, how would your own position be proven wrong?
+      description: This project asks the same of its forecasts. It is only fair to ask it back.
+    validations:
+      required: false

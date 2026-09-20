@@ -1,0 +1,86 @@
+name: Bug report
+description: Something in the framework, an expert package or a skill package is wrong or broken
+title: "[bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        **Before filing**: this project covers investment, psychology and career topics.
+        Disagreement with a judgement is a content discussion - please use the
+        "Content discussion" template instead. For security problems, see
+        [SECURITY.md](../SECURITY.md).
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Where does the problem live?
+      options:
+        - Knowledge module (references/)
+        - Expert package (agents, plugin.json)
+        - Skill package (SKILL.md, references, templates)
+        - Roundtable expert team
+        - Validation script (scripts/validate.py)
+        - CI workflow
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: File or asset path
+      description: The exact path, e.g. `skills/ai-sociology-social-strata/SKILL.md`
+      placeholder: path/to/file
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Describe the problem, and quote the exact text if the issue is in the content.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: If this is a validator or install failure, paste the full error output.
+      placeholder: |
+        1. Run `python3 scripts/validate.py`
+        2. ...
+        3. See error
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, and the client or platform version if relevant.
+      placeholder: "macOS 15, Python 3.13, WorkBuddy 1.x"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched existing issues to avoid duplicates
+          required: true
+        - label: I ran `python3 scripts/validate.py` and pasted the result above
+          required: false
