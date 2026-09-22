@@ -69,7 +69,7 @@ SKILL_REQUIRED = [
 BANNED_TERMS = json.loads(os.environ.get("PRIVATE_SCAN_TERMS_JSON", "[]"))
 
 #: Content paths subject to optional private-term scanning.
-CONTENT_PREFIXES = ("experts/", "skills/", "docs/")
+CONTENT_PREFIXES = ("experts/", "skills/", "docs/", "theory/")
 CONTENT_SUFFIXES = (".md", ".json", ".txt", ".yml", ".yaml", ".cff")
 
 #: Files that must never be committed.

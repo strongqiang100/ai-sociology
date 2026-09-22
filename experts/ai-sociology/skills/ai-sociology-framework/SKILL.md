@@ -5,6 +5,8 @@ description: The working knowledge base behind the AI Sociology expert — axiom
 
 # AI 社会学 · 框架与知识库
 
+> **研究版更新 / Research update · 2026-09-22：** 新理论研究先读[五卷体系](../../../../theory/README.md)与[证据协议](../../../../theory/05-research-protocol.zh-CN.md)。本页下方为 1.0.0 应用框架的历史指南。研究模式下，以新总纲的条件、相反分支和反证要求为准，不执行“所有推演必须回到同一结论”的限制。The five-volume research edition takes precedence for new theoretical work; the material below documents the historical applied framework. Packaged 1.0.0 archives remain unchanged.
+
 这套框架只有一条元原则，其余全部从它推出来。
 
 > **未来不是一个观点，而是一组变量。**

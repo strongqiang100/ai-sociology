@@ -1,0 +1,2115 @@
+{
+  "edition": "0.1.0",
+  "status": "conditional hypotheses, not validated causal findings",
+  "pathways": [
+    {
+      "id": "D001",
+      "variables": [
+        "V009",
+        "V057"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "供给与注意",
+        "en": "Supply and attention"
+      },
+      "mechanism": {
+        "zh": "固定受众与期限内，供给增加，使每份内容竞争同一注意预算。",
+        "en": "In a fixed audience and horizon, added items compete for the same attention budget."
+      },
+      "branch_a": {
+        "zh": "选择机制不变时，平均单份注意下降。",
+        "en": "With selection unchanged, average attention per item falls."
+      },
+      "branch_b": {
+        "zh": "若新增内容减少搜索浪费，有效理解可以上升。",
+        "en": "If added content reduces wasted search, effective understanding can rise."
+      },
+      "test": {
+        "zh": "测量去重供给、受众时间和理解；若受众扩大或预算改变，固定预算分支失效。",
+        "en": "Measure distinct supply, audience time and comprehension; audience expansion or budget change invalidates the fixed-budget branch."
+      },
+      "references": [
+        "R01"
+      ]
+    },
+    {
+      "id": "D002",
+      "variables": [
+        "V010",
+        "V012"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "信息与切换",
+        "en": "Inflow and switching"
+      },
+      "mechanism": {
+        "zh": "通知增加且每条触发任务切换，会增加恢复工作所需时间。",
+        "en": "More notifications that each trigger switching increase resumption time."
+      },
+      "branch_a": {
+        "zh": "任务相互干扰时，错误与延迟可能上升。",
+        "en": "Interfering tasks may raise errors and delays."
+      },
+      "branch_b": {
+        "zh": "批量处理或相关信息合并可减少切换，流入增加未必增负。",
+        "en": "Batching or integration can reduce switching despite greater inflow."
+      },
+      "test": {
+        "zh": "比较同量信息的即时与批量投递；若切换和表现均不变，机制受削弱。",
+        "en": "Compare immediate and batched delivery of equal information; unchanged switching and performance weaken the mechanism."
+      },
+      "references": [
+        "R01"
+      ]
+    },
+    {
+      "id": "D003",
+      "variables": [
+        "V001",
+        "V015"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "卸载与自由时间",
+        "en": "Offloading and free time"
+      },
+      "mechanism": {
+        "zh": "同一任务标准下，把步骤交给工具会改变执行与监督时间。",
+        "en": "At fixed standards, delegation changes execution and supervision time."
+      },
+      "branch_a": {
+        "zh": "净时间节省且由本人支配时，可支配时间增加。",
+        "en": "Net savings under personal control increase discretionary time."
+      },
+      "branch_b": {
+        "zh": "若核验或追加任务吸收节省，休息时间不变或下降。",
+        "en": "Verification or extra assignments can absorb savings and reduce rest."
+      },
+      "test": {
+        "zh": "记录完整时间日记；只有执行变快而总用时未减，不支持自由时间收益。",
+        "en": "Use complete time diaries; faster execution without lower total time does not support free-time gains."
+      },
+      "references": [
+        "R07"
+      ]
+    },
+    {
+      "id": "D004",
+      "variables": [
+        "V003",
+        "V017"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "恢复与焦虑",
+        "en": "Recovery and anxiety"
+      },
+      "mechanism": {
+        "zh": "在持续任务压力下，恢复条件可能影响威胁体验和应对能力。",
+        "en": "Under sustained demands, recovery conditions may affect threat experience and coping."
+      },
+      "branch_a": {
+        "zh": "改善恢复后，部分人的焦虑可能下降。",
+        "en": "Better recovery may reduce reported anxiety for some people."
+      },
+      "branch_b": {
+        "zh": "若威胁来自未改变的收入风险，焦虑可能持续。",
+        "en": "Anxiety may persist when unchanged income risks drive it."
+      },
+      "test": {
+        "zh": "追踪恢复、压力来源和焦虑；若只改变恢复而结果不变，应限制该机制的范围。",
+        "en": "Track recovery, stressors and anxiety; no response to changed recovery narrows the mechanism's scope."
+      },
+      "references": [
+        "R02"
+      ]
+    },
+    {
+      "id": "D005",
+      "variables": [
+        "V018",
+        "V019"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "调节负担与恢复",
+        "en": "Regulation demands and recovery"
+      },
+      "mechanism": {
+        "zh": "高情绪调节要求与恢复条件不足共同作用，可能积累主观疲劳。",
+        "en": "High regulation demands with insufficient recovery may accumulate subjective fatigue."
+      },
+      "branch_a": {
+        "zh": "持续无支持的情境下，疲劳可能上升。",
+        "en": "Fatigue may rise under sustained unsupported demands."
+      },
+      "branch_b": {
+        "zh": "有自主性和支持时，同等互动也可能带来满足。",
+        "en": "With autonomy and support, similar interaction may be satisfying."
+      },
+      "test": {
+        "zh": "分测负担、疲劳、动机；若数据只支持动机改变，不称为固定能量耗尽。",
+        "en": "Measure demands, fatigue and motivation separately; motivational change alone is not fixed-energy depletion."
+      },
+      "references": [
+        "R02",
+        "R06"
+      ]
+    },
+    {
+      "id": "D006",
+      "variables": [
+        "V020",
+        "V021"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "刺激与适应",
+        "en": "Stimulation and adaptation"
+      },
+      "mechanism": {
+        "zh": "对同类刺激重复暴露，反应可能随适应速度而改变。",
+        "en": "Repeated exposure to similar stimuli may change responses at different adaptation rates."
+      },
+      "branch_a": {
+        "zh": "习惯化时，需要更强刺激才出现相同即时反应。",
+        "en": "Under habituation, stronger stimuli may be needed for the same immediate response."
+      },
+      "branch_b": {
+        "zh": "敏化、学习或更换语境时，反应可能增强而无需升级。",
+        "en": "Sensitization, learning or changed context may increase responses without escalation."
+      },
+      "test": {
+        "zh": "追踪同一人重复暴露曲线；稳定或增强的反应反驳普遍习惯化版本。",
+        "en": "Follow within-person exposure curves; stable or increasing responses refute universal habituation."
+      },
+      "references": [
+        "R08"
+      ]
+    },
+    {
+      "id": "D007",
+      "variables": [
+        "V026",
+        "V027"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "排名与参照",
+        "en": "Rank and reference groups"
+      },
+      "mechanism": {
+        "zh": "比较群体改变，会改变同一客观表现的相对位置。",
+        "en": "Changing reference groups changes the rank of the same objective performance."
+      },
+      "branch_a": {
+        "zh": "更广且更优秀的参照群体可能降低自我评价。",
+        "en": "Broader high-performing groups may lower self-evaluation."
+      },
+      "branch_b": {
+        "zh": "若比较被解释为可学习目标，也可能激发动机。",
+        "en": "Comparison construed as an attainable learning target may motivate."
+      },
+      "test": {
+        "zh": "保持表现不变，改变可见参照；若评价不随参照变化，缩小比较机制适用范围。",
+        "en": "Hold performance fixed and vary references; unchanged evaluation narrows the mechanism."
+      },
+      "references": [
+        "R05"
+      ]
+    },
+    {
+      "id": "D008",
+      "variables": [
+        "V025",
+        "V028"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "充分性与期望",
+        "en": "Sufficiency and aspirations"
+      },
+      "mechanism": {
+        "zh": "生活条件改善后，满意度取决于实际充分性及期望调整。",
+        "en": "After material improvement, satisfaction depends on sufficiency and changing aspirations."
+      },
+      "branch_a": {
+        "zh": "需要得到满足且期望稳定时，满意度可以持续提高。",
+        "en": "Meeting needs with stable aspirations can sustain satisfaction gains."
+      },
+      "branch_b": {
+        "zh": "若期望同步上升，主观改善可能较小。",
+        "en": "Concurrently rising aspirations may reduce perceived gains."
+      },
+      "test": {
+        "zh": "纵向分测生活条件和期望；持续改善反驳所有收益必被适应吞没的说法。",
+        "en": "Measure conditions and aspirations longitudinally; durable gains refute inevitable complete adaptation."
+      },
+      "references": [
+        "R08"
+      ]
+    },
+    {
+      "id": "D009",
+      "variables": [
+        "V049",
+        "V089"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "成本与价格",
+        "en": "Costs and prices"
+      },
+      "mechanism": {
+        "zh": "质量可比的服务中，边际成本下降为降价创造空间。",
+        "en": "Lower marginal costs create room for lower prices at comparable quality."
+      },
+      "branch_a": {
+        "zh": "竞争和替代充分时，部分节省可能传给买方。",
+        "en": "Competition and substitutes may pass some savings to buyers."
+      },
+      "branch_b": {
+        "zh": "定价权、固定成本或稀缺渠道可能使价格保持不变。",
+        "en": "Market power, fixed costs or scarce channels may keep prices unchanged."
+      },
+      "test": {
+        "zh": "比较成本变化与实际成交价；无价格传导否定自动降价命题。",
+        "en": "Compare costs with realized prices; no pass-through rejects automatic price reduction."
+      },
+      "references": [
+        "R03"
+      ]
+    },
+    {
+      "id": "D010",
+      "variables": [
+        "V059",
+        "V071"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "完成度与模仿",
+        "en": "Polish and imitation"
+      },
+      "mechanism": {
+        "zh": "若表面完成度可低成本模仿，它与真实能力的关联可能减弱。",
+        "en": "Cheap imitation of polish may weaken its association with underlying competence."
+      },
+      "branch_a": {
+        "zh": "仅凭外观筛选时，误判可能增加。",
+        "en": "Screening by appearance alone may produce more errors."
+      },
+      "branch_b": {
+        "zh": "若所有产出真实质量也同步提高，信号未必失效。",
+        "en": "If genuine quality rises too, signal informativeness may persist."
+      },
+      "test": {
+        "zh": "盲测外观与独立质量相关性；相关性未下降时不能宣布信号崩溃。",
+        "en": "Test polish against independent quality; stable correlation does not support signal collapse."
+      },
+      "references": [
+        "R04"
+      ]
+    },
+    {
+      "id": "D011",
+      "variables": [
+        "V051",
+        "V068"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "成本与核验意愿",
+        "en": "Cost and willingness to verify"
+      },
+      "mechanism": {
+        "zh": "在风险和收益不变时，更高检查成本可能减少主动核验。",
+        "en": "At fixed stakes and benefits, higher checking costs may reduce verification."
+      },
+      "branch_a": {
+        "zh": "核验困难时，更多信息可能被直接接受或放弃。",
+        "en": "Difficult checking may lead to uncritical acceptance or abandonment."
+      },
+      "branch_b": {
+        "zh": "高风险、强责任或良好工具可能维持核验。",
+        "en": "High stakes, responsibility or good tools may sustain checking."
+      },
+      "test": {
+        "zh": "比较同风险任务的检查摩擦；若检查率不变，成本解释不足。",
+        "en": "Vary checking friction at equal stakes; unchanged checking weakens the cost explanation."
+      },
+      "references": [
+        "R03"
+      ]
+    },
+    {
+      "id": "D012",
+      "variables": [
+        "V067",
+        "V066"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "可追溯性与信誉",
+        "en": "Traceability and reputation"
+      },
+      "mechanism": {
+        "zh": "可检查的历史记录使他人能够更新对来源的可靠性预期。",
+        "en": "Checkable histories allow reliability expectations about sources to update."
+      },
+      "branch_a": {
+        "zh": "记录准确且纠错及时，信誉可能积累。",
+        "en": "Accurate records and timely corrections may build reputation."
+      },
+      "branch_b": {
+        "zh": "追溯揭露持续错误时，信誉可能下降。",
+        "en": "Traceability revealing persistent errors may reduce reputation."
+      },
+      "test": {
+        "zh": "比较公开记录前后的信任与准确判断；若只提高名气而非校准，不支持可靠信任路径。",
+        "en": "Compare trust and accuracy judgments before and after disclosure; fame without calibration does not support warranted trust."
+      },
+      "references": [
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "D013",
+      "variables": [
+        "V073",
+        "V077"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "回应与孤独",
+        "en": "Responses and loneliness"
+      },
+      "mechanism": {
+        "zh": "新增可得回应可能改变期望关系与实际关系的主观差距。",
+        "en": "Additional available responses may change the perceived gap between desired and actual relationships."
+      },
+      "branch_a": {
+        "zh": "补充原本缺少的交流时，孤独可能减轻。",
+        "en": "Supplementing missing interaction may reduce loneliness."
+      },
+      "branch_b": {
+        "zh": "若替代实际支持或抬高期待，孤独可能不变或增加。",
+        "en": "Displacing support or raising expectations may leave loneliness unchanged or higher."
+      },
+      "test": {
+        "zh": "优先随机分配可得性并追踪基线；仅用户间相关不能排除反向因果。",
+        "en": "Prefer randomized availability with baseline follow-up; between-user correlation cannot exclude reverse causation."
+      },
+      "references": [
+        "R06"
+      ]
+    },
+    {
+      "id": "D014",
+      "variables": [
+        "V074",
+        "V075"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "互惠与摩擦",
+        "en": "Reciprocity and friction"
+      },
+      "mechanism": {
+        "zh": "彼此能提出需求的关系，需要一定协商但也允许共同修复。",
+        "en": "Reciprocal relationships involve negotiation and can support joint repair."
+      },
+      "branch_a": {
+        "zh": "可处理的分歧可能加深理解。",
+        "en": "Manageable disagreement may deepen understanding."
+      },
+      "branch_b": {
+        "zh": "持续伤害或不对等压力不会因被称作摩擦而有益。",
+        "en": "Persistent harm or unequal pressure is not beneficial merely because it is called friction."
+      },
+      "test": {
+        "zh": "测量修复质量和双方福祉；有摩擦无互惠收益时，否定摩擦必有价值的版本。",
+        "en": "Measure repair and both parties' welfare; friction without reciprocal benefit rejects its automatic value."
+      },
+      "references": [
+        "R06"
+      ]
+    },
+    {
+      "id": "D015",
+      "variables": [
+        "V034",
+        "V015"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "熟练度与卸载",
+        "en": "Proficiency and offloading"
+      },
+      "mechanism": {
+        "zh": "工具接管步骤后，独立练习的频率可能下降。",
+        "en": "Tool takeover may reduce independent practice."
+      },
+      "branch_a": {
+        "zh": "缺少主动尝试和反馈时，独立熟练度可能下降。",
+        "en": "Without active attempts and feedback, unaided proficiency may fall."
+      },
+      "branch_b": {
+        "zh": "若释放时间用于更难练习，能力可能提高。",
+        "en": "Time redirected to harder practice may improve skill."
+      },
+      "test": {
+        "zh": "采用延迟无工具测验；只看即时完成度不能确认学习或退化。",
+        "en": "Use delayed unaided tests; immediate completion cannot establish learning or decline."
+      },
+      "references": [
+        "R07",
+        "R11"
+      ]
+    },
+    {
+      "id": "D016",
+      "variables": [
+        "V036",
+        "V037"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "反馈与技能更新",
+        "en": "Feedback and skill change"
+      },
+      "mechanism": {
+        "zh": "任务标准更新时，准确反馈可帮助识别旧技能与新要求的差距。",
+        "en": "As standards change, accurate feedback can reveal gaps in existing skills."
+      },
+      "branch_a": {
+        "zh": "反馈及时且可行动时，适应速度可能提高。",
+        "en": "Timely actionable feedback may accelerate adaptation."
+      },
+      "branch_b": {
+        "zh": "反馈过时或不可理解时，练习可能巩固错误。",
+        "en": "Outdated or unintelligible feedback may reinforce errors."
+      },
+      "test": {
+        "zh": "测量新任务迁移而非练习题分数；迁移不改善削弱适应路径。",
+        "en": "Measure transfer to new tasks; absent transfer weakens the adaptation path."
+      },
+      "references": [
+        "R11"
+      ]
+    },
+    {
+      "id": "D017",
+      "variables": [
+        "V041",
+        "V047"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "能力与部署",
+        "en": "Capability and deployment"
+      },
+      "mechanism": {
+        "zh": "基准能力提高后，只有流程与维护条件接通才能转成实际服务。",
+        "en": "Benchmark improvements require workflow and maintenance conditions to become services."
+      },
+      "branch_a": {
+        "zh": "成熟部署可把能力提升转成稳定任务收益。",
+        "en": "Ready deployment may turn capability into reliable task gains."
+      },
+      "branch_b": {
+        "zh": "缺少数据、维护或验收时，收益可能停留在演示。",
+        "en": "Missing data, maintenance or acceptance may confine gains to demonstrations."
+      },
+      "test": {
+        "zh": "对照基准与线上任务结果；两者脱节反驳能力直接等于收益。",
+        "en": "Compare benchmarks and operational outcomes; divergence rejects direct equivalence."
+      },
+      "references": [
+        "R07"
+      ]
+    },
+    {
+      "id": "D018",
+      "variables": [
+        "V042",
+        "V052"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "可靠性与损失",
+        "en": "Reliability and loss"
+      },
+      "mechanism": {
+        "zh": "同等错误概率下，失败后果不同会产生不同预期损失。",
+        "en": "Equal error probabilities can produce different expected losses when consequences differ."
+      },
+      "branch_a": {
+        "zh": "低损失可回退任务可能适合更广自动化。",
+        "en": "Low-loss reversible tasks may permit broader automation."
+      },
+      "branch_b": {
+        "zh": "少量相关或严重错误可能主导总损失。",
+        "en": "Rare correlated or severe errors may dominate total loss."
+      },
+      "test": {
+        "zh": "同时记录频率、尾部与相关性；仅平均准确率不能支持可接受风险结论。",
+        "en": "Record frequency, tails and correlation; average accuracy alone cannot establish acceptable risk."
+      },
+      "references": [
+        "R07"
+      ]
+    },
+    {
+      "id": "D019",
+      "variables": [
+        "V050",
+        "V049"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "单价与全成本",
+        "en": "Unit and lifecycle costs"
+      },
+      "mechanism": {
+        "zh": "单份生成便宜后，使用量、核验和集成需求也可能增加。",
+        "en": "Cheaper generation may increase volume, verification and integration needs."
+      },
+      "branch_a": {
+        "zh": "需求固定且配套成本受控时，总成本下降。",
+        "en": "Fixed demand and controlled ancillary costs can lower total cost."
+      },
+      "branch_b": {
+        "zh": "用途扩张或纠错增加时，总成本可能上升。",
+        "en": "Expanded use or repair may raise total cost."
+      },
+      "test": {
+        "zh": "按固定质量和期限做全成本对照；总成本未降即推翻单价决定论。",
+        "en": "Compare full costs at fixed quality and horizon; unchanged totals reject unit-price determinism."
+      },
+      "references": [
+        "R07"
+      ]
+    },
+    {
+      "id": "D020",
+      "variables": [
+        "V053",
+        "V115"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "效率与资源总量",
+        "en": "Efficiency and total resources"
+      },
+      "mechanism": {
+        "zh": "每任务耗能降低改变使用成本，但总资源消耗还取决于任务量。",
+        "en": "Lower energy per task changes costs, while total use also depends on task volume."
+      },
+      "branch_a": {
+        "zh": "任务量增长较小时，总耗能下降。",
+        "en": "Modest volume growth may reduce total energy use."
+      },
+      "branch_b": {
+        "zh": "增长超过效率收益时，总耗能上升。",
+        "en": "Growth exceeding efficiency gains raises total use."
+      },
+      "test": {
+        "zh": "分解每任务消耗与任务量；不要只用其中一项推断总量。",
+        "en": "Decompose intensity and volume; neither alone determines totals."
+      },
+      "references": [
+        "MODEL"
+      ]
+    },
+    {
+      "id": "D021",
+      "variables": [
+        "V044",
+        "V105"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "权限与责任",
+        "en": "Authority and responsibility"
+      },
+      "mechanism": {
+        "zh": "行动权限与责任归属不一致时，承担后果者可能无法改变行动。",
+        "en": "Misaligned authority and responsibility can leave cost bearers unable to change actions."
+      },
+      "branch_a": {
+        "zh": "权责配套可支持及时纠正。",
+        "en": "Matched authority and responsibility may support correction."
+      },
+      "branch_b": {
+        "zh": "无控制权的签字可能只是转移负担。",
+        "en": "Sign-off without control may merely shift burdens."
+      },
+      "test": {
+        "zh": "检查停止权是否实际行使；责任文本增加但纠错不变，削弱监督改善解释。",
+        "en": "Examine actual stopping authority; more liability text without correction weakens the oversight claim."
+      },
+      "references": [
+        "R07"
+      ]
+    },
+    {
+      "id": "D022",
+      "variables": [
+        "V048",
+        "V099"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "替代供应与退出",
+        "en": "Alternatives and exit"
+      },
+      "mechanism": {
+        "zh": "替代服务可用，只有迁移成本可承受时才形成真实退出选择。",
+        "en": "Available substitutes become real exit options only when switching is feasible."
+      },
+      "branch_a": {
+        "zh": "迁移低成本时，用户可以选择并约束服务方。",
+        "en": "Cheap migration may enable choice and discipline providers."
+      },
+      "branch_b": {
+        "zh": "历史数据和流程难迁时，多家供应也可能无效。",
+        "en": "Hard-to-move histories and workflows can neutralize nominal alternatives."
+      },
+      "test": {
+        "zh": "实际完成迁移试验；供应者数量增加却迁移失败，不支持有效竞争路径。",
+        "en": "Test actual migration; more suppliers with failed switching do not establish effective competition."
+      },
+      "references": [
+        "R03"
+      ]
+    },
+    {
+      "id": "D023",
+      "variables": [
+        "V081",
+        "V082"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "替代与互补",
+        "en": "Substitution and complementarity"
+      },
+      "mechanism": {
+        "zh": "同一岗位的不同任务可能分别受到替代和互补作用。",
+        "en": "Different tasks in one job may face substitution and complementarity."
+      },
+      "branch_a": {
+        "zh": "互补任务需求扩大时，岗位可能重组并保留。",
+        "en": "Growing complementary demand may preserve a restructured job."
+      },
+      "branch_b": {
+        "zh": "替代覆盖主要价值且无新任务时，岗位可能缩减。",
+        "en": "Substitution of core tasks without new work may shrink employment."
+      },
+      "test": {
+        "zh": "做任务时间与收入分解；岗位名称不变不能证明任务未改变。",
+        "en": "Decompose task time and income; unchanged job titles do not establish unchanged work."
+      },
+      "references": [
+        "R09"
+      ]
+    },
+    {
+      "id": "D024",
+      "variables": [
+        "V084",
+        "V089"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "议价与价格",
+        "en": "Bargaining and prices"
+      },
+      "mechanism": {
+        "zh": "任务产值变化能否变成劳动报酬，取决于议价和外部选择。",
+        "en": "Whether task value becomes pay depends on bargaining and outside options."
+      },
+      "branch_a": {
+        "zh": "议价增强时，劳动者可能分享更多收益。",
+        "en": "Stronger bargaining may increase workers' shares."
+      },
+      "branch_b": {
+        "zh": "报酬被固定或单方定价时，产值提升未必加薪。",
+        "en": "Fixed pay or unilateral pricing may prevent wage gains."
+      },
+      "test": {
+        "zh": "比较相近生产率变化下不同谈判条件；若收益份额无差异，议价解释受限。",
+        "en": "Compare similar productivity changes under different bargaining conditions; equal shares limit this explanation."
+      },
+      "references": [
+        "R09"
+      ]
+    },
+    {
+      "id": "D025",
+      "variables": [
+        "V085",
+        "V086"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "决策权与监督跨度",
+        "en": "Decision rights and oversight load"
+      },
+      "mechanism": {
+        "zh": "监督对象增加时，决策权决定人能否限制负荷或停止流程。",
+        "en": "With more supervised tasks, decision rights determine whether reviewers can limit load or stop processes."
+      },
+      "branch_a": {
+        "zh": "有调度权的监督者可调整负荷。",
+        "en": "Reviewers with scheduling authority may manage load."
+      },
+      "branch_b": {
+        "zh": "只有责任没有调度权时，审核可能形式化。",
+        "en": "Responsibility without scheduling power may make review nominal."
+      },
+      "test": {
+        "zh": "观察单件审核时间与实质纠错；签字率上升不等于监督增强。",
+        "en": "Observe review time and substantive corrections; more signatures do not establish stronger oversight."
+      },
+      "references": [
+        "R07"
+      ]
+    },
+    {
+      "id": "D026",
+      "variables": [
+        "V092",
+        "V095"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "所有权与收益集中",
+        "en": "Ownership and concentrated gains"
+      },
+      "mechanism": {
+        "zh": "技术提高资产收益时，初始所有权结构影响受益分布。",
+        "en": "When technology raises asset returns, initial ownership shapes benefit distribution."
+      },
+      "branch_a": {
+        "zh": "所有权集中且无分享机制时，收益可能集中。",
+        "en": "Concentrated ownership without sharing may concentrate gains."
+      },
+      "branch_b": {
+        "zh": "广泛持有或公共分配可使收益更分散。",
+        "en": "Broad ownership or public distribution may spread gains."
+      },
+      "test": {
+        "zh": "追踪税前税后及资产收益；总利润上升不能确认谁受益。",
+        "en": "Track pre- and post-distribution returns; aggregate profit growth does not identify beneficiaries."
+      },
+      "references": [
+        "R09"
+      ]
+    },
+    {
+      "id": "D027",
+      "variables": [
+        "V091",
+        "V094"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "集中度与进入壁垒",
+        "en": "Concentration and entry barriers"
+      },
+      "mechanism": {
+        "zh": "高进入壁垒会限制新竞争者对既有集中结构的挑战。",
+        "en": "Entry barriers can limit challenges to concentrated incumbents."
+      },
+      "branch_a": {
+        "zh": "规模、渠道和许可强化时，集中可能持续。",
+        "en": "Reinforced scale, channels and licensing may sustain concentration."
+      },
+      "branch_b": {
+        "zh": "开放标准或需求分化可能支持新进入者。",
+        "en": "Open standards or differentiated demand may enable entry."
+      },
+      "test": {
+        "zh": "先定义市场，再看进入退出与份额；高集中本身不能证明不可竞争。",
+        "en": "Define the market and track entry, exit and shares; concentration alone does not establish noncontestability."
+      },
+      "references": [
+        "R03"
+      ]
+    },
+    {
+      "id": "D028",
+      "variables": [
+        "V097",
+        "V022"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "推荐与自主性",
+        "en": "Recommendation and autonomy"
+      },
+      "mechanism": {
+        "zh": "推荐目标影响哪些选择显著，从而改变用户实际选择环境。",
+        "en": "Recommendation objectives shape salient options and the choice environment."
+      },
+      "branch_a": {
+        "zh": "用户认可且可调整目标时，推荐可支持自主行动。",
+        "en": "Endorsed adjustable goals may support autonomous action."
+      },
+      "branch_b": {
+        "zh": "目标隐蔽且难调整时，便利可能伴随控制感下降。",
+        "en": "Hidden rigid objectives may trade convenience for lower experienced control."
+      },
+      "test": {
+        "zh": "区分实际选项、主观自主与满意度；满意上升不足以证明自主提高。",
+        "en": "Separate options, autonomy and satisfaction; satisfaction alone does not establish autonomy."
+      },
+      "references": [
+        "R06"
+      ]
+    },
+    {
+      "id": "D029",
+      "variables": [
+        "V102",
+        "V104"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "分歧与申诉",
+        "en": "Divergence and appeal"
+      },
+      "mechanism": {
+        "zh": "目标分歧出现后，有效纠正渠道可能把争议转成可协商调整。",
+        "en": "After goal divergence, effective remedies may turn conflict into negotiable revision."
+      },
+      "branch_a": {
+        "zh": "独立申诉可纠正部分错误和不合理安排。",
+        "en": "Independent appeal may correct errors and unreasonable arrangements."
+      },
+      "branch_b": {
+        "zh": "无实际权限的入口可能只增加等待与负担。",
+        "en": "Channels without authority may add delay and burden."
+      },
+      "test": {
+        "zh": "测量纠正率与耗时；有入口无实际改变，不支持有效救济分支。",
+        "en": "Measure correction and delay; a channel without change does not support effective remedy."
+      },
+      "references": [
+        "R13"
+      ]
+    },
+    {
+      "id": "D030",
+      "variables": [
+        "V107",
+        "V070"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "执行与欺骗激励",
+        "en": "Enforcement and deception"
+      },
+      "mechanism": {
+        "zh": "误导收益固定时，被发现与承担后果的可能性改变净激励。",
+        "en": "At fixed gains from deception, detection and consequences alter net incentives."
+      },
+      "branch_a": {
+        "zh": "可信执行使预期代价超过收益时，欺骗可能减少。",
+        "en": "Credible enforcement exceeding benefits may reduce deception."
+      },
+      "branch_b": {
+        "zh": "执行选择性强或收益更大时，欺骗可能持续并转移。",
+        "en": "Selective enforcement or larger gains may sustain or displace deception."
+      },
+      "test": {
+        "zh": "同时观察隐蔽行为和替代渠道；只看被查获数不能推断真实发生率。",
+        "en": "Observe concealed behavior and alternate channels; detections alone do not measure incidence."
+      },
+      "references": [
+        "R03"
+      ]
+    },
+    {
+      "id": "D031",
+      "variables": [
+        "V040",
+        "V124"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "教育准入与代际机会",
+        "en": "Education access and mobility"
+      },
+      "mechanism": {
+        "zh": "低成本学习材料可能放松资源限制，但有效学习还需要其他投入。",
+        "en": "Cheaper learning materials may relax constraints while effective learning still requires other inputs."
+      },
+      "branch_a": {
+        "zh": "时间、设备和指导齐备时，弱势群体机会可能改善。",
+        "en": "With time, devices and guidance, disadvantaged groups may gain opportunities."
+      },
+      "branch_b": {
+        "zh": "互补资源仍不平等时，优势家庭也可能获益更多。",
+        "en": "Unequal complements may yield larger gains to advantaged households."
+      },
+      "test": {
+        "zh": "按家庭背景追踪学习与机会；平均分数提高不证明流动性改善。",
+        "en": "Follow learning and opportunities by background; higher mean scores do not establish mobility."
+      },
+      "references": [
+        "R11"
+      ]
+    },
+    {
+      "id": "D032",
+      "variables": [
+        "V122",
+        "V121"
+      ],
+      "order": 2,
+      "status": "H",
+      "title": {
+        "zh": "选择与意义",
+        "en": "Choice and meaning"
+      },
+      "mechanism": {
+        "zh": "可行选择扩大，让人有机会投入自己认可的活动。",
+        "en": "A wider feasible set can allow engagement in endorsed activities."
+      },
+      "branch_a": {
+        "zh": "选择与目标匹配并可实践时，意义感可能增强。",
+        "en": "Feasible goal-aligned action may strengthen meaning."
+      },
+      "branch_b": {
+        "zh": "选项过多但资源不足或目标冲突时，意义感未必变化。",
+        "en": "Many nominal options with scarce resources or conflicting goals may not help."
+      },
+      "test": {
+        "zh": "记录实际参与而非菜单数量；选择增加而可行性不变，不支持意义增益机制。",
+        "en": "Measure realized participation rather than menu size; unchanged feasibility weakens the mechanism."
+      },
+      "references": [
+        "R06"
+      ]
+    },
+    {
+      "id": "D033",
+      "variables": [
+        "V009",
+        "V057",
+        "V098"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "注意、供给与匹配",
+        "en": "Attention, supply and matching"
+      },
+      "mechanism": {
+        "zh": "有限注意面对扩大供给时，个性化改变筛选负担与内容集合。",
+        "en": "With limited attention and growing supply, personalization changes filtering effort and the content set."
+      },
+      "branch_a": {
+        "zh": "以用户认可目标匹配时，搜索成本下降并改善理解。",
+        "en": "Matching endorsed goals can reduce search cost and improve comprehension."
+      },
+      "branch_b": {
+        "zh": "只优化即时停留时，更多相关刺激也可能挤出长期目标。",
+        "en": "Optimizing immediate dwell time may displace longer-term goals."
+      },
+      "test": {
+        "zh": "比较相同供给下不同目标的推荐；若目标变化无行为差异，调节机制受限。",
+        "en": "Compare objectives at equal supply; no behavioral difference limits the moderation claim."
+      },
+      "references": [
+        "R01",
+        "R06"
+      ]
+    },
+    {
+      "id": "D034",
+      "variables": [
+        "V020",
+        "V021",
+        "V103"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "刺激竞赛的入口",
+        "en": "Entry into stimulation competition"
+      },
+      "mechanism": {
+        "zh": "适应削弱即时反应，而可见性继续奖励该反应时，升级激励增强。",
+        "en": "Adaptation weakens immediate responses while visibility rewards them, increasing incentives to intensify stimuli."
+      },
+      "branch_a": {
+        "zh": "可见性竞争可能形成共同升级。",
+        "en": "Exposure competition may produce collective escalation."
+      },
+      "branch_b": {
+        "zh": "若评价转向持续满意或受众回避，升级可能失去收益。",
+        "en": "Durable satisfaction metrics or audience avoidance may remove escalation gains."
+      },
+      "test": {
+        "zh": "跟踪规则变化前后刺激强度与长期满意；未出现收益排序则不套用囚徒困境。",
+        "en": "Track intensity and long-term satisfaction around rule changes; reject the dilemma model if payoff ordering fails."
+      },
+      "references": [
+        "R08",
+        "R12"
+      ]
+    },
+    {
+      "id": "D035",
+      "variables": [
+        "V059",
+        "V071",
+        "V067"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "廉价形式与证据",
+        "en": "Cheap form and evidence"
+      },
+      "mechanism": {
+        "zh": "模仿降低形式信号区分度时，可追溯证据提供另一判断依据。",
+        "en": "When imitation weakens formal signals, traceable evidence offers an alternative basis."
+      },
+      "branch_a": {
+        "zh": "可靠追溯可能维持有区分的信任。",
+        "en": "Reliable provenance may preserve differentiated trust."
+      },
+      "branch_b": {
+        "zh": "来源记录可伪造或形成循环引用时，外观可信度仍可能误导。",
+        "en": "Forged or circular records may preserve misleading credibility."
+      },
+      "test": {
+        "zh": "测试真实与伪造证据识别；只有标签效果而无准确性提升，不支持核验收益。",
+        "en": "Test authentic and forged evidence; label effects without accuracy gains do not support verification benefits."
+      },
+      "references": [
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "D036",
+      "variables": [
+        "V049",
+        "V081",
+        "V083"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "替代与扩量",
+        "en": "Substitution and scale"
+      },
+      "mechanism": {
+        "zh": "成本下降提高任务替代，同时价格传导可能扩大任务需求。",
+        "en": "Lower costs enable substitution while price pass-through may expand demand."
+      },
+      "branch_a": {
+        "zh": "需求弹性足够大时，扩量可能抵消部分人工需求减少。",
+        "en": "Sufficient demand elasticity may offset part of labor displacement."
+      },
+      "branch_b": {
+        "zh": "需求饱和或剩余人工含量很低时，劳动需求仍下降。",
+        "en": "Saturated demand or very low remaining labor content can reduce labor demand."
+      },
+      "test": {
+        "zh": "测量价格、总任务量与每任务人工；只看采用率不能分辨结果。",
+        "en": "Measure price, volume and labor per task; adoption rates alone cannot distinguish outcomes."
+      },
+      "references": [
+        "R09"
+      ]
+    },
+    {
+      "id": "D037",
+      "variables": [
+        "V041",
+        "V082",
+        "V084"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "互补收益的归属",
+        "en": "Who receives complementary gains"
+      },
+      "mechanism": {
+        "zh": "能力提高与劳动互补创造新增产出，议价决定部分分配。",
+        "en": "Capability and labor complementarity create output; bargaining shapes its allocation."
+      },
+      "branch_a": {
+        "zh": "劳动者拥有可行替代与谈判权时，报酬可能提高。",
+        "en": "Feasible alternatives and bargaining may raise pay."
+      },
+      "branch_b": {
+        "zh": "组织占有全部新增收益时，报酬可以不变。",
+        "en": "If organizations retain gains, pay may remain unchanged."
+      },
+      "test": {
+        "zh": "比较相似任务与资本投入下收益份额；生产率提高不单独验证工资机制。",
+        "en": "Compare shares at similar tasks and capital inputs; productivity alone does not verify a wage mechanism."
+      },
+      "references": [
+        "R09"
+      ]
+    },
+    {
+      "id": "D038",
+      "variables": [
+        "V015",
+        "V035",
+        "V036"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "卸载怎样支持学习",
+        "en": "When offloading supports learning"
+      },
+      "mechanism": {
+        "zh": "工具省下执行时间后，练习投入与反馈决定是否形成技能。",
+        "en": "After tools save execution time, practice and feedback shape skill formation."
+      },
+      "branch_a": {
+        "zh": "时间转为主动练习且反馈可靠时，迁移能力可提高。",
+        "en": "Active practice with reliable feedback may improve transfer."
+      },
+      "branch_b": {
+        "zh": "直接交付答案而不练习时，即时表现可提高但学习不变。",
+        "en": "Direct answers without practice may improve completion without learning."
+      },
+      "test": {
+        "zh": "延迟无工具迁移测验；只有辅助成绩提升支持表现，不支持学习。",
+        "en": "Use delayed unaided transfer tests; assisted gains support performance, not learning."
+      },
+      "references": [
+        "R11"
+      ]
+    },
+    {
+      "id": "D039",
+      "variables": [
+        "V073",
+        "V076",
+        "V077"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "回应的补充与替代",
+        "en": "Supplementing or displacing support"
+      },
+      "mechanism": {
+        "zh": "新增互动的影响由既有现实支持和原有孤独共同限定。",
+        "en": "Existing offline support and baseline loneliness condition added interaction."
+      },
+      "branch_a": {
+        "zh": "帮助求助和维系现实网络时，可能减少孤独。",
+        "en": "Facilitating help-seeking and existing ties may reduce loneliness."
+      },
+      "branch_b": {
+        "zh": "挤出原本有效支持时，长期孤独可能增加。",
+        "en": "Displacing effective support may increase longer-term loneliness."
+      },
+      "test": {
+        "zh": "追踪实际支持、基线和使用分配；控制基线后差异消失，削弱直接使用因果说。",
+        "en": "Track support, baseline and assigned use; disappearing differences weaken direct causal attribution."
+      },
+      "references": [
+        "R06"
+      ]
+    },
+    {
+      "id": "D040",
+      "variables": [
+        "V073",
+        "V075",
+        "V032"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "顺畅回应与关系期待",
+        "en": "Frictionless responses and expectations"
+      },
+      "mechanism": {
+        "zh": "持续低摩擦互动可能改变对其他关系的期望，但偏好可塑性有差异。",
+        "en": "Persistent low-friction interaction may change expectations, with heterogeneous preference plasticity."
+      },
+      "branch_a": {
+        "zh": "若期待迁移到人际关系，正常协商可能更难接受。",
+        "en": "Transferred expectations may reduce tolerance for ordinary negotiation."
+      },
+      "branch_b": {
+        "zh": "若被理解为练习或独立服务，人际期待可能不变或改善。",
+        "en": "Framing as practice or a separate service may leave expectations unchanged or improved."
+      },
+      "test": {
+        "zh": "测量跨情境迁移；仅对服务满意不能验证对真人耐心下降。",
+        "en": "Measure cross-context transfer; service satisfaction alone does not establish less patience with people."
+      },
+      "references": [
+        "R05",
+        "R06"
+      ]
+    },
+    {
+      "id": "D041",
+      "variables": [
+        "V017",
+        "V016",
+        "V122"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "目标清晰与可行行动",
+        "en": "Clear goals and feasible action"
+      },
+      "mechanism": {
+        "zh": "明确目标只有在存在可行行动时，才可能降低部分不确定焦虑。",
+        "en": "Clear goals may reduce some uncertainty-related anxiety when feasible action exists."
+      },
+      "branch_a": {
+        "zh": "行动可达且反馈清楚时，主观控制感可能增强。",
+        "en": "Accessible action and clear feedback may improve perceived control."
+      },
+      "branch_b": {
+        "zh": "缺少资源或目标无法实现时，清晰也可能揭示困难。",
+        "en": "Without resources, clarity may instead expose difficulty."
+      },
+      "test": {
+        "zh": "同时测量目标、资源和焦虑；清晰无改善时检查可行性而非责备个人。",
+        "en": "Measure goals, resources and anxiety; inspect feasibility rather than blame individuals when clarity fails to help."
+      },
+      "references": [
+        "R06"
+      ]
+    },
+    {
+      "id": "D042",
+      "variables": [
+        "V097",
+        "V102",
+        "V099"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "推荐目标与锁定",
+        "en": "Objectives and lock-in"
+      },
+      "mechanism": {
+        "zh": "目标分歧在退出成本高时可能持续，因为用户难以更换服务。",
+        "en": "Goal divergence may persist under high exit costs because users cannot readily switch."
+      },
+      "branch_a": {
+        "zh": "缺少纠正或替代时，不认可的优化可能继续。",
+        "en": "Without remedy or alternatives, unendorsed optimization may persist."
+      },
+      "branch_b": {
+        "zh": "用户可调整目标或获得实际救济时，分歧可被缓解。",
+        "en": "Adjustable objectives or effective remedies may reduce divergence."
+      },
+      "test": {
+        "zh": "比较退出成本变化后的规则反应；用户留存高不能单独解释为满意。",
+        "en": "Compare provider responses to changed exit costs; high retention alone does not establish satisfaction."
+      },
+      "references": [
+        "R03",
+        "R13"
+      ]
+    },
+    {
+      "id": "D043",
+      "variables": [
+        "V100",
+        "V048",
+        "V099"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "可携性如何形成退出",
+        "en": "Portability enabling exit"
+      },
+      "mechanism": {
+        "zh": "数据可导出且替代服务可用，才可能降低实际迁移损失。",
+        "en": "Exportable usable data and viable alternatives can reduce migration losses."
+      },
+      "branch_a": {
+        "zh": "兼容历史与工作流时，退出成本下降。",
+        "en": "Compatible histories and workflows may lower exit costs."
+      },
+      "branch_b": {
+        "zh": "导出格式不可用或关系无法迁移时，形式可携无效。",
+        "en": "Unusable formats or immovable relationships may defeat nominal portability."
+      },
+      "test": {
+        "zh": "实际迁移任务的时间与成功率是关键；下载按钮数量不是结果。",
+        "en": "Measure migration time and success; download-button counts are not outcomes."
+      },
+      "references": [
+        "R03"
+      ]
+    },
+    {
+      "id": "D044",
+      "variables": [
+        "V042",
+        "V086",
+        "V105"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "可靠性、负荷与责任",
+        "en": "Reliability, load and responsibility"
+      },
+      "mechanism": {
+        "zh": "系统高平均可靠性可能促使组织扩大监督跨度并保留个人责任。",
+        "en": "High average reliability may encourage broader oversight loads while retaining individual responsibility."
+      },
+      "branch_a": {
+        "zh": "异常稀少且可及时发现时，监督可能有效。",
+        "en": "Rare detectable exceptions may permit effective review."
+      },
+      "branch_b": {
+        "zh": "异常集中且审核时间不足时，责任可能脱离控制。",
+        "en": "Clustered exceptions and insufficient review time may separate liability from control."
+      },
+      "test": {
+        "zh": "测量异常时的纠错而非平时签字；尾部失败增多会否定有效监督分支。",
+        "en": "Measure correction during exceptions, not routine signatures; increasing tail failures weaken effective oversight."
+      },
+      "references": [
+        "R07"
+      ]
+    },
+    {
+      "id": "D045",
+      "variables": [
+        "V054",
+        "V056",
+        "V095"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "基础设施与收益",
+        "en": "Infrastructure and gains"
+      },
+      "mechanism": {
+        "zh": "硬件集中带来规模优势时，互操作性影响其他主体接入收益。",
+        "en": "When concentrated hardware creates scale advantages, interoperability affects access to gains."
+      },
+      "branch_a": {
+        "zh": "标准兼容与公平接入可扩散部分收益。",
+        "en": "Compatible standards and fair access may spread benefits."
+      },
+      "branch_b": {
+        "zh": "专有接口和迁移障碍可能使收益集中。",
+        "en": "Proprietary interfaces and migration barriers may concentrate gains."
+      },
+      "test": {
+        "zh": "比较接入成本和实际收益分布；接口开放但成本未变，不能确认普惠。",
+        "en": "Compare access costs and benefit distributions; nominal openness without lower barriers does not establish inclusion."
+      },
+      "references": [
+        "R13"
+      ]
+    },
+    {
+      "id": "D046",
+      "variables": [
+        "V049",
+        "V083",
+        "V115"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "低成本与反弹",
+        "en": "Cheap use and rebound"
+      },
+      "mechanism": {
+        "zh": "单位成本降低引发任务需求增长，总资源取决于单位消耗与规模乘积。",
+        "en": "Lower unit costs can expand demand; total resources depend on intensity times volume."
+      },
+      "branch_a": {
+        "zh": "需求增长较低时，资源节省保留。",
+        "en": "Modest demand growth preserves savings."
+      },
+      "branch_b": {
+        "zh": "新增用途与高弹性时，节省可能被部分或全部抵消。",
+        "en": "New uses and elastic demand may partly or fully offset savings."
+      },
+      "test": {
+        "zh": "分别估计需求反应与效率；没有规模扩张时，不支持反弹解释。",
+        "en": "Estimate demand response and efficiency separately; no expansion weakens rebound attribution."
+      },
+      "references": [
+        "MODEL"
+      ]
+    },
+    {
+      "id": "D047",
+      "variables": [
+        "V040",
+        "V035",
+        "V006"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "学习机会与照护",
+        "en": "Learning access and care"
+      },
+      "mechanism": {
+        "zh": "教育资源便宜后，照护负担仍可能限制有效学习时间。",
+        "en": "Cheaper educational resources may leave care obligations constraining study time."
+      },
+      "branch_a": {
+        "zh": "配套照护和连续时间使更多人能完成学习。",
+        "en": "Care support and uninterrupted time may enable completion."
+      },
+      "branch_b": {
+        "zh": "只提供课程而不缓解负担，机会差距可能持续。",
+        "en": "Courses alone may leave opportunity gaps intact."
+      },
+      "test": {
+        "zh": "按照护负担比较完成与迁移；注册增长不等于学习机会兑现。",
+        "en": "Compare completion and transfer by care load; enrollment growth is not realized opportunity."
+      },
+      "references": [
+        "R11"
+      ]
+    },
+    {
+      "id": "D048",
+      "variables": [
+        "V046",
+        "V118",
+        "V127"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "代表性、文化与正当性",
+        "en": "Representation, culture and legitimacy"
+      },
+      "mechanism": {
+        "zh": "数据代表性与本地文化适配共同影响群体表现及对结果的认可。",
+        "en": "Data representation and local cultural fit affect group performance and legitimacy judgments."
+      },
+      "branch_a": {
+        "zh": "覆盖不足得到修正且程序可解释时，差异可能缩小。",
+        "en": "Better coverage and explainable procedures may reduce disparities."
+      },
+      "branch_b": {
+        "zh": "单一指标改善仍可能违背重要本地价值。",
+        "en": "Improvement on one metric may still conflict with local values."
+      },
+      "test": {
+        "zh": "分语言、群体与价值维度测量；平均准确率上升不证明公平或认可。",
+        "en": "Measure by language, group and value; mean accuracy does not establish fairness or legitimacy."
+      },
+      "references": [
+        "R13"
+      ]
+    },
+    {
+      "id": "D049",
+      "variables": [
+        "V067",
+        "V106",
+        "V107"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "证据、独立性与执行",
+        "en": "Evidence, independence and enforcement"
+      },
+      "mechanism": {
+        "zh": "可追溯记录让审计有材料，独立性与执行决定发现能否转成纠正。",
+        "en": "Traceable records enable audits; independence and enforcement shape correction."
+      },
+      "branch_a": {
+        "zh": "专业独立审计配合执行，可减少部分重复错误。",
+        "en": "Competent independent audits with enforcement may reduce repeated failures."
+      },
+      "branch_b": {
+        "zh": "审计无权或信息选择性提供时，记录可能只是形式。",
+        "en": "Powerless audits or selective disclosure can make records ceremonial."
+      },
+      "test": {
+        "zh": "追踪发现到纠正链条；披露增多却重复错误不降，削弱治理有效性。",
+        "en": "Trace findings through correction; more disclosures without fewer repeat failures weaken effectiveness claims."
+      },
+      "references": [
+        "R13"
+      ]
+    },
+    {
+      "id": "D050",
+      "variables": [
+        "V103",
+        "V027",
+        "V028"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "可见性与期望形成",
+        "en": "Visibility and aspiration formation"
+      },
+      "mechanism": {
+        "zh": "平台展示改变比较群体，可能进一步调整正常生活的期望。",
+        "en": "Platform exposure changes reference groups and may adjust aspirations about normal life."
+      },
+      "branch_a": {
+        "zh": "持续展示极端成功时，部分人可能提高不现实期望。",
+        "en": "Persistent exceptional success may raise unrealistic aspirations for some."
+      },
+      "branch_b": {
+        "zh": "展示多样路径和条件信息时，可能改善校准。",
+        "en": "Diverse paths and contextual information may improve calibration."
+      },
+      "test": {
+        "zh": "随机改变展示构成并测量期望；曝光变化无期望变化时，链条中断。",
+        "en": "Vary exposure composition and measure aspirations; unchanged aspirations interrupt the chain."
+      },
+      "references": [
+        "R05",
+        "R10"
+      ]
+    },
+    {
+      "id": "D051",
+      "variables": [
+        "V108",
+        "V088",
+        "V109"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "制度时滞与转型",
+        "en": "Institutional lag and transition"
+      },
+      "mechanism": {
+        "zh": "任务变化先于制度支持时，转型成本可能集中于受冲击群体。",
+        "en": "When task change precedes institutional support, transition costs may concentrate on exposed groups."
+      },
+      "branch_a": {
+        "zh": "保障及时可降低收入中断与被迫选择。",
+        "en": "Timely protection may reduce income interruption and forced choices."
+      },
+      "branch_b": {
+        "zh": "支持覆盖不足或迟到时，总体增长可伴随局部长期损失。",
+        "en": "Inadequate or delayed support may coexist with growth and persistent local losses."
+      },
+      "test": {
+        "zh": "按受影响群体追踪收入与保障时点；行业总增长不能否定个体损失。",
+        "en": "Follow affected groups and support timing; industry growth does not refute individual losses."
+      },
+      "references": [
+        "R09"
+      ]
+    },
+    {
+      "id": "D052",
+      "variables": [
+        "V119",
+        "V120",
+        "V093"
+      ],
+      "order": 3,
+      "status": "H",
+      "title": {
+        "zh": "效率与韧性",
+        "en": "Efficiency and resilience"
+      },
+      "mechanism": {
+        "zh": "规模经济鼓励集中，集中却可能增加共同冲击暴露。",
+        "en": "Scale economies encourage concentration that may increase common-shock exposure."
+      },
+      "branch_a": {
+        "zh": "冗余和替代路径可牺牲部分成本优势换取恢复能力。",
+        "en": "Redundancy may exchange some cost advantage for recovery capacity."
+      },
+      "branch_b": {
+        "zh": "若备份高度相关或不可切换，名义冗余不增加韧性。",
+        "en": "Correlated or unusable backups may not improve resilience."
+      },
+      "test": {
+        "zh": "压力测试实际恢复时间；副本数量增加而恢复不变，不支持韧性收益。",
+        "en": "Stress-test actual recovery; more copies without better recovery do not establish resilience."
+      },
+      "references": [
+        "MODEL"
+      ]
+    },
+    {
+      "id": "D053",
+      "variables": [
+        "V009",
+        "V057",
+        "V098",
+        "V097"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "生成社会的注意分配",
+        "en": "Attention allocation under abundant generation"
+      },
+      "mechanism": {
+        "zh": "供给扩张经个性化筛选进入有限注意，推荐目标决定筛选偏向。",
+        "en": "Expanded supply enters limited attention through personalization shaped by recommendation objectives."
+      },
+      "branch_a": {
+        "zh": "优化可验证学习与自主目标时，丰裕可转成有效知识。",
+        "en": "Optimizing verifiable learning and endorsed goals can turn abundance into useful knowledge."
+      },
+      "branch_b": {
+        "zh": "优化即时反应且忽视后续成本时，丰裕可能变成干扰。",
+        "en": "Immediate-reaction optimization ignoring downstream costs may turn abundance into distraction."
+      },
+      "test": {
+        "zh": "在供给与预算可比时干预推荐目标，测延迟学习；无目标差异效应则核心调节不成立。",
+        "en": "Intervene on objectives at comparable supply and budgets; no delayed-learning differences weaken the moderation."
+      },
+      "references": [
+        "R01",
+        "R06"
+      ]
+    },
+    {
+      "id": "D054",
+      "variables": [
+        "V020",
+        "V021",
+        "V103",
+        "V089"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "刺激竞赛的收益结构",
+        "en": "Payoffs in stimulation competition"
+      },
+      "mechanism": {
+        "zh": "适应改变反应，可见性影响收入，使创作者对他人策略作出回应。",
+        "en": "Adaptation changes reactions; visibility affects revenue, linking producers' choices to rivals."
+      },
+      "branch_a": {
+        "zh": "收益满足囚徒困境排序时，双方升级可成为低福利均衡。",
+        "en": "Prisoner's-dilemma payoffs can make mutual escalation a low-welfare equilibrium."
+      },
+      "branch_b": {
+        "zh": "长期收入奖励克制或规则改变收益时，该均衡可消失。",
+        "en": "Long-term rewards for restraint or changed rules may remove that equilibrium."
+      },
+      "test": {
+        "zh": "估计四种策略组合收益；不满足排序便不能声称存在该均衡。",
+        "en": "Estimate payoffs for all four strategy pairs; failed ordering rejects this equilibrium claim."
+      },
+      "references": [
+        "R08",
+        "R12"
+      ]
+    },
+    {
+      "id": "D055",
+      "variables": [
+        "V041",
+        "V013",
+        "V086",
+        "V105"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "人类审核的有效条件",
+        "en": "Conditions for effective human review"
+      },
+      "mechanism": {
+        "zh": "系统能力改变待审任务，核验能力与监督负荷决定责任能否落实。",
+        "en": "System capability changes review tasks; verification capacity and load determine whether responsibility is actionable."
+      },
+      "branch_a": {
+        "zh": "审核者能识错、有时间且责任配套停止权时，错误可被拦截。",
+        "en": "Competent reviewers with time and stopping authority may intercept errors."
+      },
+      "branch_b": {
+        "zh": "名义责任增长而能力与时间不足时，审核可能成为橡皮图章。",
+        "en": "Rising liability without capacity or time may create rubber-stamping."
+      },
+      "test": {
+        "zh": "设计带已知错误的盲审，测检出与停止；签字完整但漏错高否定实质审核。",
+        "en": "Use blinded seeded-error reviews; complete signatures with high misses reject substantive oversight."
+      },
+      "references": [
+        "R07"
+      ]
+    },
+    {
+      "id": "D056",
+      "variables": [
+        "V049",
+        "V081",
+        "V083",
+        "V084"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "自动化之后的劳动结果",
+        "en": "Labor outcomes after automation"
+      },
+      "mechanism": {
+        "zh": "低成本提高替代，需求扩张改变任务总量，议价决定剩余收益分配。",
+        "en": "Cheap substitution changes labor content; demand changes volume; bargaining allocates remaining gains."
+      },
+      "branch_a": {
+        "zh": "高需求与有力议价可支持部分劳动者收入改善。",
+        "en": "Strong demand and bargaining may improve some workers' incomes."
+      },
+      "branch_b": {
+        "zh": "低需求与弱议价可能使产出增长仍伴随收入下降。",
+        "en": "Weak demand and bargaining may allow output growth alongside income loss."
+      },
+      "test": {
+        "zh": "联合测量人工/任务、任务量与工资份额；缺一项不作确定就业预测。",
+        "en": "Measure labor per task, volume and wage shares; missing components preclude a definite employment forecast."
+      },
+      "references": [
+        "R09"
+      ]
+    },
+    {
+      "id": "D057",
+      "variables": [
+        "V015",
+        "V035",
+        "V036",
+        "V040"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "教育丰裕怎样形成能力",
+        "en": "Turning educational abundance into capability"
+      },
+      "mechanism": {
+        "zh": "低成本辅助只有经可获得的练习时间、反馈与学习条件，才形成持久能力。",
+        "en": "Cheap assistance supports durable skill through accessible practice, feedback and learning conditions."
+      },
+      "branch_a": {
+        "zh": "互补条件普及时，弱势学习者可能获得更大提升。",
+        "en": "Widely available complements may yield greater gains for disadvantaged learners."
+      },
+      "branch_b": {
+        "zh": "时间与指导继续集中时，优势群体可能拉大领先。",
+        "en": "Concentrated time and guidance may widen existing advantages."
+      },
+      "test": {
+        "zh": "按基线资源分层，做延迟迁移测验；即时平均成绩不能区分公平分支。",
+        "en": "Stratify by initial resources and test delayed transfer; immediate means cannot distinguish equity outcomes."
+      },
+      "references": [
+        "R11"
+      ]
+    },
+    {
+      "id": "D058",
+      "variables": [
+        "V073",
+        "V076",
+        "V097",
+        "V078"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "陪伴服务的双重结构",
+        "en": "The dual structure of companionship services"
+      },
+      "mechanism": {
+        "zh": "持续回应接入关系网络，同时由服务目标与亲密数据使用塑造互动。",
+        "en": "Persistent responses enter support networks while objectives and intimate-data use shape interaction."
+      },
+      "branch_a": {
+        "zh": "以用户认可目标运行并保护数据时，可补充支持。",
+        "en": "Endorsed objectives and protected data may support existing relationships."
+      },
+      "branch_b": {
+        "zh": "若以依赖和延长使用为目标，支持收益可能伴随控制与暴露成本。",
+        "en": "Objectives favoring dependence and prolonged use may add control and exposure costs."
+      },
+      "test": {
+        "zh": "独立测量支持、退出、数据使用与福祉；高满意不能抹去其他成本。",
+        "en": "Measure support, exit, data use and welfare separately; satisfaction cannot erase other costs."
+      },
+      "references": [
+        "R06",
+        "R13"
+      ]
+    },
+    {
+      "id": "D059",
+      "variables": [
+        "V071",
+        "V067",
+        "V106",
+        "V107"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "合成环境中的可信性",
+        "en": "Credibility in synthetic environments"
+      },
+      "mechanism": {
+        "zh": "模仿能力扩张后，证据记录、独立审计和执行共同决定核验是否有效。",
+        "en": "As imitation expands, evidence, independent auditing and enforcement jointly shape verification."
+      },
+      "branch_a": {
+        "zh": "链条完整可把可信判断从外观转向可检查过程。",
+        "en": "A functioning chain may shift trust from appearance to inspectable processes."
+      },
+      "branch_b": {
+        "zh": "某一环节被控制或无法执行时，认证可能成为新误导信号。",
+        "en": "Captured or unenforceable links may turn certification into a misleading signal."
+      },
+      "test": {
+        "zh": "以独立已知真值测认证误差与纠正；标签采用率不能证明可信性提升。",
+        "en": "Test certification against independently known truth and corrections; adoption does not establish credibility."
+      },
+      "references": [
+        "R03",
+        "R04",
+        "R13"
+      ]
+    },
+    {
+      "id": "D060",
+      "variables": [
+        "V097",
+        "V102",
+        "V099",
+        "V104"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "委托关系如何可协商",
+        "en": "Making delegation negotiable"
+      },
+      "mechanism": {
+        "zh": "优化目标与用户利益分歧，在高退出成本下需靠真实申诉或目标协商调整。",
+        "en": "Divergent objectives under costly exit require effective appeal or renegotiation."
+      },
+      "branch_a": {
+        "zh": "用户能纠正、撤回与更换时，委托可保持可控。",
+        "en": "Correction, revocation and switching can keep delegation controllable."
+      },
+      "branch_b": {
+        "zh": "退出和申诉都无效时，名义同意可能不能反映认可。",
+        "en": "Ineffective exit and appeal may make nominal consent a poor sign of endorsement."
+      },
+      "test": {
+        "zh": "实测撤回和纠正，不用勾选率代替；通道真实有效时锁定悲观分支受限。",
+        "en": "Test revocation and correction rather than checkbox rates; effective channels limit the pessimistic lock-in branch."
+      },
+      "references": [
+        "R13"
+      ]
+    },
+    {
+      "id": "D061",
+      "variables": [
+        "V053",
+        "V054",
+        "V115",
+        "V112"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "算力扩张的外部成本",
+        "en": "External costs of computing expansion"
+      },
+      "mechanism": {
+        "zh": "能源效率、硬件扩张和资源总量共同决定负荷，内部化规则影响采用激励。",
+        "en": "Efficiency, hardware growth and total resources shape loads; internalization rules alter incentives."
+      },
+      "branch_a": {
+        "zh": "资源约束被计入决策且替代有效时，扩张可能保持较低外部损失。",
+        "en": "Accounting for constraints with effective alternatives may limit external harms."
+      },
+      "branch_b": {
+        "zh": "只看单位效率且外部成本未计入时，总损失可能增长。",
+        "en": "Unit-efficiency focus with unpriced external costs may increase aggregate harm."
+      },
+      "test": {
+        "zh": "生命周期与地区数据核算，比较规则改变；只算运营电费不能验证生态结论。",
+        "en": "Use lifecycle and regional accounting around rule changes; operating electricity bills alone do not establish ecological outcomes."
+      },
+      "references": [
+        "MODEL",
+        "R13"
+      ]
+    },
+    {
+      "id": "D062",
+      "variables": [
+        "V026",
+        "V027",
+        "V028",
+        "V109"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "比较压力与生活安全",
+        "en": "Comparison pressure and life security"
+      },
+      "mechanism": {
+        "zh": "排名与参照影响期望，但社会保障改变失去位置的实际代价。",
+        "en": "Rank and references shape aspirations, while protection changes the actual cost of losing position."
+      },
+      "branch_a": {
+        "zh": "基本生活不依赖短期排名时，部分竞争压力可能降低。",
+        "en": "When basic security is less rank-dependent, some competitive pressure may decline."
+      },
+      "branch_b": {
+        "zh": "地位认同仍高度集中时，物质安全也未必消除比较焦虑。",
+        "en": "Concentrated status identities may sustain anxiety despite material security."
+      },
+      "test": {
+        "zh": "分测生计风险和地位焦虑；保障只降低前者时，应分开两条机制。",
+        "en": "Separate livelihood and status anxiety; protection affecting only the former requires distinct mechanisms."
+      },
+      "references": [
+        "R05",
+        "R06"
+      ]
+    },
+    {
+      "id": "D063",
+      "variables": [
+        "V047",
+        "V108",
+        "V088",
+        "V110"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "部署速度与制度参与",
+        "en": "Deployment speed and institutional participation"
+      },
+      "mechanism": {
+        "zh": "快速部署与制度调整不同步时，受影响者参与可能改变转型安排。",
+        "en": "When deployment outpaces institutional change, participation may alter transition arrangements."
+      },
+      "branch_a": {
+        "zh": "及时参与可使成本更早被识别并分担。",
+        "en": "Timely participation may identify and share costs earlier."
+      },
+      "branch_b": {
+        "zh": "参与无实际权力或调整迟到时，成本仍可能单方承担。",
+        "en": "Powerless participation or delayed adjustment may leave costs unilateral."
+      },
+      "test": {
+        "zh": "记录参与对具体规则的影响；开会次数增加但安排不变，不支持参与机制。",
+        "en": "Trace influence on rules; more meetings without changed arrangements do not support the mechanism."
+      },
+      "references": [
+        "R09",
+        "R13"
+      ]
+    },
+    {
+      "id": "D064",
+      "variables": [
+        "V121",
+        "V122",
+        "V123",
+        "V128"
+      ],
+      "order": 4,
+      "status": "H",
+      "title": {
+        "zh": "意义、选择与不确定性",
+        "en": "Meaning, choice and uncertainty"
+      },
+      "mechanism": {
+        "zh": "可行选择与未来可预期性影响目标实践，但价值多元使满意结果不唯一。",
+        "en": "Feasible choices and predictability shape goal pursuit, while plural values prevent a single satisfactory outcome."
+      },
+      "branch_a": {
+        "zh": "承认取舍且保留可行行动时，不确定中仍可能形成稳定意义。",
+        "en": "Acknowledged trade-offs and feasible action may sustain meaning amid uncertainty."
+      },
+      "branch_b": {
+        "zh": "以统一成功标准压缩选择时，预测更准确也未必改善意义。",
+        "en": "A single success standard may narrow choices so that better forecasts do not improve meaning."
+      },
+      "test": {
+        "zh": "结合纵向叙事与实际选择，不将意义折算成收入或使用时长；无改善则修订作用范围。",
+        "en": "Combine longitudinal narratives and real choices, not income or usage substitutes; absent gains require scope revision."
+      },
+      "references": [
+        "R06"
+      ]
+    }
+  ]
+}

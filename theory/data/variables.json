@@ -1,0 +1,2776 @@
+{
+  "edition": "0.1.0",
+  "date": "2026-09-22",
+  "domains": [
+    {
+      "id": 1,
+      "zh": "时间与身体",
+      "en": "Time and embodiment"
+    },
+    {
+      "id": 2,
+      "zh": "注意与认知",
+      "en": "Attention and cognition"
+    },
+    {
+      "id": 3,
+      "zh": "情绪与动机",
+      "en": "Affect and motivation"
+    },
+    {
+      "id": 4,
+      "zh": "欲望与地位",
+      "en": "Desire and status"
+    },
+    {
+      "id": 5,
+      "zh": "技能与学习",
+      "en": "Skills and learning"
+    },
+    {
+      "id": 6,
+      "zh": "AI能力与部署",
+      "en": "AI capability and deployment"
+    },
+    {
+      "id": 7,
+      "zh": "成本与工程",
+      "en": "Costs and engineering"
+    },
+    {
+      "id": 8,
+      "zh": "内容与审美",
+      "en": "Content and aesthetics"
+    },
+    {
+      "id": 9,
+      "zh": "真实与信任",
+      "en": "Truth and trust"
+    },
+    {
+      "id": 10,
+      "zh": "关系与社会网络",
+      "en": "Relationships and networks"
+    },
+    {
+      "id": 11,
+      "zh": "劳动与组织",
+      "en": "Labor and organization"
+    },
+    {
+      "id": 12,
+      "zh": "市场与资本",
+      "en": "Markets and capital"
+    },
+    {
+      "id": 13,
+      "zh": "平台与委托",
+      "en": "Platforms and delegation"
+    },
+    {
+      "id": 14,
+      "zh": "制度与治理",
+      "en": "Institutions and governance"
+    },
+    {
+      "id": 15,
+      "zh": "空间与生态",
+      "en": "Space and ecology"
+    },
+    {
+      "id": 16,
+      "zh": "意义与代际",
+      "en": "Meaning and generations"
+    }
+  ],
+  "variables": [
+    {
+      "id": "V001",
+      "domain": 1,
+      "name": {
+        "zh": "可支配时间",
+        "en": "Discretionary time"
+      },
+      "definition": {
+        "zh": "履行必要义务后可自行安排的时间",
+        "en": "Time available after necessary obligations"
+      },
+      "proxy": {
+        "zh": "小时/周；时间日记",
+        "en": "hours/week; time diary"
+      },
+      "kind": "C",
+      "trajectory": {
+        "zh": "有限；分配可变",
+        "en": "Finite; allocation changes"
+      }
+    },
+    {
+      "id": "V002",
+      "domain": 1,
+      "name": {
+        "zh": "连续时间块",
+        "en": "Uninterrupted time"
+      },
+      "definition": {
+        "zh": "不被中断的活动时段",
+        "en": "Duration of uninterrupted activity"
+      },
+      "proxy": {
+        "zh": "分钟/段",
+        "en": "minutes/block"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "可能碎片化，也可被保护",
+        "en": "May fragment or be protected"
+      }
+    },
+    {
+      "id": "V003",
+      "domain": 1,
+      "name": {
+        "zh": "睡眠与恢复",
+        "en": "Sleep and recovery"
+      },
+      "definition": {
+        "zh": "维持功能的休息与恢复条件",
+        "en": "Rest conditions supporting functioning"
+      },
+      "proxy": {
+        "zh": "睡眠时长与自评恢复",
+        "en": "sleep duration and reported recovery"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "不能由输出速度替代",
+        "en": "Output speed does not substitute for recovery"
+      }
+    },
+    {
+      "id": "V004",
+      "domain": 1,
+      "name": {
+        "zh": "健康寿命",
+        "en": "Healthy lifespan"
+      },
+      "definition": {
+        "zh": "个体处于可活动健康状态的年数",
+        "en": "Years lived in functional health"
+      },
+      "proxy": {
+        "zh": "健康预期寿命；人群分层",
+        "en": "healthy life expectancy by population"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "可变；不预设无限延长",
+        "en": "Variable; no assumed unlimited extension"
+      }
+    },
+    {
+      "id": "V005",
+      "domain": 1,
+      "name": {
+        "zh": "身体能量与疲劳",
+        "en": "Physical energy and fatigue"
+      },
+      "definition": {
+        "zh": "活动能力及疲劳状态",
+        "en": "Functional capacity and fatigue state"
+      },
+      "proxy": {
+        "zh": "经验证疲劳量表",
+        "en": "validated fatigue measures"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "个体与情境差异显著",
+        "en": "Strong individual and contextual variation"
+      }
+    },
+    {
+      "id": "V006",
+      "domain": 1,
+      "name": {
+        "zh": "照护负担",
+        "en": "Care obligations"
+      },
+      "definition": {
+        "zh": "对儿童、老人及他人的必要照护投入",
+        "en": "Required care for dependants and others"
+      },
+      "proxy": {
+        "zh": "小时/周；责任人数",
+        "en": "hours/week; dependants"
+      },
+      "kind": "F",
+      "trajectory": {
+        "zh": "受人口与公共服务影响",
+        "en": "Depends on demographics and public services"
+      }
+    },
+    {
+      "id": "V007",
+      "domain": 1,
+      "name": {
+        "zh": "在场要求",
+        "en": "Presence requirements"
+      },
+      "definition": {
+        "zh": "必须在特定时空完成的活动条件",
+        "en": "Activities requiring situated presence"
+      },
+      "proxy": {
+        "zh": "现场任务占比",
+        "en": "share of tasks requiring presence"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "远程化可降低部分要求",
+        "en": "Remote provision can reduce some requirements"
+      }
+    },
+    {
+      "id": "V008",
+      "domain": 1,
+      "name": {
+        "zh": "生命阶段",
+        "en": "Life stage"
+      },
+      "definition": {
+        "zh": "教育、职业、家庭及老龄化阶段的位置",
+        "en": "Position across education, work, family and aging"
+      },
+      "proxy": {
+        "zh": "阶段类别；年龄不等同阶段",
+        "en": "stage categories; age is not stage"
+      },
+      "kind": "B",
+      "trajectory": {
+        "zh": "路径依赖；不可单向排名",
+        "en": "Path dependent; not an ordinal ranking"
+      }
+    },
+    {
+      "id": "V009",
+      "domain": 2,
+      "name": {
+        "zh": "注意预算",
+        "en": "Attention budget"
+      },
+      "definition": {
+        "zh": "特定任务与时段可投入的有效注意",
+        "en": "Effective attention available for a task and period"
+      },
+      "proxy": {
+        "zh": "专注分钟；任务表现联合测量",
+        "en": "focused minutes plus task performance"
+      },
+      "kind": "C",
+      "trajectory": {
+        "zh": "有界但可受工具与训练影响",
+        "en": "Bounded yet affected by tools and training"
+      }
+    },
+    {
+      "id": "V010",
+      "domain": 2,
+      "name": {
+        "zh": "切换成本",
+        "en": "Switching cost"
+      },
+      "definition": {
+        "zh": "在任务间切换引起的时间与错误代价",
+        "en": "Time and error costs of task switching"
+      },
+      "proxy": {
+        "zh": "恢复时长；错误率差",
+        "en": "resumption time; error-rate difference"
+      },
+      "kind": "K",
+      "trajectory": {
+        "zh": "随界面、技能与任务变化",
+        "en": "Varies with interface, skill and task"
+      }
+    },
+    {
+      "id": "V011",
+      "domain": 2,
+      "name": {
+        "zh": "工作记忆负荷",
+        "en": "Working-memory load"
+      },
+      "definition": {
+        "zh": "当前任务对暂时加工资源的要求",
+        "en": "Task demands on temporary processing"
+      },
+      "proxy": {
+        "zh": "任务负荷量表；实验任务",
+        "en": "workload scales; experimental tasks"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "外部辅助可缓解而非消除一切限制",
+        "en": "External aids can reduce some constraints"
+      }
+    },
+    {
+      "id": "V012",
+      "domain": 2,
+      "name": {
+        "zh": "信息流入",
+        "en": "Information inflow"
+      },
+      "definition": {
+        "zh": "单位时间进入选择范围的信息量",
+        "en": "Information entering the choice set per period"
+      },
+      "proxy": {
+        "zh": "条/日；去重后主题数",
+        "en": "items/day; deduplicated topics"
+      },
+      "kind": "F",
+      "trajectory": {
+        "zh": "供给扩张时常上升",
+        "en": "Often rises with expanded supply"
+      }
+    },
+    {
+      "id": "V013",
+      "domain": 2,
+      "name": {
+        "zh": "核验能力",
+        "en": "Verification capacity"
+      },
+      "definition": {
+        "zh": "发现错误并找到可用依据的能力",
+        "en": "Ability to detect errors and establish grounds"
+      },
+      "proxy": {
+        "zh": "盲测识错率；核验时间",
+        "en": "blinded error detection; verification time"
+      },
+      "kind": "A",
+      "trajectory": {
+        "zh": "训练与工具可提高；领域依赖",
+        "en": "Trainable and tool-assisted; domain dependent"
+      }
+    },
+    {
+      "id": "V014",
+      "domain": 2,
+      "name": {
+        "zh": "元认知校准",
+        "en": "Metacognitive calibration"
+      },
+      "definition": {
+        "zh": "自信程度与实际正确率的匹配",
+        "en": "Match between confidence and correctness"
+      },
+      "proxy": {
+        "zh": "校准曲线；Brier分数",
+        "en": "calibration curve; Brier score"
+      },
+      "kind": "A",
+      "trajectory": {
+        "zh": "不由表达流畅度保证",
+        "en": "Fluency does not guarantee calibration"
+      }
+    },
+    {
+      "id": "V015",
+      "domain": 2,
+      "name": {
+        "zh": "认知卸载",
+        "en": "Cognitive offloading"
+      },
+      "definition": {
+        "zh": "将记忆、计算或判断交给外部系统的程度",
+        "en": "Delegation of memory, computation or judgment"
+      },
+      "proxy": {
+        "zh": "任务步骤外包比例",
+        "en": "share of delegated task steps"
+      },
+      "kind": "H",
+      "trajectory": {
+        "zh": "可释放容量，也可能减少练习",
+        "en": "May free capacity or reduce practice"
+      }
+    },
+    {
+      "id": "V016",
+      "domain": 2,
+      "name": {
+        "zh": "目标清晰度",
+        "en": "Goal clarity"
+      },
+      "definition": {
+        "zh": "行动者对优先目标和取舍的可说明程度",
+        "en": "Ability to articulate priorities and trade-offs"
+      },
+      "proxy": {
+        "zh": "目标稳定性；冲突任务选择",
+        "en": "goal stability; trade-off choices"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "可被学习、协商或诱导改变",
+        "en": "May change through learning, negotiation or influence"
+      }
+    },
+    {
+      "id": "V017",
+      "domain": 3,
+      "name": {
+        "zh": "主观焦虑",
+        "en": "Reported anxiety"
+      },
+      "definition": {
+        "zh": "对威胁与不确定性的主观体验",
+        "en": "Reported experience of threat and uncertainty"
+      },
+      "proxy": {
+        "zh": "经验证量表；非临床诊断",
+        "en": "validated scales; not a clinical diagnosis"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "异质；不从使用时长直接推断",
+        "en": "Heterogeneous; not inferred from usage alone"
+      }
+    },
+    {
+      "id": "V018",
+      "domain": 3,
+      "name": {
+        "zh": "情绪调节负担",
+        "en": "Emotion-regulation demand"
+      },
+      "definition": {
+        "zh": "维持或改变情绪状态所需的努力",
+        "en": "Effort required to maintain or alter affect"
+      },
+      "proxy": {
+        "zh": "情境采样；自评努力",
+        "en": "experience sampling; reported effort"
+      },
+      "kind": "F",
+      "trajectory": {
+        "zh": "不假定固定可耗尽水箱",
+        "en": "No assumed fixed depletable reservoir"
+      }
+    },
+    {
+      "id": "V019",
+      "domain": 3,
+      "name": {
+        "zh": "情绪恢复条件",
+        "en": "Conditions for affective recovery"
+      },
+      "definition": {
+        "zh": "支持恢复的休息、支持和控制条件",
+        "en": "Rest, support and control enabling recovery"
+      },
+      "proxy": {
+        "zh": "恢复时间；支持可得性",
+        "en": "recovery time; support availability"
+      },
+      "kind": "B",
+      "trajectory": {
+        "zh": "可被环境与制度改善",
+        "en": "Can improve through environment and institutions"
+      }
+    },
+    {
+      "id": "V020",
+      "domain": 3,
+      "name": {
+        "zh": "刺激强度",
+        "en": "Stimulus intensity"
+      },
+      "definition": {
+        "zh": "感官或叙事刺激的强弱",
+        "en": "Intensity of sensory or narrative stimulation"
+      },
+      "proxy": {
+        "zh": "可控刺激等级；主观唤醒",
+        "en": "controlled stimulus level; reported arousal"
+      },
+      "kind": "F",
+      "trajectory": {
+        "zh": "竞争可能推高，但不必持续升级",
+        "en": "Competition may raise it; escalation is not inevitable"
+      }
+    },
+    {
+      "id": "V021",
+      "domain": 3,
+      "name": {
+        "zh": "适应速度",
+        "en": "Adaptation rate"
+      },
+      "definition": {
+        "zh": "对重复刺激反应改变的速度",
+        "en": "Rate of response change under repeated exposure"
+      },
+      "proxy": {
+        "zh": "重复暴露反应曲线",
+        "en": "response curve under repeated exposure"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "可习惯化、敏化或无明显变化",
+        "en": "Habituation, sensitization or little change are possible"
+      }
+    },
+    {
+      "id": "V022",
+      "domain": 3,
+      "name": {
+        "zh": "自主性感受",
+        "en": "Experienced autonomy"
+      },
+      "definition": {
+        "zh": "对行动出于自身认可的感受",
+        "en": "Sense that action is self-endorsed"
+      },
+      "proxy": {
+        "zh": "自主性量表与实际选择权分测",
+        "en": "autonomy scales separate from actual choice"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "便利不必提高自主性",
+        "en": "Convenience need not improve autonomy"
+      }
+    },
+    {
+      "id": "V023",
+      "domain": 3,
+      "name": {
+        "zh": "胜任感",
+        "en": "Perceived competence"
+      },
+      "definition": {
+        "zh": "对自己能够有效行动的体验",
+        "en": "Experience of being able to act effectively"
+      },
+      "proxy": {
+        "zh": "量表；与实际能力分测",
+        "en": "scales separate from demonstrated ability"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "成功辅助或过度依赖均可能改变",
+        "en": "Assistance and dependence can affect it differently"
+      }
+    },
+    {
+      "id": "V024",
+      "domain": 3,
+      "name": {
+        "zh": "归属感",
+        "en": "Belonging"
+      },
+      "definition": {
+        "zh": "感到被接纳、联结和关心的程度",
+        "en": "Feeling accepted, connected and cared for"
+      },
+      "proxy": {
+        "zh": "关系质量量表",
+        "en": "relationship-quality scales"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "不能从联系人数量直接推出",
+        "en": "Not inferred from contact counts"
+      }
+    },
+    {
+      "id": "V025",
+      "domain": 4,
+      "name": {
+        "zh": "物质充分性",
+        "en": "Material sufficiency"
+      },
+      "definition": {
+        "zh": "基本生活需要得到满足的程度",
+        "en": "Extent to which basic needs are met"
+      },
+      "proxy": {
+        "zh": "生活条件指标；地区阈值",
+        "en": "living-condition indicators; local thresholds"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "阈值具有社会与历史条件",
+        "en": "Thresholds are socially and historically situated"
+      }
+    },
+    {
+      "id": "V026",
+      "domain": 4,
+      "name": {
+        "zh": "相对排名",
+        "en": "Relative rank"
+      },
+      "definition": {
+        "zh": "在指定群体和指标中的位置",
+        "en": "Position within a specified group and metric"
+      },
+      "proxy": {
+        "zh": "分位数；比较群体需固定",
+        "en": "percentile with reference group fixed"
+      },
+      "kind": "R",
+      "trajectory": {
+        "zh": "固定名次稀缺；维度可改变",
+        "en": "Fixed ranks are scarce; dimensions can change"
+      }
+    },
+    {
+      "id": "V027",
+      "domain": 4,
+      "name": {
+        "zh": "比较群体",
+        "en": "Reference group"
+      },
+      "definition": {
+        "zh": "行动者实际用于比较的对象集合",
+        "en": "Set of others used for comparison"
+      },
+      "proxy": {
+        "zh": "日记、访谈、社交暴露",
+        "en": "diaries, interviews, social exposure"
+      },
+      "kind": "B",
+      "trajectory": {
+        "zh": "平台可扩大或重塑范围",
+        "en": "Platforms can expand or reshape it"
+      }
+    },
+    {
+      "id": "V028",
+      "domain": 4,
+      "name": {
+        "zh": "期望水平",
+        "en": "Aspiration level"
+      },
+      "definition": {
+        "zh": "被行动者视作合意或正常的结果标准",
+        "en": "Standard regarded as desirable or normal"
+      },
+      "proxy": {
+        "zh": "期望收入、表现与生活条件",
+        "en": "expected income, performance and conditions"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "可能随经验与比较调整",
+        "en": "May adjust with experience and comparison"
+      }
+    },
+    {
+      "id": "V029",
+      "domain": 4,
+      "name": {
+        "zh": "位置性竞争",
+        "en": "Positional competition"
+      },
+      "definition": {
+        "zh": "收益取决于相对位置的竞争程度",
+        "en": "Extent to which rewards depend on relative position"
+      },
+      "proxy": {
+        "zh": "排名决定奖励的份额",
+        "en": "share of rewards tied to rank"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "随奖励规则变化",
+        "en": "Depends on reward rules"
+      }
+    },
+    {
+      "id": "V030",
+      "domain": 4,
+      "name": {
+        "zh": "身份连续性",
+        "en": "Identity continuity"
+      },
+      "definition": {
+        "zh": "自我叙事跨变化维持连贯的程度",
+        "en": "Continuity of self-narrative across change"
+      },
+      "proxy": {
+        "zh": "纵向访谈；身份量表",
+        "en": "longitudinal interviews; identity measures"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "职业冲击可能改变但非必然瓦解",
+        "en": "Work disruption may alter it without destroying it"
+      }
+    },
+    {
+      "id": "V031",
+      "domain": 4,
+      "name": {
+        "zh": "认可稀缺性",
+        "en": "Scarcity of recognition"
+      },
+      "definition": {
+        "zh": "来自特定他人的认可相对需求的不足",
+        "en": "Demand relative to recognition from valued others"
+      },
+      "proxy": {
+        "zh": "回应机会/请求；对象特定",
+        "en": "response opportunities/requests; source specific"
+      },
+      "kind": "R",
+      "trajectory": {
+        "zh": "大众曝光与具体认可不同",
+        "en": "Mass exposure differs from particular recognition"
+      }
+    },
+    {
+      "id": "V032",
+      "domain": 4,
+      "name": {
+        "zh": "偏好可塑性",
+        "en": "Preference plasticity"
+      },
+      "definition": {
+        "zh": "偏好随信息、经历和环境改变的程度",
+        "en": "Sensitivity of preferences to experience and context"
+      },
+      "proxy": {
+        "zh": "重复选择实验；长期追踪",
+        "en": "repeated choice experiments; panels"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "改变不自动等于操控",
+        "en": "Change does not automatically mean manipulation"
+      }
+    },
+    {
+      "id": "V033",
+      "domain": 5,
+      "name": {
+        "zh": "领域知识",
+        "en": "Domain knowledge"
+      },
+      "definition": {
+        "zh": "在具体领域理解机制与证据的知识",
+        "en": "Knowledge of mechanisms and evidence in a domain"
+      },
+      "proxy": {
+        "zh": "领域测验与任务迁移",
+        "en": "domain tests and transfer tasks"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "价值取决于互补与需求",
+        "en": "Value depends on complementarity and demand"
+      }
+    },
+    {
+      "id": "V034",
+      "domain": 5,
+      "name": {
+        "zh": "任务熟练度",
+        "en": "Task proficiency"
+      },
+      "definition": {
+        "zh": "在指定标准下可靠完成任务的能力",
+        "en": "Reliable performance against specified criteria"
+      },
+      "proxy": {
+        "zh": "质量、速度、稳定性",
+        "en": "quality, speed and consistency"
+      },
+      "kind": "A",
+      "trajectory": {
+        "zh": "可学习，也可因少练衰退",
+        "en": "Can improve or decline through disuse"
+      }
+    },
+    {
+      "id": "V035",
+      "domain": 5,
+      "name": {
+        "zh": "学习时间",
+        "en": "Learning time"
+      },
+      "definition": {
+        "zh": "获取或更新技能所投入的时间",
+        "en": "Time invested in skill acquisition or renewal"
+      },
+      "proxy": {
+        "zh": "有效练习小时",
+        "en": "hours of effective practice"
+      },
+      "kind": "F",
+      "trajectory": {
+        "zh": "机会成本因群体不同",
+        "en": "Opportunity costs differ across groups"
+      }
+    },
+    {
+      "id": "V036",
+      "domain": 5,
+      "name": {
+        "zh": "反馈质量",
+        "en": "Feedback quality"
+      },
+      "definition": {
+        "zh": "反馈的准确性、及时性和可行动性",
+        "en": "Accuracy, timeliness and usefulness of feedback"
+      },
+      "proxy": {
+        "zh": "纠错有效率；延迟",
+        "en": "effective corrections; delay"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "自动反馈不保证真实有效",
+        "en": "Automated feedback need not be valid"
+      }
+    },
+    {
+      "id": "V037",
+      "domain": 5,
+      "name": {
+        "zh": "技能更新速度",
+        "en": "Skill-change rate"
+      },
+      "definition": {
+        "zh": "任务要求变化与旧知识失配的速度",
+        "en": "Rate at which requirements diverge from existing skill"
+      },
+      "proxy": {
+        "zh": "任务标准变化频率",
+        "en": "frequency of requirement changes"
+      },
+      "kind": "F",
+      "trajectory": {
+        "zh": "领域差异；不是全民同速",
+        "en": "Varies by domain, not uniform"
+      }
+    },
+    {
+      "id": "V038",
+      "domain": 5,
+      "name": {
+        "zh": "问题定义能力",
+        "en": "Problem-framing ability"
+      },
+      "definition": {
+        "zh": "提出可检验问题和验收标准的能力",
+        "en": "Ability to formulate testable questions and criteria"
+      },
+      "proxy": {
+        "zh": "跨情境定义任务评分",
+        "en": "cross-context framing tasks"
+      },
+      "kind": "A",
+      "trajectory": {
+        "zh": "需要知识、权限及反馈",
+        "en": "Requires knowledge, authority and feedback"
+      }
+    },
+    {
+      "id": "V039",
+      "domain": 5,
+      "name": {
+        "zh": "创造性探索",
+        "en": "Creative exploration"
+      },
+      "definition": {
+        "zh": "尝试新组合并评估其价值的活动",
+        "en": "Exploring new combinations and evaluating value"
+      },
+      "proxy": {
+        "zh": "新颖性与有效性分测",
+        "en": "novelty and usefulness measured separately"
+      },
+      "kind": "H",
+      "trajectory": {
+        "zh": "产出数量不等于探索质量",
+        "en": "Output volume is not exploration quality"
+      }
+    },
+    {
+      "id": "V040",
+      "domain": 5,
+      "name": {
+        "zh": "教育准入",
+        "en": "Access to education"
+      },
+      "definition": {
+        "zh": "获得有效学习条件的可行程度",
+        "en": "Feasible access to effective learning conditions"
+      },
+      "proxy": {
+        "zh": "费用、设备、辅导与时间",
+        "en": "cost, devices, guidance and time"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "内容免费不等于机会平等",
+        "en": "Free content is not equal opportunity"
+      }
+    },
+    {
+      "id": "V041",
+      "domain": 6,
+      "name": {
+        "zh": "任务能力",
+        "en": "AI task capability"
+      },
+      "definition": {
+        "zh": "系统在明确任务分布下的表现",
+        "en": "System performance on a specified task distribution"
+      },
+      "proxy": {
+        "zh": "独立任务基准；分布说明",
+        "en": "independent benchmark with distribution stated"
+      },
+      "kind": "A",
+      "trajectory": {
+        "zh": "可提高；不能外推所有任务",
+        "en": "May improve; not transferable to every task"
+      }
+    },
+    {
+      "id": "V042",
+      "domain": 6,
+      "name": {
+        "zh": "可靠性",
+        "en": "Reliability"
+      },
+      "definition": {
+        "zh": "相关条件下持续达到要求的概率",
+        "en": "Probability of meeting requirements under relevant conditions"
+      },
+      "proxy": {
+        "zh": "失败率；置信区间",
+        "en": "failure rate; confidence interval"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "平均性能与尾部失败分开",
+        "en": "Separate average performance from tail failure"
+      }
+    },
+    {
+      "id": "V043",
+      "domain": 6,
+      "name": {
+        "zh": "可核验性",
+        "en": "Verifiability"
+      },
+      "definition": {
+        "zh": "结果可用独立依据检查的程度",
+        "en": "Extent to which outputs can be independently checked"
+      },
+      "proxy": {
+        "zh": "独立验收覆盖率",
+        "en": "independent acceptance-test coverage"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "任务与知识条件相关",
+        "en": "Depends on task and available knowledge"
+      }
+    },
+    {
+      "id": "V044",
+      "domain": 6,
+      "name": {
+        "zh": "行动权限",
+        "en": "Action authority"
+      },
+      "definition": {
+        "zh": "系统被允许执行操作的范围",
+        "en": "Scope of actions permitted to a system"
+      },
+      "proxy": {
+        "zh": "权限清单；不可逆操作级别",
+        "en": "permission inventory; irreversible-action class"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "能力增强不自动授权",
+        "en": "Capability does not automatically grant authority"
+      }
+    },
+    {
+      "id": "V045",
+      "domain": 6,
+      "name": {
+        "zh": "上下文可得性",
+        "en": "Context availability"
+      },
+      "definition": {
+        "zh": "决策所需现场信息的可访问程度",
+        "en": "Access to situated information needed for decisions"
+      },
+      "proxy": {
+        "zh": "缺失率；授权范围",
+        "en": "missingness; authorized scope"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "数据量不等于相关性",
+        "en": "Data volume is not relevance"
+      }
+    },
+    {
+      "id": "V046",
+      "domain": 6,
+      "name": {
+        "zh": "数据代表性",
+        "en": "Data representativeness"
+      },
+      "definition": {
+        "zh": "训练或评估数据与目标人群的适配",
+        "en": "Fit between data and the target population"
+      },
+      "proxy": {
+        "zh": "分层覆盖；分布偏移",
+        "en": "stratum coverage; distribution shift"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "必须按用途判断",
+        "en": "Must be assessed for a use case"
+      }
+    },
+    {
+      "id": "V047",
+      "domain": 6,
+      "name": {
+        "zh": "部署成熟度",
+        "en": "Deployment readiness"
+      },
+      "definition": {
+        "zh": "模型接入真实流程并稳定运行的条件",
+        "en": "Readiness for stable integration into real workflows"
+      },
+      "proxy": {
+        "zh": "上线验收；维护与回退能力",
+        "en": "acceptance checks; maintenance and rollback"
+      },
+      "kind": "A",
+      "trajectory": {
+        "zh": "常落后于演示能力",
+        "en": "Often differs from demonstration capability"
+      }
+    },
+    {
+      "id": "V048",
+      "domain": 6,
+      "name": {
+        "zh": "可替代供应",
+        "en": "Supplier substitutability"
+      },
+      "definition": {
+        "zh": "获得功能相当替代服务的可行程度",
+        "en": "Feasibility of obtaining equivalent alternatives"
+      },
+      "proxy": {
+        "zh": "迁移测试；合格供应者数",
+        "en": "migration tests; qualified alternatives"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "开源与标准可能提高但不保证",
+        "en": "Open systems and standards may help"
+      }
+    },
+    {
+      "id": "V049",
+      "domain": 7,
+      "name": {
+        "zh": "边际生成成本",
+        "en": "Marginal generation cost"
+      },
+      "definition": {
+        "zh": "固定任务质量下新增一份输出的成本",
+        "en": "Cost of an additional output at fixed task quality"
+      },
+      "proxy": {
+        "zh": "货币/合格输出",
+        "en": "currency/acceptable output"
+      },
+      "kind": "K",
+      "trajectory": {
+        "zh": "可能下降；质量口径必须固定",
+        "en": "May fall; quality criteria must be fixed"
+      }
+    },
+    {
+      "id": "V050",
+      "domain": 7,
+      "name": {
+        "zh": "全生命周期成本",
+        "en": "Lifecycle cost"
+      },
+      "definition": {
+        "zh": "建设、运行、核验、纠错与迁移的总成本",
+        "en": "Build, operate, verify, repair and migration cost"
+      },
+      "proxy": {
+        "zh": "货币/期限；成本承担者分列",
+        "en": "currency/horizon by cost bearer"
+      },
+      "kind": "K",
+      "trajectory": {
+        "zh": "不随单价必然下降",
+        "en": "Need not fall with unit prices"
+      }
+    },
+    {
+      "id": "V051",
+      "domain": 7,
+      "name": {
+        "zh": "核验成本",
+        "en": "Verification cost"
+      },
+      "definition": {
+        "zh": "获得足够可靠判断所付出的资源",
+        "en": "Resources needed to establish sufficient confidence"
+      },
+      "proxy": {
+        "zh": "分钟、费用/决策",
+        "en": "minutes and currency/decision"
+      },
+      "kind": "K",
+      "trajectory": {
+        "zh": "规模扩张可提高总核验负担",
+        "en": "Scaling can raise aggregate verification burden"
+      }
+    },
+    {
+      "id": "V052",
+      "domain": 7,
+      "name": {
+        "zh": "失败损失",
+        "en": "Failure loss"
+      },
+      "definition": {
+        "zh": "系统失败引起的直接与间接损失",
+        "en": "Direct and indirect losses from failure"
+      },
+      "proxy": {
+        "zh": "损失分布；不可货币化项分列",
+        "en": "loss distribution; nonmonetary harms separate"
+      },
+      "kind": "K",
+      "trajectory": {
+        "zh": "尾部和相关性重要",
+        "en": "Tails and correlations matter"
+      }
+    },
+    {
+      "id": "V053",
+      "domain": 7,
+      "name": {
+        "zh": "能源约束",
+        "en": "Energy constraint"
+      },
+      "definition": {
+        "zh": "可用电力与耗能之间的关系",
+        "en": "Relationship between energy availability and demand"
+      },
+      "proxy": {
+        "zh": "千瓦时/任务；接入容量",
+        "en": "kWh/task; connection capacity"
+      },
+      "kind": "C",
+      "trajectory": {
+        "zh": "效率进步与总需求共同决定",
+        "en": "Efficiency and total demand jointly matter"
+      }
+    },
+    {
+      "id": "V054",
+      "domain": 7,
+      "name": {
+        "zh": "硬件与产能",
+        "en": "Hardware and capacity"
+      },
+      "definition": {
+        "zh": "可用设备及制造、维护能力",
+        "en": "Available equipment, manufacturing and maintenance capacity"
+      },
+      "proxy": {
+        "zh": "交付周期；有效容量",
+        "en": "lead time; usable capacity"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "存在周期与地区差异",
+        "en": "Cyclical and geographically uneven"
+      }
+    },
+    {
+      "id": "V055",
+      "domain": 7,
+      "name": {
+        "zh": "物理执行时延",
+        "en": "Physical execution latency"
+      },
+      "definition": {
+        "zh": "现实移动、制造、照护等所需时间",
+        "en": "Time needed for movement, production or care"
+      },
+      "proxy": {
+        "zh": "秒/任务；交付周期",
+        "en": "seconds/task; delivery lead time"
+      },
+      "kind": "C",
+      "trajectory": {
+        "zh": "数字加速不等于物理同步加速",
+        "en": "Digital speed does not ensure physical speed"
+      }
+    },
+    {
+      "id": "V056",
+      "domain": 7,
+      "name": {
+        "zh": "系统互操作性",
+        "en": "Interoperability"
+      },
+      "definition": {
+        "zh": "不同系统交换数据与完成流程的能力",
+        "en": "Ability to exchange data and execute across systems"
+      },
+      "proxy": {
+        "zh": "成功迁移率；接口覆盖",
+        "en": "successful transfer rate; interface coverage"
+      },
+      "kind": "A",
+      "trajectory": {
+        "zh": "可降低部分协调与锁定成本",
+        "en": "May reduce coordination and lock-in costs"
+      }
+    },
+    {
+      "id": "V057",
+      "domain": 8,
+      "name": {
+        "zh": "内容供给",
+        "en": "Content supply"
+      },
+      "definition": {
+        "zh": "指定范围内可获得内容的数量",
+        "en": "Amount of available content within a defined scope"
+      },
+      "proxy": {
+        "zh": "去重作品/日",
+        "en": "deduplicated works/day"
+      },
+      "kind": "F",
+      "trajectory": {
+        "zh": "生成门槛降低可能扩大",
+        "en": "Lower generation barriers may expand it"
+      }
+    },
+    {
+      "id": "V058",
+      "domain": 8,
+      "name": {
+        "zh": "任务相关质量",
+        "en": "Task-relevant quality"
+      },
+      "definition": {
+        "zh": "内容对特定使用目的的有效性",
+        "en": "Usefulness of content for a specified purpose"
+      },
+      "proxy": {
+        "zh": "盲测学习或决策效果",
+        "en": "blinded learning or decision outcomes"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "形式精美不等于有效",
+        "en": "Polish is not usefulness"
+      }
+    },
+    {
+      "id": "V059",
+      "domain": 8,
+      "name": {
+        "zh": "形式完成度",
+        "en": "Formal polish"
+      },
+      "definition": {
+        "zh": "表面结构、视听与语法的完整精致程度",
+        "en": "Surface refinement of structure, sound and language"
+      },
+      "proxy": {
+        "zh": "匿名形式评分",
+        "en": "anonymous presentation ratings"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "可更便宜；信号价值可能变化",
+        "en": "Can become cheaper; signaling value may change"
+      }
+    },
+    {
+      "id": "V060",
+      "domain": 8,
+      "name": {
+        "zh": "新颖性",
+        "en": "Novelty"
+      },
+      "definition": {
+        "zh": "相对于受众经验和同类作品的差异",
+        "en": "Difference relative to audience experience and comparable works"
+      },
+      "proxy": {
+        "zh": "去重距离；受众新鲜感",
+        "en": "similarity distance; perceived novelty"
+      },
+      "kind": "R",
+      "trajectory": {
+        "zh": "依赖参照集；稀有不等于有价值",
+        "en": "Reference dependent; rarity is not value"
+      }
+    },
+    {
+      "id": "V061",
+      "domain": 8,
+      "name": {
+        "zh": "来源可辨识度",
+        "en": "Provenance visibility"
+      },
+      "definition": {
+        "zh": "内容作者、生成及修改来源可被辨识的程度",
+        "en": "Visibility of authorship, generation and modification"
+      },
+      "proxy": {
+        "zh": "来源记录完整率",
+        "en": "provenance-record completeness"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "认证可提高；标记不保证真实",
+        "en": "Certification may help; labels can mislead"
+      }
+    },
+    {
+      "id": "V062",
+      "domain": 8,
+      "name": {
+        "zh": "叙事投入",
+        "en": "Narrative engagement"
+      },
+      "definition": {
+        "zh": "受众持续理解人物、因果和情境的投入",
+        "en": "Sustained involvement in characters, causality and situation"
+      },
+      "proxy": {
+        "zh": "理解测验；自愿续看",
+        "en": "comprehension; voluntary continuation"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "强刺激与叙事投入不等同",
+        "en": "Intense stimuli differ from engagement"
+      }
+    },
+    {
+      "id": "V063",
+      "domain": 8,
+      "name": {
+        "zh": "共同文化参照",
+        "en": "Shared cultural references"
+      },
+      "definition": {
+        "zh": "群体共同理解的符号和经验",
+        "en": "Symbols and experiences understood within a group"
+      },
+      "proxy": {
+        "zh": "跨成员识别与解释一致度",
+        "en": "cross-member recognition and interpretation"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "可凝聚群体，也可排斥外部者",
+        "en": "May unite insiders and exclude outsiders"
+      }
+    },
+    {
+      "id": "V064",
+      "domain": 8,
+      "name": {
+        "zh": "审美自主性",
+        "en": "Aesthetic self-direction"
+      },
+      "definition": {
+        "zh": "形成和修订自身审美判断的实践能力",
+        "en": "Ability to develop and revise aesthetic judgment"
+      },
+      "proxy": {
+        "zh": "自主选择与理由；非品味排名",
+        "en": "choices and reasons, not taste ranking"
+      },
+      "kind": "A",
+      "trajectory": {
+        "zh": "推荐可拓展也可收窄经验",
+        "en": "Recommendation can broaden or narrow experience"
+      }
+    },
+    {
+      "id": "V065",
+      "domain": 9,
+      "name": {
+        "zh": "事实准确性",
+        "en": "Factual accuracy"
+      },
+      "definition": {
+        "zh": "可核查陈述与证据的符合程度",
+        "en": "Agreement of checkable claims with evidence"
+      },
+      "proxy": {
+        "zh": "按声明抽样核验",
+        "en": "claim-level sampled verification"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "随领域、时间与口径变化",
+        "en": "Domain, date and criteria dependent"
+      }
+    },
+    {
+      "id": "V066",
+      "domain": 9,
+      "name": {
+        "zh": "来源信誉",
+        "en": "Source reputation"
+      },
+      "definition": {
+        "zh": "基于历史记录形成的可靠性预期",
+        "en": "Reliability expectations based on past records"
+      },
+      "proxy": {
+        "zh": "可审计记录；预测校准",
+        "en": "auditable records; forecast calibration"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "可积累、误用或迅速损坏",
+        "en": "Can accumulate, be misused or be damaged"
+      }
+    },
+    {
+      "id": "V067",
+      "domain": 9,
+      "name": {
+        "zh": "证据可追溯性",
+        "en": "Evidence traceability"
+      },
+      "definition": {
+        "zh": "论断可回溯到原始材料与方法的程度",
+        "en": "Ability to trace claims to original material and methods"
+      },
+      "proxy": {
+        "zh": "有效引用率；复现率",
+        "en": "valid citation rate; reproducibility"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "链接存在不代表支持结论",
+        "en": "A link need not support the claim"
+      }
+    },
+    {
+      "id": "V068",
+      "domain": 9,
+      "name": {
+        "zh": "核验意愿",
+        "en": "Willingness to verify"
+      },
+      "definition": {
+        "zh": "在有机会时主动检查信息的倾向",
+        "en": "Propensity to check information when able"
+      },
+      "proxy": {
+        "zh": "实际检查率；非口头意愿",
+        "en": "observed checking, not stated intention alone"
+      },
+      "kind": "H",
+      "trajectory": {
+        "zh": "受成本、动机与风险影响",
+        "en": "Depends on cost, motivation and stakes"
+      }
+    },
+    {
+      "id": "V069",
+      "domain": 9,
+      "name": {
+        "zh": "制度信任",
+        "en": "Institutional trust"
+      },
+      "definition": {
+        "zh": "对制度可靠性及纠错能力的预期",
+        "en": "Expectations of institutional reliability and correction"
+      },
+      "proxy": {
+        "zh": "分机构测量；不混同服从",
+        "en": "institution-specific measures, not compliance"
+      },
+      "kind": "R",
+      "trajectory": {
+        "zh": "异质且可被修复",
+        "en": "Heterogeneous and potentially repairable"
+      }
+    },
+    {
+      "id": "V070",
+      "domain": 9,
+      "name": {
+        "zh": "欺骗激励",
+        "en": "Incentive to deceive"
+      },
+      "definition": {
+        "zh": "误导行为的收益相对成本",
+        "en": "Benefits of deception relative to costs"
+      },
+      "proxy": {
+        "zh": "收益、被发现概率与处罚",
+        "en": "benefit, detection probability and penalty"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "随规则、市场与技术变化",
+        "en": "Varies with rules, markets and technology"
+      }
+    },
+    {
+      "id": "V071",
+      "domain": 9,
+      "name": {
+        "zh": "合成可仿性",
+        "en": "Synthetic imitability"
+      },
+      "definition": {
+        "zh": "低成本模仿原有可信信号的能力",
+        "en": "Ability to cheaply imitate formerly credible signals"
+      },
+      "proxy": {
+        "zh": "盲测辨别率；伪造成本",
+        "en": "blinded discrimination; forgery cost"
+      },
+      "kind": "A",
+      "trajectory": {
+        "zh": "可能上升；反制同步变化",
+        "en": "May rise while countermeasures also change"
+      }
+    },
+    {
+      "id": "V072",
+      "domain": 9,
+      "name": {
+        "zh": "公共知识基础",
+        "en": "Shared factual ground"
+      },
+      "definition": {
+        "zh": "群体能共同认可并检查事实的基础",
+        "en": "Shared basis for recognizing and checking facts"
+      },
+      "proxy": {
+        "zh": "争议事实一致率；程序认可",
+        "en": "agreement on facts and verification procedures"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "意见一致不等于事实准确",
+        "en": "Consensus is not accuracy"
+      }
+    },
+    {
+      "id": "V073",
+      "domain": 10,
+      "name": {
+        "zh": "互动可得性",
+        "en": "Interaction availability"
+      },
+      "definition": {
+        "zh": "需要时获得回应的便利程度",
+        "en": "Ease of obtaining a response when needed"
+      },
+      "proxy": {
+        "zh": "等待时长；可达时段",
+        "en": "waiting time; availability windows"
+      },
+      "kind": "F",
+      "trajectory": {
+        "zh": "自动服务可扩张",
+        "en": "Automated services can expand it"
+      }
+    },
+    {
+      "id": "V074",
+      "domain": 10,
+      "name": {
+        "zh": "关系互惠",
+        "en": "Relational reciprocity"
+      },
+      "definition": {
+        "zh": "双方能够提出需求和影响彼此的程度",
+        "en": "Mutual capacity to express needs and affect one another"
+      },
+      "proxy": {
+        "zh": "双方报告；行为交换",
+        "en": "reports from both sides; exchange behavior"
+      },
+      "kind": "R",
+      "trajectory": {
+        "zh": "流畅回应不等于对等关系",
+        "en": "Fluent responses are not equal reciprocity"
+      }
+    },
+    {
+      "id": "V075",
+      "domain": 10,
+      "name": {
+        "zh": "关系摩擦",
+        "en": "Relational friction"
+      },
+      "definition": {
+        "zh": "协商、拒绝和误解带来的成本",
+        "en": "Costs of negotiation, refusal and misunderstanding"
+      },
+      "proxy": {
+        "zh": "冲突频次与修复质量",
+        "en": "conflict frequency and repair quality"
+      },
+      "kind": "K",
+      "trajectory": {
+        "zh": "并非全部有害或有益",
+        "en": "Neither universally harmful nor beneficial"
+      }
+    },
+    {
+      "id": "V076",
+      "domain": 10,
+      "name": {
+        "zh": "现实支持网络",
+        "en": "Offline support network"
+      },
+      "definition": {
+        "zh": "现实可提供帮助的人际关系",
+        "en": "Relationships able to provide practical support"
+      },
+      "proxy": {
+        "zh": "可求助人数；实际帮助",
+        "en": "available helpers; realized assistance"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "数字互动可补充或替代部分环节",
+        "en": "Digital interaction can complement or displace parts"
+      }
+    },
+    {
+      "id": "V077",
+      "domain": 10,
+      "name": {
+        "zh": "孤独体验",
+        "en": "Experienced loneliness"
+      },
+      "definition": {
+        "zh": "期望关系与实际关系的主观差距",
+        "en": "Perceived gap between desired and actual relationships"
+      },
+      "proxy": {
+        "zh": "经验证量表；与独居分开",
+        "en": "validated scales, separate from living alone"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "不能从AI陪伴使用推出因果",
+        "en": "AI companionship use does not establish causality"
+      }
+    },
+    {
+      "id": "V078",
+      "domain": 10,
+      "name": {
+        "zh": "亲密数据暴露",
+        "en": "Intimate-data exposure"
+      },
+      "definition": {
+        "zh": "敏感关系与情感信息被记录或利用的范围",
+        "en": "Extent of recording or use of sensitive relational data"
+      },
+      "proxy": {
+        "zh": "数据类别；留存与授权范围",
+        "en": "data categories; retention and consent scope"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "使用便利可能伴随暴露扩大",
+        "en": "Convenience may coincide with greater exposure"
+      }
+    },
+    {
+      "id": "V079",
+      "domain": 10,
+      "name": {
+        "zh": "网络多样性",
+        "en": "Network diversity"
+      },
+      "definition": {
+        "zh": "联系对象在背景、观点和资源上的差异",
+        "en": "Diversity of contacts in background, views and resources"
+      },
+      "proxy": {
+        "zh": "网络异质性指标",
+        "en": "network heterogeneity measures"
+      },
+      "kind": "R",
+      "trajectory": {
+        "zh": "数量增加不保证多样性",
+        "en": "More contacts need not mean more diversity"
+      }
+    },
+    {
+      "id": "V080",
+      "domain": 10,
+      "name": {
+        "zh": "共同经历",
+        "en": "Shared lived history"
+      },
+      "definition": {
+        "zh": "特定双方共同经历的事件与承诺",
+        "en": "Events and commitments experienced by particular parties"
+      },
+      "proxy": {
+        "zh": "关系史；共同事件记录",
+        "en": "relational histories; shared events"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "记录可复制，经历归属有指称性",
+        "en": "Records can copy; lived histories remain indexed"
+      }
+    },
+    {
+      "id": "V081",
+      "domain": 11,
+      "name": {
+        "zh": "任务可替代度",
+        "en": "Task substitutability"
+      },
+      "definition": {
+        "zh": "机器在可接受成本下替代任务的程度",
+        "en": "Extent of substitution at acceptable cost"
+      },
+      "proxy": {
+        "zh": "任务级可行性与成本评估",
+        "en": "task-level feasibility and cost assessment"
+      },
+      "kind": "R",
+      "trajectory": {
+        "zh": "不同于整个岗位消失概率",
+        "en": "Not the probability that a whole job disappears"
+      }
+    },
+    {
+      "id": "V082",
+      "domain": 11,
+      "name": {
+        "zh": "任务互补性",
+        "en": "Task complementarity"
+      },
+      "definition": {
+        "zh": "AI提高其他劳动贡献的程度",
+        "en": "Extent to which AI raises other labor contributions"
+      },
+      "proxy": {
+        "zh": "联合产出相对单独产出",
+        "en": "joint output relative to separate output"
+      },
+      "kind": "R",
+      "trajectory": {
+        "zh": "可随流程设计改变",
+        "en": "Can change with workflow design"
+      }
+    },
+    {
+      "id": "V083",
+      "domain": 11,
+      "name": {
+        "zh": "任务需求弹性",
+        "en": "Task-demand elasticity"
+      },
+      "definition": {
+        "zh": "价格改变引起任务需求变化的程度",
+        "en": "Response of task demand to price change"
+      },
+      "proxy": {
+        "zh": "需求与价格对数变化比",
+        "en": "ratio of log demand to log price changes"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "决定部分扩量效应；需估计",
+        "en": "Shapes scale effects; requires estimation"
+      }
+    },
+    {
+      "id": "V084",
+      "domain": 11,
+      "name": {
+        "zh": "劳动议价权",
+        "en": "Worker bargaining power"
+      },
+      "definition": {
+        "zh": "劳动者影响报酬和条件的能力",
+        "en": "Ability of workers to influence pay and conditions"
+      },
+      "proxy": {
+        "zh": "替代选择；谈判与组织权",
+        "en": "outside options; negotiation and organization"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "生产率增长不保证同步增长",
+        "en": "Productivity does not ensure stronger bargaining"
+      }
+    },
+    {
+      "id": "V085",
+      "domain": 11,
+      "name": {
+        "zh": "决策权分布",
+        "en": "Distribution of decision rights"
+      },
+      "definition": {
+        "zh": "组织中选择目标和配置资源的权利分布",
+        "en": "Distribution of authority over goals and resources"
+      },
+      "proxy": {
+        "zh": "权限图；实际否决记录",
+        "en": "authority maps; observed vetoes"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "工具可分权也可集权",
+        "en": "Tools can decentralize or centralize"
+      }
+    },
+    {
+      "id": "V086",
+      "domain": 11,
+      "name": {
+        "zh": "监督跨度",
+        "en": "Span of oversight"
+      },
+      "definition": {
+        "zh": "每个监督者承担的系统和任务数量",
+        "en": "Systems and tasks overseen per supervisor"
+      },
+      "proxy": {
+        "zh": "任务/人时；并发量",
+        "en": "tasks/person-hour; concurrency"
+      },
+      "kind": "F",
+      "trajectory": {
+        "zh": "可能随自动化扩大",
+        "en": "May expand under automation"
+      }
+    },
+    {
+      "id": "V087",
+      "domain": 11,
+      "name": {
+        "zh": "隐性知识",
+        "en": "Tacit knowledge"
+      },
+      "definition": {
+        "zh": "难以完整编码的情境判断与操作经验",
+        "en": "Situated judgment and skill difficult to fully codify"
+      },
+      "proxy": {
+        "zh": "示范任务；异常处置表现",
+        "en": "demonstration tasks; exception handling"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "难编码不等于永不可学习",
+        "en": "Difficult to encode is not forever unlearnable"
+      }
+    },
+    {
+      "id": "V088",
+      "domain": 11,
+      "name": {
+        "zh": "转型成本",
+        "en": "Transition cost"
+      },
+      "definition": {
+        "zh": "改变职业、流程与身份所付出的成本",
+        "en": "Costs of changing occupations, workflows and identities"
+      },
+      "proxy": {
+        "zh": "收入中断、培训与迁移成本",
+        "en": "income interruption, training and relocation"
+      },
+      "kind": "K",
+      "trajectory": {
+        "zh": "分布不均；可能集中于少数人",
+        "en": "Unevenly distributed and potentially concentrated"
+      }
+    },
+    {
+      "id": "V089",
+      "domain": 12,
+      "name": {
+        "zh": "市场价格",
+        "en": "Market price"
+      },
+      "definition": {
+        "zh": "具体交易与质量条件下的货币交换比率",
+        "en": "Monetary exchange ratio under specified transaction conditions"
+      },
+      "proxy": {
+        "zh": "实际成交价；质量调整",
+        "en": "realized price adjusted for quality"
+      },
+      "kind": "Y",
+      "trajectory": {
+        "zh": "不能代表人的价值或全部使用价值",
+        "en": "Does not represent human worth or all use value"
+      }
+    },
+    {
+      "id": "V090",
+      "domain": 12,
+      "name": {
+        "zh": "支付意愿",
+        "en": "Willingness to pay"
+      },
+      "definition": {
+        "zh": "在预算与选择条件下愿支付的金额",
+        "en": "Amount willing to pay under budget and choice constraints"
+      },
+      "proxy": {
+        "zh": "激励相容选择；预算分层",
+        "en": "incentive-compatible choices by budget"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "受收入限制；不等于需要强度",
+        "en": "Income constrained; not identical to need"
+      }
+    },
+    {
+      "id": "V091",
+      "domain": 12,
+      "name": {
+        "zh": "市场集中度",
+        "en": "Market concentration"
+      },
+      "definition": {
+        "zh": "供给或需求份额集中于少数主体的程度",
+        "en": "Concentration of supply or demand among actors"
+      },
+      "proxy": {
+        "zh": "HHI；市场边界需定义",
+        "en": "HHI with market boundaries specified"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "规模经济与进入条件共同决定",
+        "en": "Depends on scale economies and entry conditions"
+      }
+    },
+    {
+      "id": "V092",
+      "domain": 12,
+      "name": {
+        "zh": "资本所有权",
+        "en": "Capital ownership"
+      },
+      "definition": {
+        "zh": "生产资产、知识产权及平台权益的归属",
+        "en": "Ownership of productive assets, IP and platforms"
+      },
+      "proxy": {
+        "zh": "权益分布；收益权",
+        "en": "ownership distribution; income rights"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "收益分配的重要条件",
+        "en": "An important condition of benefit distribution"
+      }
+    },
+    {
+      "id": "V093",
+      "domain": 12,
+      "name": {
+        "zh": "规模经济",
+        "en": "Economies of scale"
+      },
+      "definition": {
+        "zh": "规模扩张带来的平均成本变化",
+        "en": "Changes in average cost as scale grows"
+      },
+      "proxy": {
+        "zh": "成本曲线；固定成本比例",
+        "en": "cost curve; fixed-cost share"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "任务和阶段特定",
+        "en": "Task and stage specific"
+      }
+    },
+    {
+      "id": "V094",
+      "domain": 12,
+      "name": {
+        "zh": "进入壁垒",
+        "en": "Entry barriers"
+      },
+      "definition": {
+        "zh": "新主体有效参与市场所需克服的条件",
+        "en": "Conditions entrants must overcome to participate"
+      },
+      "proxy": {
+        "zh": "启动成本、许可、渠道",
+        "en": "startup cost, permission and distribution"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "生成便宜不消除全部壁垒",
+        "en": "Cheap generation does not remove all barriers"
+      }
+    },
+    {
+      "id": "V095",
+      "domain": 12,
+      "name": {
+        "zh": "收益集中度",
+        "en": "Benefit concentration"
+      },
+      "definition": {
+        "zh": "技术相关收益在人群间的集中程度",
+        "en": "Concentration of technology-related benefits"
+      },
+      "proxy": {
+        "zh": "分位收益；基尼等分布指标",
+        "en": "quantile gains; distribution measures"
+      },
+      "kind": "Y",
+      "trajectory": {
+        "zh": "平均收益不能替代分布测量",
+        "en": "Average gains cannot replace distributional analysis"
+      }
+    },
+    {
+      "id": "V096",
+      "domain": 12,
+      "name": {
+        "zh": "需求饱和度",
+        "en": "Demand saturation"
+      },
+      "definition": {
+        "zh": "相关需要在当前条件下得到满足的程度",
+        "en": "Extent to which relevant needs are already satisfied"
+      },
+      "proxy": {
+        "zh": "边际购买、使用与满足感",
+        "en": "marginal purchase, use and satisfaction"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "不同需要具有不同饱和模式",
+        "en": "Different needs saturate differently"
+      }
+    },
+    {
+      "id": "V097",
+      "domain": 13,
+      "name": {
+        "zh": "推荐目标",
+        "en": "Recommendation objective"
+      },
+      "definition": {
+        "zh": "系统实际优化的指标和约束",
+        "en": "Metrics and constraints actually optimized"
+      },
+      "proxy": {
+        "zh": "目标文件；排序干预审计",
+        "en": "objective records; ranking interventions"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "不从公司口号直接推断",
+        "en": "Not inferred from corporate slogans"
+      }
+    },
+    {
+      "id": "V098",
+      "domain": 13,
+      "name": {
+        "zh": "个性化强度",
+        "en": "Personalization intensity"
+      },
+      "definition": {
+        "zh": "输出对个体数据与反应的适配程度",
+        "en": "Adaptation of outputs to individual data and responses"
+      },
+      "proxy": {
+        "zh": "个体间排序差异；控制实验",
+        "en": "ranking divergence; controlled experiments"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "可提高相关性，也可能收窄选择",
+        "en": "May improve relevance or narrow choice"
+      }
+    },
+    {
+      "id": "V099",
+      "domain": 13,
+      "name": {
+        "zh": "退出成本",
+        "en": "Exit cost"
+      },
+      "definition": {
+        "zh": "停止使用或更换服务的实际代价",
+        "en": "Practical cost of leaving or switching a service"
+      },
+      "proxy": {
+        "zh": "货币、时间、关系与数据损失",
+        "en": "money, time, relationship and data loss"
+      },
+      "kind": "K",
+      "trajectory": {
+        "zh": "免费入口可能对应高退出成本",
+        "en": "Free entry may coexist with costly exit"
+      }
+    },
+    {
+      "id": "V100",
+      "domain": 13,
+      "name": {
+        "zh": "数据可携性",
+        "en": "Data portability"
+      },
+      "definition": {
+        "zh": "将数据迁出并被替代系统有效使用的能力",
+        "en": "Ability to move data for effective use elsewhere"
+      },
+      "proxy": {
+        "zh": "完整导出率；替代系统导入率",
+        "en": "complete export and successful import rates"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "文件可下载不等于可用迁移",
+        "en": "Downloadability is not usable migration"
+      }
+    },
+    {
+      "id": "V101",
+      "domain": 13,
+      "name": {
+        "zh": "委托深度",
+        "en": "Delegation depth"
+      },
+      "definition": {
+        "zh": "从建议到执行再到持续授权的层级",
+        "en": "Depth from advice to execution and continuing authority"
+      },
+      "proxy": {
+        "zh": "委托层数；撤回范围",
+        "en": "delegation layers; revocation scope"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "便利与控制变化需分测",
+        "en": "Measure convenience and control separately"
+      }
+    },
+    {
+      "id": "V102",
+      "domain": 13,
+      "name": {
+        "zh": "目标分歧",
+        "en": "Goal divergence"
+      },
+      "definition": {
+        "zh": "主体在具体结果上偏好或利益的差异",
+        "en": "Differences in preferences or interests over outcomes"
+      },
+      "proxy": {
+        "zh": "偏好排序差异；利益映射",
+        "en": "preference-ranking differences; interests map"
+      },
+      "kind": "R",
+      "trajectory": {
+        "zh": "可协商；不假定永恒对抗",
+        "en": "Negotiable; no assumed permanent antagonism"
+      }
+    },
+    {
+      "id": "V103",
+      "domain": 13,
+      "name": {
+        "zh": "可见性分配",
+        "en": "Allocation of visibility"
+      },
+      "definition": {
+        "zh": "哪些内容或主体获得展示机会",
+        "en": "Distribution of exposure across content and actors"
+      },
+      "proxy": {
+        "zh": "曝光份额；合格供给基准",
+        "en": "exposure shares against eligible supply"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "选择机制可改变成功概率",
+        "en": "Selection mechanisms can alter success chances"
+      }
+    },
+    {
+      "id": "V104",
+      "domain": 13,
+      "name": {
+        "zh": "申诉与纠正",
+        "en": "Appeal and correction"
+      },
+      "definition": {
+        "zh": "质疑结果并获得有效纠正的可行程度",
+        "en": "Feasibility of contesting decisions and securing correction"
+      },
+      "proxy": {
+        "zh": "成功率、耗时、独立性",
+        "en": "success rate, time and independence"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "形式入口与实际救济分开",
+        "en": "Formal channels differ from effective remedy"
+      }
+    },
+    {
+      "id": "V105",
+      "domain": 14,
+      "name": {
+        "zh": "责任分配",
+        "en": "Allocation of responsibility"
+      },
+      "definition": {
+        "zh": "错误、损失和补救义务的制度归属",
+        "en": "Institutional allocation of error, loss and remedy obligations"
+      },
+      "proxy": {
+        "zh": "责任链；合同与实践分测",
+        "en": "responsibility chains; contracts versus practice"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "可重分配；不是天然个人负担",
+        "en": "Can be redistributed; not naturally individual"
+      }
+    },
+    {
+      "id": "V106",
+      "domain": 14,
+      "name": {
+        "zh": "审计独立性",
+        "en": "Audit independence"
+      },
+      "definition": {
+        "zh": "核查者不受被核查方控制的程度",
+        "en": "Independence of evaluators from evaluated actors"
+      },
+      "proxy": {
+        "zh": "资金、权限与披露机制",
+        "en": "funding, authority and disclosure"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "独立不自动保证专业能力",
+        "en": "Independence does not ensure competence"
+      }
+    },
+    {
+      "id": "V107",
+      "domain": 14,
+      "name": {
+        "zh": "可执行规则",
+        "en": "Enforceable rules"
+      },
+      "definition": {
+        "zh": "规则被实施并对行为产生约束的能力",
+        "en": "Capacity to implement rules and constrain conduct"
+      },
+      "proxy": {
+        "zh": "检查概率；执行记录",
+        "en": "inspection probability; enforcement records"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "书面规定与执行效果分开",
+        "en": "Written rules differ from enforcement"
+      }
+    },
+    {
+      "id": "V108",
+      "domain": 14,
+      "name": {
+        "zh": "制度调整速度",
+        "en": "Institutional adaptation rate"
+      },
+      "definition": {
+        "zh": "制度回应问题并修订安排的速度",
+        "en": "Rate of institutional response and revision"
+      },
+      "proxy": {
+        "zh": "从识别到生效的时延",
+        "en": "time from recognition to implementation"
+      },
+      "kind": "F",
+      "trajectory": {
+        "zh": "快慢均需考察质量与权利",
+        "en": "Speed must be assessed alongside quality and rights"
+      }
+    },
+    {
+      "id": "V109",
+      "domain": 14,
+      "name": {
+        "zh": "社会保障",
+        "en": "Social protection"
+      },
+      "definition": {
+        "zh": "应对收入、健康和转型风险的公共安排",
+        "en": "Public arrangements covering income, health and transition risk"
+      },
+      "proxy": {
+        "zh": "覆盖、可得性与替代率",
+        "en": "coverage, access and replacement rates"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "影响风险承担和调整能力",
+        "en": "Affects risk bearing and adaptation"
+      }
+    },
+    {
+      "id": "V110",
+      "domain": 14,
+      "name": {
+        "zh": "公共参与",
+        "en": "Public participation"
+      },
+      "definition": {
+        "zh": "受影响者参与目标与规则制定的能力",
+        "en": "Ability of affected people to shape goals and rules"
+      },
+      "proxy": {
+        "zh": "代表性；实际意见采纳",
+        "en": "representation; actual influence"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "参与次数不等于影响力",
+        "en": "Attendance is not influence"
+      }
+    },
+    {
+      "id": "V111",
+      "domain": 14,
+      "name": {
+        "zh": "权利保障",
+        "en": "Rights protection"
+      },
+      "definition": {
+        "zh": "隐私、平等、表达与程序权利的有效保障",
+        "en": "Effective privacy, equality, expression and procedural rights"
+      },
+      "proxy": {
+        "zh": "分权利审计；不可一分概括",
+        "en": "right-specific audits; no single total score"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "属于规范选择及制度实践",
+        "en": "Involves normative choices and institutional practice"
+      }
+    },
+    {
+      "id": "V112",
+      "domain": 14,
+      "name": {
+        "zh": "外部性内部化",
+        "en": "Internalization of externalities"
+      },
+      "definition": {
+        "zh": "决策者承担其对他人影响的程度",
+        "en": "Extent to which decision-makers bear effects on others"
+      },
+      "proxy": {
+        "zh": "外部损失与补偿、约束",
+        "en": "external harms, compensation and constraints"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "可改变私人收益与社会结果关系",
+        "en": "Can change private incentives and social outcomes"
+      }
+    },
+    {
+      "id": "V113",
+      "domain": 15,
+      "name": {
+        "zh": "基础设施可达性",
+        "en": "Infrastructure access"
+      },
+      "definition": {
+        "zh": "获得电力、网络与计算服务的条件",
+        "en": "Access to electricity, networks and computing"
+      },
+      "proxy": {
+        "zh": "可用率、价格与地理覆盖",
+        "en": "availability, price and geographic coverage"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "地区差异可限制普及",
+        "en": "Geographic differences can constrain diffusion"
+      }
+    },
+    {
+      "id": "V114",
+      "domain": 15,
+      "name": {
+        "zh": "地理集聚",
+        "en": "Geographic concentration"
+      },
+      "definition": {
+        "zh": "人才、资本与设施在空间的集中",
+        "en": "Spatial concentration of talent, capital and infrastructure"
+      },
+      "proxy": {
+        "zh": "区域份额；通勤与迁移",
+        "en": "regional shares; commuting and migration"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "远程技术不保证去中心化",
+        "en": "Remote technology need not decentralize"
+      }
+    },
+    {
+      "id": "V115",
+      "domain": 15,
+      "name": {
+        "zh": "资源消耗",
+        "en": "Resource consumption"
+      },
+      "definition": {
+        "zh": "系统生产运行的能源、水与材料使用",
+        "en": "Energy, water and material use across the system"
+      },
+      "proxy": {
+        "zh": "生命周期物理计量",
+        "en": "physical lifecycle accounting"
+      },
+      "kind": "F",
+      "trajectory": {
+        "zh": "单位效率与总量需同时测量",
+        "en": "Measure unit efficiency and totals"
+      }
+    },
+    {
+      "id": "V116",
+      "domain": 15,
+      "name": {
+        "zh": "生态承载条件",
+        "en": "Ecological limits"
+      },
+      "definition": {
+        "zh": "生态系统承受活动影响的条件",
+        "en": "Conditions under which ecosystems sustain impacts"
+      },
+      "proxy": {
+        "zh": "地区生态指标与阈值",
+        "en": "local ecological indicators and thresholds"
+      },
+      "kind": "C",
+      "trajectory": {
+        "zh": "不可只凭货币成本代表",
+        "en": "Not represented by monetary cost alone"
+      }
+    },
+    {
+      "id": "V117",
+      "domain": 15,
+      "name": {
+        "zh": "物流与维修",
+        "en": "Logistics and maintenance"
+      },
+      "definition": {
+        "zh": "物品流转、维修与废弃处置能力",
+        "en": "Capacity for transport, repair and end-of-life handling"
+      },
+      "proxy": {
+        "zh": "停机时间；维修覆盖",
+        "en": "downtime; repair coverage"
+      },
+      "kind": "A",
+      "trajectory": {
+        "zh": "限制机器人等物理部署",
+        "en": "Constrains physical deployment such as robotics"
+      }
+    },
+    {
+      "id": "V118",
+      "domain": 15,
+      "name": {
+        "zh": "语言文化覆盖",
+        "en": "Language and cultural coverage"
+      },
+      "definition": {
+        "zh": "系统对不同语言与文化情境的适配",
+        "en": "Fit across linguistic and cultural settings"
+      },
+      "proxy": {
+        "zh": "分语言性能；本地评估",
+        "en": "language-specific performance; local evaluation"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "平均性能可掩盖缺口",
+        "en": "Average performance can conceal gaps"
+      }
+    },
+    {
+      "id": "V119",
+      "domain": 15,
+      "name": {
+        "zh": "冲击暴露",
+        "en": "Shock exposure"
+      },
+      "definition": {
+        "zh": "面对供应中断、灾害和制度突变的程度",
+        "en": "Exposure to supply disruption, disasters and institutional shocks"
+      },
+      "proxy": {
+        "zh": "依赖网络；情景压力测试",
+        "en": "dependency networks; stress scenarios"
+      },
+      "kind": "B",
+      "trajectory": {
+        "zh": "概率与损失需分开",
+        "en": "Separate probabilities from losses"
+      }
+    },
+    {
+      "id": "V120",
+      "domain": 15,
+      "name": {
+        "zh": "系统韧性",
+        "en": "System resilience"
+      },
+      "definition": {
+        "zh": "受冲击后维持和恢复关键功能的能力",
+        "en": "Capacity to sustain and recover essential functions after shocks"
+      },
+      "proxy": {
+        "zh": "恢复时间；冗余与替代路径",
+        "en": "recovery time; redundancy and alternatives"
+      },
+      "kind": "A",
+      "trajectory": {
+        "zh": "冗余有成本，也有选择价值",
+        "en": "Redundancy has costs and option value"
+      }
+    },
+    {
+      "id": "V121",
+      "domain": 16,
+      "name": {
+        "zh": "意义感",
+        "en": "Experienced meaning"
+      },
+      "definition": {
+        "zh": "认为生活与行动值得投入的体验",
+        "en": "Experience that life and action are worth pursuing"
+      },
+      "proxy": {
+        "zh": "经验证量表；叙事访谈",
+        "en": "validated measures; narrative interviews"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "不由生产率或市场价格直接决定",
+        "en": "Not determined directly by productivity or price"
+      }
+    },
+    {
+      "id": "V122",
+      "domain": 16,
+      "name": {
+        "zh": "可行选择集",
+        "en": "Feasible choice set"
+      },
+      "definition": {
+        "zh": "个体实际有资源和权利采取的选项",
+        "en": "Options realistically available with resources and rights"
+      },
+      "proxy": {
+        "zh": "可达选项；障碍审计",
+        "en": "accessible options; barrier audits"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "名义选项多不等于可行性高",
+        "en": "More nominal options need not mean more capability"
+      }
+    },
+    {
+      "id": "V123",
+      "domain": 16,
+      "name": {
+        "zh": "未来可预期性",
+        "en": "Future predictability"
+      },
+      "definition": {
+        "zh": "对行动后果与生活安排的可预测程度",
+        "en": "Predictability of consequences and life arrangements"
+      },
+      "proxy": {
+        "zh": "预期误差；主观不确定性",
+        "en": "expectation errors; perceived uncertainty"
+      },
+      "kind": "S",
+      "trajectory": {
+        "zh": "确定感与预测准确性分开",
+        "en": "Certainty feelings differ from prediction accuracy"
+      }
+    },
+    {
+      "id": "V124",
+      "domain": 16,
+      "name": {
+        "zh": "代际流动",
+        "en": "Intergenerational mobility"
+      },
+      "definition": {
+        "zh": "家庭背景与后代机会间关系的变化",
+        "en": "Relationship between family background and later opportunity"
+      },
+      "proxy": {
+        "zh": "教育、收入与职业迁移矩阵",
+        "en": "education, income and occupational transitions"
+      },
+      "kind": "Y",
+      "trajectory": {
+        "zh": "技术普及不自动消除继承优势",
+        "en": "Diffusion does not automatically erase inherited advantage"
+      }
+    },
+    {
+      "id": "V125",
+      "domain": 16,
+      "name": {
+        "zh": "时间偏好",
+        "en": "Time preference"
+      },
+      "definition": {
+        "zh": "在不同时点结果之间的取舍倾向",
+        "en": "Trade-offs between outcomes at different times"
+      },
+      "proxy": {
+        "zh": "延迟选择任务；预算约束分测",
+        "en": "delay choices separate from budget constraints"
+      },
+      "kind": "P",
+      "trajectory": {
+        "zh": "情境相关；不作人格优劣排序",
+        "en": "Context dependent; not a ranking of character"
+      }
+    },
+    {
+      "id": "V126",
+      "domain": 16,
+      "name": {
+        "zh": "参与创造的机会",
+        "en": "Opportunity to create"
+      },
+      "definition": {
+        "zh": "实际参与有意义创作和决定过程的机会",
+        "en": "Opportunity to take part in meaningful creation and decisions"
+      },
+      "proxy": {
+        "zh": "参与范围、持续性与权利",
+        "en": "scope, continuity and rights of participation"
+      },
+      "kind": "I",
+      "trajectory": {
+        "zh": "消费丰富不保证创造机会",
+        "en": "Abundant consumption does not ensure creative opportunity"
+      }
+    },
+    {
+      "id": "V127",
+      "domain": 16,
+      "name": {
+        "zh": "结果分配的正当性",
+        "en": "Legitimacy of distribution"
+      },
+      "definition": {
+        "zh": "对分配过程与结果是否正当的判断",
+        "en": "Judgments of fairness in procedures and outcomes"
+      },
+      "proxy": {
+        "zh": "分群体程序与结果评价",
+        "en": "group-specific procedural and outcome judgments"
+      },
+      "kind": "N",
+      "trajectory": {
+        "zh": "多元标准可能冲突",
+        "en": "Plural standards can conflict"
+      }
+    },
+    {
+      "id": "V128",
+      "domain": 16,
+      "name": {
+        "zh": "价值多元性",
+        "en": "Value pluralism"
+      },
+      "definition": {
+        "zh": "不同有价值目标不能完全互换的情形",
+        "en": "Situation where valuable ends are not fully interchangeable"
+      },
+      "proxy": {
+        "zh": "冲突案例；明确取舍",
+        "en": "conflict cases; explicit trade-offs"
+      },
+      "kind": "N",
+      "trajectory": {
+        "zh": "不能预设统一效用尺度",
+        "en": "No universal utility scale assumed"
+      }
+    }
+  ]
+}
