@@ -36,11 +36,11 @@ The micro level concerns time, cognition, affect, desire, skill and self-underst
 
 A worker's higher output after adopting AI can coexist with shorter hours, proportionately greater workloads, or restructuring that reduces income. Distinguishing these outcomes requires evidence about demand, performance standards, ownership and bargaining, not simply additional capability measurements. Technical explanations delineate possibilities; social explanations examine why particular possibilities are realized.
 
-### 1.3 Scope and source material
+### 1.3 Where technological change meets social theory
 
-This framework synthesizes an existing AI sociology repository, course and book reading notes, summaries of technical and social reports, and thematic writing about content, work, relationships, education and judgment. Repeated ideas are consolidated into variables; narrative examples become research questions; forecasts and practitioner observations retain their evidential status. Notes do not substitute for original works. Unverified numbers, quotations and corporate cases are not presented as empirical findings here.
+Attention research explains why information supply is constrained by reception. Social comparison examines how evaluation changes with reference groups. Signaling theory asks how people use credentials, work and reputation when ability is difficult to observe. Task theory distinguishes displacement of particular activities from opportunities arising through new demand and tasks. These concern different mechanisms; a single claim of greater efficiency cannot replace them. [R01, R03, R05, R09]
 
-Public literature supplies adjacent foundations: limited attention, social comparison, signaling and asymmetric information, task displacement and new tasks, games and polycentric governance. This is a synthetic research program, not a claim that these topics were previously unstudied. An omission in one course cannot establish an omission across an entire discipline. [R01–R14]
+Together, these theories allow a fuller sequence of questions: after generation becomes cheaper, how does supply change, how is attention allocated, how is quality recognized, and who determines rewards? Game theory examines how participants adjust their strategies to others’ actions. Institutional analysis examines how rules change the costs, benefits and feasibility of those actions. The same technology can therefore produce different consequences across organizations and societies. [R12–R14]
 
 ## 2. A grammar of claims
 

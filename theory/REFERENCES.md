@@ -126,6 +126,6 @@ Nash, J. F. (1950). The Bargaining Problem. *Econometrica, 18*(2), 155–162. [�
 
 ## 引用纪律 / Citation discipline
 
-引用理论说明“为什么这个机制值得研究”，引用实证说明“在什么条件下观察到了什么”。二者不可互相冒充。二手阅读笔记中的引语没有逐一核实原文，因此正文采用概念性综合，不以引号重新归属于课程作者。未复核的报告数字也不进入经验结论。后续新增研究应注明是否重复验证、样本范围、日期和利益冲突。
+引用理论说明“为什么这个机制值得研究”，引用实证说明“在什么条件下观察到了什么”。二者不可互相冒充。评价经验研究时，还应考察重复验证、样本范围、研究日期和利益冲突。
 
-Theory explains why a mechanism merits study; empirical evidence states what was observed under which conditions. Neither substitutes for the other. Quotations in secondary notes were not all verified against originals, so the paper synthesizes concepts without reattributing such quotations to course authors. Unverified report numbers are excluded from empirical conclusions. Future sources should state replication status, sample, date and relevant interests.
+Theory explains why a mechanism merits study; empirical evidence states what was observed under which conditions. Neither substitutes for the other. Assessment of empirical research should also consider replication, sample scope, study date and relevant interests.

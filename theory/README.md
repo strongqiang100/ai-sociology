@@ -4,9 +4,9 @@
 
 *Human Finitude, Expanding Generation, and the Reorganization of Social Order*
 
-当答案和服务更容易获得，人的时间、选择、关系和工作会怎样改变？本体系用可定义的变量、条件性的推演和可检查的模型研究这个问题。理论的厚度来自机制、边界与反例，而不依赖预先确定的未来。
+当答案和服务更容易获得，人的时间、选择、关系和工作会怎样改变？本体系用可定义的变量、条件性的推演和可检查的模型研究这个问题。
 
-How do time, choice, relationships and work change as answers and services become easier to obtain? This framework studies that question through defined variables, conditional derivations and inspectable models. Its depth rests on mechanisms, boundaries and counterexamples rather than a predetermined future.
+How do time, choice, relationships and work change as answers and services become easier to obtain? This framework studies that question through defined variables, conditional derivations and inspectable models.
 
 ## 五卷目录 / Five volumes
 
@@ -16,7 +16,7 @@ How do time, choice, relationships and work change as answers and services becom
 | II | 16 个领域、128 个变量 / 16 domains and 128 variables | [变量图谱](02-variable-atlas.zh-CN.md) | [Variable atlas](02-variable-atlas.en.md) |
 | III | 32 条双变量、20 条三变量、12 条四变量路径 / 64 conditional paths | [推演池](03-derivation-pool.zh-CN.md) | [Derivation pool](03-derivation-pool.en.md) |
 | IV | 8 个可复算模型 / 8 reproducible models | [博弈与模型](04-games-and-models.zh-CN.md) | [Games and models](04-games-and-models.en.md) |
-| V | 来源映射、证据与识别 / Source map, evidence and identification | [研究协议](05-research-protocol.zh-CN.md) | [Research protocol](05-research-protocol.en.md) |
+| V | 证据、因果识别与研究方法 / Evidence, identification and research methods | [研究协议](05-research-protocol.zh-CN.md) | [Research protocol](05-research-protocol.en.md) |
 
 [参考文献 / References](REFERENCES.md) · [研究提案 / Research proposal](templates/research-proposal.md) · [变量数据 / Variables](data/variables.json) · [路径数据 / Pathways](data/pathways.json)
 
