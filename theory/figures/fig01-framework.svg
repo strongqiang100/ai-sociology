@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-22T16:21:02.245982</dc:date>
+    <dc:date>2026-09-22T16:31:54.411990</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -678,7 +678,7 @@ z
    <text style="fill: #66717e; font: 6.3px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="23.328" y="201.474" transform="rotate(-0 23.328 201.474)">Proposed links; effects depend on context. The diagram is selective, not a complete causal graph.</text>
   </g>
   <g id="text_38">
-   <text style="fill: #66717e; font: 6px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="23.328" y="436.6008" transform="rotate(-0 23.328 436.6008)">Conceptual architecture · no empirical effect sizes · research edition 0.1.0</text>
+   <text style="fill: #66717e; font: 6px 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="23.328" y="436.6008" transform="rotate(-0 23.328 436.6008)">Conceptual architecture · no empirical effect sizes</text>
   </g>
  </g>
 </svg>

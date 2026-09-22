@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Original scientific figures for research edition 0.1.0.
+"""Original scientific figures for AI Sociology.
 
 Requires matplotlib and numpy. No external or empirical datasets are used.
 Exports editable SVG, vector PDF and 300-dpi PNG. See theory/figures/README.md.
@@ -69,7 +69,7 @@ c=canvas(fig,[.045,.045,.91,.10]);label(c,'c','Research architecture: distinguis
 for i,(text,color) in enumerate([('16 principles',BLUE),('128 variables',TEAL),('64 hypotheses',PURPLE),('8 models',ORANGE),('Empirical inquiry',GRAY)]):
  x=i*.205;box(c,x,.14,.175,.5,text,color,fs=6.8)
  if i<4:arrow(c,(x+.18,.39),(x+.20,.39))
-fig.text(.045,.014,'Conceptual architecture · no empirical effect sizes · research edition 0.1.0',fontsize=6,color=GRAY)
+fig.text(.045,.014,'Conceptual architecture · no empirical effect sizes',fontsize=6,color=GRAY)
 save(fig,'fig01-framework')
 
 # Figure 2: phase boundary and response curves from exactly the M05 equation.

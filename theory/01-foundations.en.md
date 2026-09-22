@@ -4,8 +4,6 @@
 
 **AI Sociology · AI社会学**
 
-Theoretical working paper · Research edition 0.1.0 · 2026-09-22
-
 [中文](01-foundations.zh-CN.md) · [Variable atlas](02-variable-atlas.en.md) · [Derivation pool](03-derivation-pool.en.md) · [Games and models](04-games-and-models.en.md) · [Research protocol](05-research-protocol.en.md) · [References](REFERENCES.md)
 
 ### Abstract
@@ -14,13 +12,13 @@ A report may take minutes to produce while its reviewer still needs to check eac
 
 Beginning with the limits of time, attention and embodiment, this paper examines how expanding AI supply affects prices, work, relationships and distribution. Five volumes cover foundations, variables, derivations, models and research methods: 16 principles, 128 variables, and interactions among two to four variables. The same technology can reduce work or raise production targets, broaden educational opportunities or benefit well-resourced learners first. Demand, ownership, bargaining and institutions help explain these differences.
 
-This theoretical working paper states assumptions, opposing outcomes and tests for each derivation. Claims awaiting empirical study remain hypotheses. Its central question is whether making more things easier to do also gives people more discretionary time, more dependable relationships and greater scope to choose how they live.
+Each derivation states its assumptions, opposing outcomes and tests. Claims awaiting empirical study remain hypotheses. Its central question is whether making more things easier to do also gives people more discretionary time, more dependable relationships and greater scope to choose how they live.
 
 **Keywords:** artificial intelligence; limited attention; scarcity; emotion regulation; task restructuring; social comparison; delegation; games; institutions; value pluralism.
 
-### Author
+### About me
 
-The author writes as **AI Sociology** and works at an AI company in Hangzhou, China. The paper draws on observations from product work, theoretical reading and practice records. Views are the author’s own. Volume V explains how these materials relate to public research.
+I work at an artificial intelligence company in Hangzhou, China. These studies draw on my observations from product work, theoretical reading and practice. Beyond what technology can do next, I am interested in how it changes people’s time, work and relationships.
 
 ## 1. Research object: how technology enters everyday life
 
@@ -346,4 +344,4 @@ Read every path alongside its opposing branch. Public forecasts additionally req
 
 ---
 
-**Suggested citation:** AI Sociology. (2026). *AI Sociology: Human Finitude, Expanding Generation, and the Reorganization of Social Order*. Research edition 0.1.0, working paper, 2026-09-22. Cite sections or proposition IDs and record the version used. See [References](REFERENCES.md).
+**Suggested citation:** AI Sociology. (2026). *AI Sociology: Human Finitude, Expanding Generation, and the Reorganization of Social Order*. Cite the relevant section or proposition ID. See [References](REFERENCES.md).

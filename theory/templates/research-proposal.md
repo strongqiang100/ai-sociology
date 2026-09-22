@@ -1,7 +1,5 @@
 # 研究提案 / Research proposal
 
-**版本 / Version:**
-
 **关联编号 / Related IDs:** P… / V… / D… / M…
 
 **陈述类型 / Claim type:** H / M / R / N

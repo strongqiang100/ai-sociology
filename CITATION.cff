@@ -3,9 +3,9 @@ message: "If you use this framework in your own work, please cite it as below."
 title: "AI Sociology"
 abstract: >-
   An open research framework on human finitude, expanding generation and social order.
-  Research edition 0.1.0 provides five bilingual volumes, 16 foundational principles,
+  The framework comprises five bilingual volumes, 16 foundational principles,
   128 variables, 64 conditional derivations and eight illustrative formal models.
-  Unvalidated mechanisms remain hypotheses. Historical software assets retain version 1.0.0.
+  Unvalidated mechanisms remain hypotheses.
 type: software
 authors:
   - name: "AI Sociology"
@@ -20,10 +20,8 @@ preferred-citation:
   authors:
     - name: "AI Sociology"
   year: 2026
-  version: 0.1.0
   date-released: 2026-09-22
   url: "https://github.com/strongqiang100/ai-sociology/tree/main/theory"
-  notes: "Independent working paper; research edition 0.1.0; no peer review claimed."
 keywords:
   - ai
   - sociology

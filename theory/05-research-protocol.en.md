@@ -2,27 +2,17 @@
 
 [中文](05-research-protocol.zh-CN.md) · [Foundations](01-foundations.en.md) · [References](REFERENCES.md)
 
-## 1. From source material to propositions
+## 1. Theory, observation and evidence
 
-The source inventory covered 130 Markdown files in the existing repository, 11 notes in the local AI sociology knowledge base, and 30 online texts obtained through relevant titles and indexes. Counts include duplicates, navigation and peripheral tool material; they are not 171 independent studies. Existing course and report notes were inputs. The project does not claim a fresh page-by-page audit of every underlying PDF.
+Theory explains how specified conditions could produce an outcome. Empirical research examines where those conditions hold and whether the outcome occurs. Neither substitutes for the other. A product demonstration may establish that a task is feasible; it cannot alone establish improvements in earnings, educational opportunity or social relationships.
 
-Processing involved deduplication and thematic mapping, separation of concepts and boundaries, mechanisms with opposing branches, and calibration against public original research. Product news, vendor statements, market forecasts and untraceable quotations were not promoted to established social laws. Practice supplied questions; unauthorized personal, client and institutional details were excluded from public text.
+Reading notes and practitioner experience can motivate questions. Their evidential value depends on their scope and sources. Specific research claims require consulting original studies and distinguishing findings, interpretations and conjectures. Repetition of one claim does not create independent evidence.
 
-| Source family | Theoretical material retained | Research location |
-|---|---|---|
-| Core framework, manifestos and variable audits | Attention, goal differences, generation, delegation and exit | P01–P16; V001–V032, V097–V112 |
-| Abundance, engineering and future scenarios | Digital supply, embodiment, energy, capacity and healthy life | V001–V008, V041–V056, V113–V128 |
-| Introductory and generative AI course notes | Tasks, data, evaluation, deployment, learning and human review | V033–V056, V081–V088; M04, M05, M07 |
-| Technology and industry report notes | Cost allocation, task restructuring, lock-in, security and physical deployment | V049–V056, V081–V120; M08 |
-| Social and educational report notes | Evaluation, participation, rights, educational and intergenerational differences | V033–V040, V105–V112, V121–V128 |
-| Content, truth, relationships and expression | Adaptation, narrative, evidence, reciprocity, meaning and communication | V017–V032, V057–V080; D034, D039–D040 |
-| Expert and skill modules | Occupations, human motives, stratification, anxiety and physical limits | Cross-level structure and research protocol |
+The [references](REFERENCES.md) identify the literature and its limits. Principles, variables, mechanisms and models address distinct questions: which conditions matter, how change can be measured, how effects might be transmitted, and how outcomes depend on assumptions.
 
-This maps conceptual provenance, not endorsement of every input claim. Operational tutorials, account-growth arrangements and duplicate installation instructions were not copied into theory chapters. Coverage means that relevant themes have a place, not that every old sentence survives or every real-world factor has been exhausted.
+## 2. Conditions behind common propositions
 
-## 2. Compatibility with earlier formulations
-
-| Potentially absolute earlier formulation | Research-edition treatment |
+| Potentially absolute proposition | Necessary distinctions |
 |---|---|
 | Attention cannot be parallelized or stored | Distinguish attention, records, memory, switching and external assistance |
 | Capability continuously improves and costs continuously fall | Conditional task- and horizon-specific trends permitting reversal |
@@ -33,8 +23,6 @@ This maps conceptual provenance, not endorsement of every input claim. Operation
 | Engineering changes speed but never direction | Allow changes in feasibility, costs and adoption direction |
 | Inclusion necessarily deepens dependence | Separate access, portability, substitutes, objectives and actual exit |
 | All reasoning must return to one conclusion | Use branches, rival explanations and admissible counterexamples |
-
-Existing installable archives remain historical versions; this edition does not claim to rebuild every expert and skill package. New research should use the present evidence protocol and claim taxonomy. Earlier material can motivate questions but cannot bypass conditionality checks.
 
 ## 3. Evidence classification
 
@@ -53,7 +41,7 @@ There is no universal evidence ranking independent of the question. Experiments 
 ## 4. Minimum study registration
 
 ```text
-Study ID and version:
+Study ID:
 Related P / V / D / M:
 Question and target population:
 Unit, region, task and horizon:
@@ -115,10 +103,10 @@ python3 scripts/explore_theory.py --order 4 --offset 1000 --limit 20
 
 A new card requires input changes, outcomes, assumptions, two branches and a challenge to the explanation. Four words do not constitute a derivation. A crucial fifth condition should be explicit, with a higher-order model where needed, rather than hidden inside “all else equal.” Religion, war, family institutions and gender structures require dedicated measurement and designs; broad variables do not claim to explain them fully.
 
-## 8. Public expression and versioning
+## 8. Limits of explanation
 
-Introduce terms when first used. Difficult language does not replace evidence. Headlines and memorable formulations should survive the addition of their conditions. Literature, allegory and science fiction can construct thought experiments, but fictional premises are not empirical sociology or grounds for forecast credibility.
+Literature, allegory and science fiction can construct thought experiments that clarify the costs of a choice. Fictional premises are not empirical sociology and do not establish forecast credibility. The same distinction applies to models: internal consistency makes testing possible but does not establish that reality follows the model.
 
-Chinese and English use identical P/V/D/M/R identifiers and should not differ in claim strength. Research edition 0.1.0 separates future additions of hypotheses, revisions of conditions and new empirical evidence. Corrections should record the original proposition, reason, scope and new grounds, rather than silently substituting conclusions.
+An explanation deserves consideration when it defines its scope, distinguishes rival accounts and remains open to adverse evidence. Revising conclusions in response to evidence does not make all claims equally credible. The distinction lies in the reasons offered and whether those reasons withstand examination.
 
-Use the [research proposal template](templates/research-proposal.md). Passing code, schema and formatting checks means the material is usable; it does not validate the theory.
+Use the [research proposal template](templates/research-proposal.md) to specify questions, assumptions and tests.

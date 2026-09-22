@@ -4,8 +4,6 @@
 
 *Human Finitude, Expanding Generation, and the Reorganization of Social Order*
 
-研究版 / Research edition **0.1.0** · **2026-09-22** · 工作论文 / Working paper
-
 当答案和服务更容易获得，人的时间、选择、关系和工作会怎样改变？本体系用可定义的变量、条件性的推演和可检查的模型研究这个问题。理论的厚度来自机制、边界与反例，而不依赖预先确定的未来。
 
 How do time, choice, relationships and work change as answers and services become easier to obtain? This framework studies that question through defined variables, conditional derivations and inspectable models. Its depth rests on mechanisms, boundaries and counterexamples rather than a predetermined future.
@@ -55,16 +53,16 @@ python3 scripts/check_theory.py
 
 Run from the repository root. There are **11,017,504** candidate tuples of orders two through four. Enumeration covers unordered combinations in this finite catalog, not causal validity or every real-world factor. The 64 cards are developed starting points.
 
-## 作者 / Author
+## 关于我 / About me
 
 <img src="../assets/author.jpg" width="128" height="128" alt="AI社会学作者头像 / AI Sociology author portrait">
 
 **AI社会学 / AI Sociology**
 
-中国杭州一家 AI 公司的从业者，从 AI 产品、理论阅读与实践问题中持续积累研究。独立工作论文，不代表所在机构立场，不宣称同行评议。
+我在中国杭州一家人工智能公司工作。这些研究来自我在产品工作中的观察、理论阅读和实践。比起技术又能做什么，我更关心它怎样改变人的时间、工作和关系。
 
-An AI practitioner at an AI company in Hangzhou, China, developing research through products, theoretical reading and practice. An independent working paper; no institutional endorsement or peer review is claimed.
+I work at an artificial intelligence company in Hangzhou, China. These studies draw on my observations from product work, theoretical reading and practice. Beyond what technology can do next, I am interested in how it changes people’s time, work and relationships.
 
-**引用 / Citation:** AI Sociology. (2026). *AI Sociology: Human Finitude, Expanding Generation, and the Reorganization of Social Order*. Research edition 0.1.0, working paper. Record the version and relevant section or ID.
+**引用 / Citation:** AI Sociology. (2026). *AI Sociology: Human Finitude, Expanding Generation, and the Reorganization of Social Order*. Cite the relevant section or proposition ID.
 
 **许可 / License:** 仓库文本与代码沿用 [MIT](../LICENSE)。作者肖像及第三方原始文献不因置于或链接于本仓库而获得额外的人格、肖像或第三方内容使用授权。 / Text and code retain the repository's [MIT license](../LICENSE). Inclusion or linking grants no additional personality, likeness or third-party content rights.

@@ -1,8 +1,8 @@
 # 论文图版 / Research figures
 
-四组原创图版，英文图内标注，中英文图注。以多面板、标准字体、可辨配色和矢量输出呈现理论关系。图形遵循 [Nature 科研图版指南](https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/)中的清晰标注与可编辑原则；本项目与该期刊没有隶属或发表关系。
+图 1 呈现理论结构；图 2 说明同样的自动化为何可能带来不同的劳动需求；图 3 展示激励怎样改变博弈结果；图 4 区分相关、因果与治理反馈。各图附中英文说明及可下载文件。
 
-Four original figures use English labels and bilingual captions, with multipanel layouts, standard fonts, distinguishable colors and vector exports. The [Nature research figure guide](https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/) informs labeling and editable artwork. No journal affiliation or publication is implied.
+Figure 1 maps the framework; Figure 2 shows why automation can produce different labor-demand outcomes; Figure 3 examines how incentives change equilibria; Figure 4 distinguishes correlation, causation and governance feedback. Bilingual captions and downloadable files accompany each figure.
 
 ## 1 · 理论结构与变量领域 / Theoretical architecture and variable domains
 

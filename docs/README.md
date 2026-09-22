@@ -1,6 +1,6 @@
 # Documentation
 
-**Research edition 0.1.0 (2026-09-22):** [Five-volume theory](../theory/README.md) · [中文总纲](../theory/01-foundations.zh-CN.md) · [English foundations](../theory/01-foundations.en.md). The documentation below describes the earlier installable assets; use the research edition for conditional claims, evidence standards and open derivations.
+[Five-volume theory](../theory/README.md) · [中文总纲](../theory/01-foundations.zh-CN.md) · [English foundations](../theory/01-foundations.en.md).
 
 | Document | Read it when |
 | :--- | :--- |

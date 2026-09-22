@@ -5,14 +5,13 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Research edition 0.1.0 - 2026-09-22
+## Theoretical foundations - 2026-09-22
 
 - Added five Chinese/English volumes: foundations, 128-variable atlas, 64 conditional derivations, eight formal models, and an evidence/identification protocol.
 - Added 15 original scholarly references with explicit scope, plus source-family mapping and compatibility notes for earlier formulations.
 - Added four original multipanel scientific figures, bilingual captions, editable SVG/PDF and PNG exports, and reproducible plotting code.
 - Added a paginated candidate-tuple enumerator and checks for bilingual coverage, links, identifiers and model arithmetic.
 - Rewrote the project introduction around concrete research questions and added the author-supplied portrait and Hangzhou practitioner introduction.
-- Historical installable packages remain at 1.0.0; research documents have their own version.
 
 ## [Unreleased]
 

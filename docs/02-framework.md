@@ -1,6 +1,6 @@
 # 02 · The framework
 
-**Version scope:** This page describes the historical 1.0.0 applied modules. The [research edition](../theory/README.md) supersedes their unconditional theoretical formulations for new research. Its [compatibility notes](../theory/05-research-protocol.en.md) distinguish constraints, hypotheses and normative claims; research paths need not return to a fixed conclusion.
+[Theoretical foundations](../theory/README.md) · [Evidence and research methods](../theory/05-research-protocol.en.md). The applied modules below explore specific topics and situations.
 
 [← Getting started](01-getting-started.md) · [Documentation index](README.md) · [Next: Experts →](03-experts.md)
 

@@ -12,8 +12,6 @@ When reports become quicker to write, do they become easier to review? Who contr
 
 These questions lead into an examination of time, attention, emotion, work, relationships and distribution. Each argument retains its conditions and considers circumstances in which the result could reverse.
 
-**Research edition 0.1.0 · 2026-09-22 · Working paper**
-
 16 principles · 16 domains · 128 variables · 64 conditional paths · 8 formal models · Chinese and English
 
 This is an open research framework. Derivations state assumptions; unvalidated paths remain hypotheses rather than predetermined conclusions.
@@ -42,15 +40,13 @@ This is an open research framework. Derivations state assumptions; unvalidated p
 
 **Figure 1 · Theoretical architecture and variable domains.** a, Human conditions, technical supply and institutions affect life through allocation, delegation and adaptation. Arrows select proposed links, not a complete causal graph. b, Sixteen domains with eight variables each. c, Relations among principles, variables, hypotheses, models and empirical inquiry. Conceptual schematic; no effect estimates.
 
-## Author
+## About me
 
 <img src="assets/author.jpg" width="128" height="128" alt="AI Sociology author portrait">
 
 **AI Sociology / AI社会学**
 
-An AI practitioner at an AI company in Hangzhou, China, developing this research through AI products, theoretical reading and practice. Experience motivates questions; arguments require public evidence and explicit limits.
-
-This independent working paper does not represent the author's employer or claim peer review.
+I work at an artificial intelligence company in Hangzhou, China. These studies draw on my observations from product work, theoretical reading and practice. Beyond what technology can do next, I am interested in how it changes people’s time, work and relationships.
 
 ## Continue the research
 
@@ -70,7 +66,7 @@ Existing assets remain available: [Installation](docs/06-install.md) · [Experts
 
 ## Assets
 
-The repository retains eight experts or expert teams, six skills and their 1.0.0 packages. The five-volume research edition evolves separately; this update does not rebuild historical packages. New theoretical work should use the [research claim taxonomy and compatibility notes](theory/05-research-protocol.en.md).
+The repository includes eight experts or expert teams and six skills. See the [evidence and research protocol](theory/05-research-protocol.en.md) for research methods.
 
 ## Framework
 
@@ -82,7 +78,7 @@ Start with the [five-volume framework](theory/README.md). The earlier 16 applied
 
 ## Citation
 
-AI Sociology. (2026). *AI Sociology: Human Finitude, Expanding Generation, and the Reorganization of Social Order*. Research edition 0.1.0, working paper, 2026-09-22. Record the version and relevant section or ID.
+AI Sociology. (2026). *AI Sociology: Human Finitude, Expanding Generation, and the Reorganization of Social Order*. Cite the relevant section or proposition ID.
 
 ## License
 
