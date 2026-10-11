@@ -53,6 +53,10 @@ python3 scripts/check_theory.py
 
 Run from the repository root. There are **11,017,504** candidate tuples of orders two through four. Enumeration covers unordered combinations in this finite catalog, not causal validity or every real-world factor. The 64 cards are developed starting points.
 
+## 专题扩展 / Topic extensions
+
+- [学习时钟：当工具更新快于人的学习](extensions/learning-clocks.zh-CN.md) · [Learning clocks](extensions/learning-clocks.en.md)。窗口倍率、增量收益、迁移残值与停止规则；连接P01/P08/P09/P13/P15、6.5和M07。独立LC命名空间，不改变五卷核心编号和数量。 / Useful windows, incremental returns, transfer and stopping rules; a separate LC namespace without changing core counts.
+
 ## 关于我 / About me
 
 <img src="../assets/author.jpg" width="128" height="128" alt="AI社会学作者头像 / AI Sociology author portrait">

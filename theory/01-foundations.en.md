@@ -231,6 +231,8 @@ Tools can promote learning through timely feedback and more practice, or reduce 
 
 Expert intuition requires learnable environments and meaningful feedback; years of experience are insufficient evidence. Fluent but incorrect automated feedback may stabilize error. Verifiable feedback and retained active attempts may accelerate learning. Measure immediate performance, delayed retention and transfer separately. [R11]
 
+Tool updates can also change how long learning remains useful. Release, actual adoption and loss of task-specific advantage must be separated: faster releases do not directly imply pointless learning. The [learning-clocks extension](extensions/learning-clocks.en.md) develops useful windows, transfer value and cost distribution as task-level conditional models, not validated universal laws.
+
 ### 6.6 Relational complementarity and substitution
 
 Accessible, persistent responses may support expression, practice and information, or alter expectations of human interaction. Outcomes depend on existing support, patterns of use, commercial objectives and the kind of relational friction involved. Added responses may help people lacking support, while displacement of available relationships may follow a different mechanism.

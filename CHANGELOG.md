@@ -5,6 +5,13 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Learning clocks extension - 2026-10-11
+
+- Added Chinese/English task-level analysis of learning delay, useful-life windows, transfer value, full costs and bounded waiting.
+- Added conditional formulas, reproducible thought experiments, opposing branches and a research/refutation protocol; no claim of empirically proven universal laws.
+- Connected the extension to P01/P08/P09/P13/P15, section 6.5 and M07 while preserving the five-volume structure and all existing core identifiers and counts.
+- Added navigation in both root READMEs and the theory index; existing packaged assets and historical modules remain unchanged.
+
 ## Theoretical foundations - 2026-09-22
 
 - Added five Chinese/English volumes: foundations, 128-variable atlas, 64 conditional derivations, eight formal models, and an evidence/identification protocol.

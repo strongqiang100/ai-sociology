@@ -40,6 +40,10 @@ This is an open research framework. Derivations state assumptions; unvalidated p
 
 **Figure 1 · Theoretical architecture and variable domains.** a, Human conditions, technical supply and institutions affect life through allocation, delegation and adaptation. Arrows select proposed links, not a complete causal graph. b, Sixteen domains with eight variables each. c, Relations among principles, variables, hypotheses, models and empirical inquiry. Conceptual schematic; no effect estimates.
 
+## Learning and tool updates
+
+What if an easier substitute appears before a tool has been mastered? The new [learning-clocks extension](theory/extensions/learning-clocks.en.md) separates releases from useful windows and analyzes incremental benefit, transfer value, waiting and perceived learning futility. Its formulas are conditional models, not scores of a person's worth.
+
 ## About me
 
 <img src="assets/author.jpg" width="128" height="128" alt="AI Sociology author portrait">

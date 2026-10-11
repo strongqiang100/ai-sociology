@@ -101,6 +101,8 @@ For δ=0.1, a=1 and constant PF=2, the steady state is K*=20; PF=4 gives 40. Thi
 
 Assisted performance needs a separate outcome Yₜ=g(Kₜ, tool capability, task conditions). Higher Y does not imply higher K. Studies should measure unaided retention and transfer while checking measurement equivalence, practice effects and ceilings. Related: D015, D038, D057; R11.
 
+**Topic extension:** M07 describes skill formation, not whether a particular version is worth studying. [Learning clocks](extensions/learning-clocks.en.md) adds useful windows, incremental returns and stopping conditions under separate LC identifiers. It is not a ninth core model and does not equate skill stock with market reward.
+
 ## M08 · Full costs and resource rebound
 
 At fixed quality and horizon, monetary costs can be recorded as:
