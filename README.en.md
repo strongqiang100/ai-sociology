@@ -44,13 +44,6 @@ This is an open research framework. Derivations state assumptions; unvalidated p
 
 What if an easier substitute appears before a tool has been mastered? The new [learning-clocks extension](theory/extensions/learning-clocks.en.md) separates releases from useful windows and analyzes incremental benefit, transfer value, waiting and perceived learning futility. Its formulas are conditional models, not scores of a person's worth.
 
-## About me
-
-<img src="assets/author.jpg" width="128" height="128" alt="AI Sociology author portrait">
-
-**AI Sociology / AI社会学**
-
-I work at an artificial intelligence company in Hangzhou, China. These studies draw on my observations from product work, theoretical reading and practice. Beyond what technology can do next, I am interested in how it changes people’s time, work and relationships.
 
 ## Continue the research
 
@@ -86,4 +79,4 @@ AI Sociology. (2026). *AI Sociology: Human Finitude, Expanding Generation, and t
 
 ## License
 
-Text and code retain the [MIT license](LICENSE). No additional likeness or third-party content rights are granted by including the portrait or references.
+Text and code retain the [MIT license](LICENSE). Rights to cited third-party materials remain with their respective rights holders.

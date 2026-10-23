@@ -55,10 +55,9 @@ officially representing the community in public spaces.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported to the
-maintainers by opening a private channel of contact:
+project maintainers through the following process:
 
-- **Preferred**: send a direct message to the maintainer [@strongqiang100](https://github.com/strongqiang100) on GitHub
-- **Alternative**: open an issue titled `[conduct] <short summary>` without naming individuals, so a
+- Open an issue titled `[conduct] <short summary>` without naming individuals, so a
   private channel can be established
 
 All complaints will be reviewed and investigated promptly and fairly. All maintainers are obligated to

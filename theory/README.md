@@ -57,16 +57,7 @@ Run from the repository root. There are **11,017,504** candidate tuples of order
 
 - [学习时钟：当工具更新快于人的学习](extensions/learning-clocks.zh-CN.md) · [Learning clocks](extensions/learning-clocks.en.md)。窗口倍率、增量收益、迁移残值与停止规则；连接P01/P08/P09/P13/P15、6.5和M07。独立LC命名空间，不改变五卷核心编号和数量。 / Useful windows, incremental returns, transfer and stopping rules; a separate LC namespace without changing core counts.
 
-## 关于我 / About me
-
-<img src="../assets/author.jpg" width="128" height="128" alt="AI社会学作者头像 / AI Sociology author portrait">
-
-**AI社会学 / AI Sociology**
-
-我在中国杭州一家人工智能公司工作。这些研究来自我在产品工作中的观察、理论阅读和实践。比起技术又能做什么，我更关心它怎样改变人的时间、工作和关系。
-
-I work at an artificial intelligence company in Hangzhou, China. These studies draw on my observations from product work, theoretical reading and practice. Beyond what technology can do next, I am interested in how it changes people’s time, work and relationships.
 
 **引用 / Citation:** AI Sociology. (2026). *AI Sociology: Human Finitude, Expanding Generation, and the Reorganization of Social Order*. Cite the relevant section or proposition ID.
 
-**许可 / License:** 仓库文本与代码沿用 [MIT](../LICENSE)。作者肖像及第三方原始文献不因置于或链接于本仓库而获得额外的人格、肖像或第三方内容使用授权。 / Text and code retain the repository's [MIT license](../LICENSE). Inclusion or linking grants no additional personality, likeness or third-party content rights.
+**许可 / License:** 仓库文本与代码沿用 [MIT](../LICENSE)。第三方原始文献的权利由原权利人保留。 / Text and code retain the repository's [MIT license](../LICENSE). Rights to cited third-party materials remain with their respective rights holders.

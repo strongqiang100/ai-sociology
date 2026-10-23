@@ -16,10 +16,6 @@ Each derivation states its assumptions, opposing outcomes and tests. Claims awai
 
 **Keywords:** artificial intelligence; limited attention; scarcity; emotion regulation; task restructuring; social comparison; delegation; games; institutions; value pluralism.
 
-### About me
-
-I work at an artificial intelligence company in Hangzhou, China. These studies draw on my observations from product work, theoretical reading and practice. Beyond what technology can do next, I am interested in how it changes people’s time, work and relationships.
-
 ## 1. Research object: how technology enters everyday life
 
 ### 1.1 From capability to social relations

@@ -16,10 +16,9 @@ The practical security surface is therefore not classic code execution but the f
 
 ## Reporting a Vulnerability
 
-Please **do not open a public issue** for a security problem. Use one of these private channels:
+Please **do not open a public issue** for a security problem. Use the following private channel:
 
 1. **[GitHub Security Advisories](https://github.com/strongqiang100/ai-sociology/security/advisories/new)** — preferred
-2. Direct message to the maintainer [@strongqiang100](https://github.com/strongqiang100)
 
 Please include:
 
