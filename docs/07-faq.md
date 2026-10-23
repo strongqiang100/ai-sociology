@@ -176,8 +176,7 @@ content**, not a traffic channel. See [09 · Market notes](09-market-notes.md).
 Yes. [MIT](../LICENSE) permits commercial use, modification and redistribution; the only requirement
 is retaining the copyright notice.
 
-**One thing that is not covered**: the avatar image. It is a person's likeness and is not licensed
-with the project. Replace it if you fork.
+The abstract project icon is distributed under the project's MIT license.
 
 **One request that is not a licence term**: the value here is the method. Using it to reach better
 judgements is its purpose. Repackaging it as a certain answer and selling it runs the other way.
